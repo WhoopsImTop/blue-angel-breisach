@@ -182,6 +182,7 @@ export default {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .full-height {
