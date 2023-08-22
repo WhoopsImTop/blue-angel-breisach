@@ -37,6 +37,7 @@ export default {
   methods: {
     toggleGetraenkekarte(index) {
       this.getraenkekarte[index].open = !this.getraenkekarte[index].open
+      this.getraenkekarte = [...this.getraenkekarte]
     },
     priceFormat(price) {
       return new Intl.NumberFormat('de-DE', {

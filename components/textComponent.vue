@@ -149,10 +149,19 @@ export default {
   },
   mounted() {
     if (this.component.imageblock && this.component.imageblock.galery) {
+      this.initMacy()
+    }
+  },
+  methods: {
+    LocalizePath(path) {
+      const locale = this.$i18n.locale
+      return `/${locale}${path}`
+    },
+    initMacy() {
       const macy = Macy({
         container: '.image-mansonary',
         trueOrder: false,
-        waitForImages: false,
+        waitForImages: true,
         margin: 24,
         columns: 2,
         breakAt: {
@@ -163,18 +172,18 @@ export default {
         },
       })
       console.log(macy)
-    }
-  },
-  methods: {
-    LocalizePath(path) {
-      const locale = this.$i18n.locale
-      return `/${locale}${path}`
     },
   },
 }
 </script>
 
 <style>
+.row {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .full-height {
   height: 100vh;
   display: flex;
@@ -206,6 +215,14 @@ export default {
 }
 
 .colum-content img {
+  width: 100%;
+}
+
+.text-container {
+  width: 100%;
+}
+
+.image-mansonary img {
   width: 100%;
 }
 
@@ -243,10 +260,6 @@ export default {
 
   .colum-content:nth-child(2) {
     margin-left: 15px;
-  }
-
-  .image-mansonary img {
-    width: 100%;
   }
 
   .text-container {

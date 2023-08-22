@@ -9,12 +9,12 @@
         style="margin-top: 10px"
       />
       <div class="link-container">
-       <!--  <NuxtLink :to="LocalizePath('/impressum')">{{
+        <NuxtLink :to="LocalizePath('/impressum')">{{
           translations[locale].impressum
         }}</NuxtLink>
         <NuxtLink :to="LocalizePath('/datenschutzerklären')">{{
           translations[locale].datenschutzerklären
-        }}</NuxtLink> -->
+        }}</NuxtLink>
       </div>
       <div class="social-actions">
         <img src="/images/facebook.svg" alt="facebook" width="30" height="30" />
@@ -28,7 +28,7 @@
     </div>
     <div class="highlighted">
       <div class="content-container" style="padding: 8px 0">
-        <p style="text-transform: uppercase">© 2023 Blue Angel Breisach</p>
+        <p style="text-transform: uppercase; margin: 0">© 2023 Blue Angel Breisach</p>
       </div>
     </div>
   </div>
@@ -52,6 +52,7 @@ export default {
           datenschutzerklären: 'Politique de confidentialité',
         },
       },
+      locale: this.$i18n.locale,
     }
   },
   methods: {
