@@ -8,7 +8,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title:
-      'Pfaff GmbH - Ihr Partner für die Entwicklung und Fertigung von Kunststoffteilen',
+      'Blue Angle | Nightclub, Striptease, Cabaret in Breisach',
     htmlAttrs: {
       lang: 'de',
     },
@@ -18,11 +18,18 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/logo.svg' }],
+    link: [
+      { rel: 'stylesheet', href: 'https://use.typekit.net/wik8vol.css' },
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/blue-angel-stripclub-bildmarke.svg',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['~/assets/font', '~/assets/main', '~/assets/main_mobile', '~/assets/tablet'],
+  css: ['@/assets/variables.css', '@/assets/fonts.css'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -34,12 +41,9 @@ export default {
   ],
 
   i18n: {
-    locales: ['de', 'en'],
+    locales: ['de', 'en', 'fr'],
     defaultLocale: 'de',
-    strategy: 'prefix_except_default',
-    detectBrowserLanguage: false,
-    vueI18nLoader: true,
-    skipSettingLocaleOnNavigate: true,
+    strategy: 'prefix',
   },
 
   'nuxt-compress': {
@@ -89,16 +93,5 @@ export default {
 
   generate: {
     fallback: true,
-    routes: [
-      "/",
-      "/impressum",
-      "/datenschutz",
-      "/agbs",
-      "/produktbeispiele",
-      "/kompetenzen",
-      "/qualität",
-      "/news-medien",
-      "/kontakt",
-    ],
   },
 }

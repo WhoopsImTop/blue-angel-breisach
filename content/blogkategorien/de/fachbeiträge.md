@@ -1,3 +1,0 @@
----
-categoryTitle: Fachbeiträge
----

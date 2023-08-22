@@ -1,71 +1,256 @@
 <template>
-  <div class="content-container text-container">
-    <div v-if="component.contentImage" class="row">
-      <div class="col-lg-6">
-        <span v-if="component.smallHeadline" class="small-headline">{{
-          component.smallHeadline
-        }}</span>
-        <h2>{{ component.contentTitle }}</h2>
+  <div :class="returnClasses" :style="returnStyle">
+    <div
+      class="content-container text-block"
+      :class="returnRowClass"
+      :id="component.containerId"
+    >
+      <div
+        v-if="
+          component.mainHeadline ||
+          component.subHeadline ||
+          component.contentText ||
+          component.button
+        "
+        class="colum-content text-container"
+      >
+        <h1
+          v-if="component.mainHeadline && index == 0"
+          style="margin-bottom: 0px"
+        >
+          {{ component.mainHeadline }}
+        </h1>
+        <h2 v-else>{{ component.mainHeadline }}</h2>
+        <h3
+          v-if="component.subHeadline"
+          :style="index == 0 ? 'margin-top: 5px' : ''"
+        >
+          {{ component.subHeadline }}
+        </h3>
         <p
-          class="marketing-text"
-          v-html="textRenderer(component.contentText)"
+          v-if="component.contentText"
+          v-html="$md.render(component.contentText)"
         ></p>
+        <NuxtLink
+          v-if="
+            component.button &&
+            component.button.buttonText &&
+            component.button.buttonLink
+          "
+          :to="LocalizePath(component.button.buttonLink)"
+          :class="component.button.buttonIcon ? 'append-icon' : ''"
+          class="button"
+          >{{ component.button.buttonText }}</NuxtLink
+        >
       </div>
-      <div class="col-lg-6">
+      <div class="colum-content" v-if="checkVisibility">
         <img
-          :src="component.contentImage"
-          width="100%"
-          style="margin-bottom: 20px"
-          alt="content image"
+          v-if="component.imageblock && component.imageblock.image"
+          :class="!component.button ? 'image-margin' : ''"
+          :src="component.imageblock.image"
+          :alt="component.mainHeadline"
         />
-        <p v-if="component.contentTextUnderImage" v-html="textRenderer(component.contentTextUnderImage)"></p>
+        <div v-if="component.faq">
+          <faq-component :faqProp="component.faq"></faq-component>
+        </div>
+        <div v-if="component.speisekarte">
+          <getraenkekarte-component
+            :getraenkekarteProp="component.speisekarte"
+          ></getraenkekarte-component>
+        </div>
+        <div v-if="component.contactForm">
+          <formular-component></formular-component>
+        </div>
       </div>
-    </div>
-    <div v-else>
-      <span v-if="component.smallHeadline" class="small-headline">{{
-        component.smallHeadline
-      }}</span>
-      <h2>{{ component.contentTitle }}</h2>
-      <p class="marketing-text" v-html="textRenderer(component.contentText)"></p>
+      <div
+        style="position: relative; width: 100%"
+        :class="
+          !component.button ? 'image-mansonary image-margin' : 'image-mansonary'
+        "
+        v-if="component.imageblock && component.imageblock.galery"
+      >
+        <img
+          v-for="(image, index) in component.imageblock.galery"
+          :key="index"
+          :src="image.image"
+          alt="blue-angle-gallerie-bild"
+        />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import Macy from 'macy'
+
 export default {
-  props: ['component'],
-  mounted() {
-    gsap.registerPlugin(ScrollTrigger)
-    gsap.fromTo(
-      '.text-container',
-      {
-        opacity: 0,
-        y: 100,
-      },
-      {
-        opacity: 1,
-        y: 0,
-        duration: 1,
-        scrollTrigger: {
-          trigger: '.text-container',
-          start: 'top 80%',
-        },
+  props: ['component', 'index'],
+  data() {
+    return {}
+  },
+  computed: {
+    checkVisibility() {
+      let visible = false
+      if (this.component.imageblock && this.component.imageblock.image) {
+        visible = true
+      } else if (this.component.faq) {
+        visible = true
+      } else if (this.component.speisekarte) {
+        visible = true
+      } else if (this.component.contactForm) {
+        visible = true
       }
-    )
+      return visible
+    },
+    backgroundImage() {
+      return (
+        this.component.imageblock && this.component.imageblock.backgroundImage
+      )
+    },
+    returnStyle() {
+      return {
+        'background-image': this.backgroundImage
+          ? `url(${this.backgroundImage})`
+          : '',
+        'background-size': 'cover',
+        'background-position': 'center',
+      }
+    },
+    returnRowClass() {
+      let classString = ''
+      if (
+        (this.component.imageblock &&
+          !this.component.imageblock.galery &&
+          !this.component.imageblock.backgroundImage) ||
+        this.component.faq ||
+        this.component.speisekarte ||
+        this.component.contactForm
+      ) {
+        classString = 'row-2'
+      } else {
+        classString = 'row'
+      }
+
+      if (this.index % 2 === 0) {
+        classString += ' row-even'
+      } else {
+        classString += ' row-odd'
+      }
+      return classString
+    },
+    returnClasses() {
+      return {
+        'full-height':
+          this.component.imageblock &&
+          this.component.imageblock.backgroundImage,
+        highlighted: this.component.highlight,
+      }
+    },
+  },
+  mounted() {
+    if (this.component.imageblock && this.component.imageblock.galery) {
+      const macy = Macy({
+        container: '.image-mansonary',
+        trueOrder: false,
+        waitForImages: false,
+        margin: 24,
+        columns: 2,
+        breakAt: {
+          1200: 2,
+          940: 1,
+          520: 1,
+          400: 1,
+        },
+      })
+      console.log(macy)
+    }
   },
   methods: {
-    textRenderer(text) {
-      try {
-        return this.$md.render(text)
-      } catch (e) {
-        return text
-      }
+    LocalizePath(path) {
+      const locale = this.$i18n.locale
+      return `/${locale}${path}`
     },
   },
 }
 </script>
 
 <style>
+.full-height {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-block {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.highlighted {
+  background-image: url('/images/backgrounds/leather-angle.png');
+  background-size: cover;
+  background-position: center;
+  color: var(--background-dark);
+}
+
+.highlighted h2,
+.highlighted h3,
+.highlighted p {
+  color: var(--background-dark);
+}
+
+.image-margin {
+  margin-top: 100px;
+}
+
+.colum-content img {
+  width: 100%;
+}
+
+@media (min-width: 995px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .row-2 .colum-content {
+    text-align: left;
+  }
+
+  .row-even {
+    flex-direction: row-reverse;
+  }
+
+  .colum-content {
+    width: 50%;
+    position: relative;
+  }
+
+  .row-2 .colum-content:nth-child(1) {
+    margin-right: 15px;
+  }
+
+  .colum-content:nth-child(2) {
+    margin-left: 15px;
+  }
+
+  .image-mansonary img {
+    width: 100%;
+  }
+
+  .text-container {
+    width: 40%;
+  }
+}
 </style>

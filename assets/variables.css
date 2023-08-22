@@ -1,0 +1,148 @@
+:root {
+  --red: #db2a5a;
+  --red-hover: rgb(114, 36, 61);
+  --red-light: #ed8aa5;
+  --blue: #3a67ff;
+  --blue-light: #a3bffa;
+  --background-dark: #090101;
+  --background-light: #f1f1f1;
+  --background-red: #200606;
+  --primary-font: 'Baskerville', sans-serif;
+  --secondary-font: 'Europa', sans-serif;
+}
+
+h1 {
+  font-family: var(--primary-font);
+  font-size: 35px;
+  font-weight: bold;
+  color: var(--red);
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: var(--primary-font);
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--red);
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--red-light);
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: var(--primary-font);
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--red);
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+h5 {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--red);
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+a {
+  color: var(--red);
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--background-dark);
+  font-family: 'europa', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--red-light);
+  text-align: center;
+}
+
+.content-container {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.text-block > img {
+  width: 100%;
+}
+
+.button {
+  border: 2px solid var(--red);
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: var(--red);
+  font-family: var(--primary-font);
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 0 30px 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: var(--red);
+  border-color: var(--red);
+  transition: 0.3s ease-in-out;
+  color: var(--background-dark);
+}
+
+.append-icon::after {
+  content: ' ';
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, -0%);
+  top: 100%;
+  background-image: url('/images/dancerin.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+.highlighted .button {
+  border: 2px solid var(--background-dark);
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: var(--background-dark);
+  font-family: var(--primary-font);
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 0 30px 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+
+.highlighted .button:hover {
+  background-color: var(--background-dark);
+  border-color: var(--background-dark);
+  transition: 0.3s ease-in-out;
+  color: var(--red);
+}

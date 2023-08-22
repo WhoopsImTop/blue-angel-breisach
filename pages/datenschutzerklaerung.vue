@@ -1,5 +1,5 @@
 <template>
-  <div><h1>Impressum</h1></div>
+  <div><h1>Datenschutzerklaerung</h1></div>
 </template>
 
 <script>

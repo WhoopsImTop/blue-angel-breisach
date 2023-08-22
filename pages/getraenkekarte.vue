@@ -8,14 +8,14 @@
     ></blockRenderer>
   </div>
 </template>
-
+  
 <script>
 export default {
   layout: 'main',
 
   async asyncData({ $content, app }) {
     const pageData = await $content(
-      'seiten/startseite.' + app.i18n.locale
+      'seiten/getraenkekarte.' + app.i18n.locale
     ).fetch()
     return { pageData }
   },
@@ -26,6 +26,10 @@ export default {
   },
 }
 </script>
-
-<style>
+  
+  <style scroped>
+.row-2 {
+  align-items: flex-start !important;
+}
 </style>
+  

@@ -1,0 +1,26 @@
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Baskerville"),
+     url('../assets/fonts/LibreBaskerville-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Baskerville';
+  font-style: bold;
+  font-weight: 700;
+  src: local("Baskerville"),
+     url('../assets/fonts/LibreBaskerville-Bold.ttf') format("truetype");
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Baskerville';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Baskerville"),
+     url('../assets/fonts/LibreBaskerville-Italic.ttf') format("truetype");
+}
