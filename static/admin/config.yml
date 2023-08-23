@@ -247,6 +247,20 @@ collections:
                   required: false,
                 }
 
+          - label: 'Job Formular'
+            name: 'jobForm'
+            widget: 'object'
+            required: false
+            i18n: true
+            fields:
+              - {
+                  label: 'Formular einbinden',
+                  name: 'embedForm',
+                  widget: 'boolean',
+                  i18n: true,
+                  required: false,
+                }
+
           - label: 'FAQ'
             name: 'faq'
             widget: 'list'
