@@ -45,6 +45,20 @@ export default {
   data() {
     return {
       toggleMenu: false,
+      currentScrollPos: 0,
+    }
+  },
+
+  mounted() {
+    let prevScrollpos = window.pageYOffset
+    window.onscroll = function () {
+      this.currentScrollPos = window.pageYOffset
+      if (prevScrollpos > this.currentScrollPos) {
+        document.querySelector('.header').style.top = '0'
+      } else {
+        document.querySelector('.header').style.top = '-80px'
+      }
+      prevScrollpos = this.currentScrollPos
     }
   },
   methods: {
@@ -59,7 +73,8 @@ export default {
 .header {
   height: 80px;
   width: 100%;
-  position: relative;
+  position: fixed;
+  transition: top 0.3s;
   top: 0;
   left: 0;
   z-index: 100;
@@ -89,7 +104,7 @@ export default {
 }
 
 .header-link-container {
-  background-color: var(--red);
+  background-image: url('/images/backgrounds/leather-angle.png');
   position: fixed;
   top: 0;
   left: 0;
