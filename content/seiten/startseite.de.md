@@ -3,7 +3,7 @@ siteTitle: Startseite
 slug: startseite
 components:
   - type: contentblock
-    mainHeadline: Blue Angel
+    mainHeadline: Blue Angel Stripclub
     subHeadline: Breisach am Rhein
     contentText: Betritt eine Welt jenseits des Alltäglichen, einen Ort, wo Eleganz
       auf Verlockung trifft und die Nächte in sinnlichen Farben erstrahlen.
@@ -44,7 +44,7 @@ components:
   - type: contentblock
     mainHeadline: Lean Back & Enjoy
     imageblock:
-      backgroundImage: /blue-angel-breisach-011.jpg
+      backgroundImage: /blue-angel-breisach-010.jpg
   - type: contentblock
     mainHeadline: Striptease & Private Dance
     contentText: >-
