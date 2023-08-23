@@ -25,7 +25,7 @@ i18n:
   # When false, new entries will be created with no values.
   default_missing_locale_values: true
 
-media_folder: public/
+media_folder: static/
 public_folder: /
 
 collections:
