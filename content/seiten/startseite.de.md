@@ -27,20 +27,11 @@ components:
         body: Erlebe atemberaubende Shows, verlockende Lapdances & Striptease und vieles
           mehr mit unseren Girls.
         icon: /blue-angel-fire.svg
-      - icon: /blue-angel-pin.svg
-        blockTitle: Kontakt
+      - icon: /blue-angel-opening-hours.svg
+        blockTitle: Öffnunszeiten
         body: |-
-          Gerberstraße 6
-
-
-          79206 Breisach am Rhein
-
-
-
-          (+49)7667 1070
-
-
-          info@blue-angel.de
+          Montag - Samstag\
+          21:00 - 05:00 Uhr
   - type: contentblock
     mainHeadline: Striptease, Lapdance & Events
     imageblock:
