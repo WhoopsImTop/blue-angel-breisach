@@ -29,11 +29,12 @@
       :class="toggleMenu ? 'active' : ''"
       @click="toggleMenu = false"
     >
-      <NuxtLink :to="LocalizePath('/')">Home</NuxtLink>
-      <NuxtLink :to="LocalizePath('/gallerie')">Gallerie</NuxtLink>
-      <NuxtLink :to="LocalizePath('/#stripclub')">Der Stripclub</NuxtLink>
+      <NuxtLink :to="LocalizePath('/')">Stripclub</NuxtLink>
+      <NuxtLink :to="LocalizePath('/#stripclub')">Virtueller Rundgang</NuxtLink>
+      <NuxtLink :to="LocalizePath('/galerie')">Galerie</NuxtLink>
+      <NuxtLink :to="LocalizePath('/getraenkekarte')">Getränkekarte</NuxtLink>
       <NuxtLink :to="LocalizePath('/#faqs')">FAQ's</NuxtLink>
-      <NuxtLink :to="LocalizePath('/kontakt')">Jobs</NuxtLink>
+      <NuxtLink :to="LocalizePath('/jobs')">Jobs</NuxtLink>
       <NuxtLink :to="LocalizePath('/kontakt')">Kontakt</NuxtLink>
     </div>
   </div>

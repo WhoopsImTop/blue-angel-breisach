@@ -127,7 +127,7 @@ components:
       Bist du neugierig auf mehr?
     button:
       buttonText: Mehr Bilder
-      buttonLink: /gallerie
+      buttonLink: /galerie
     imageblock:
       sphereViewer: true
     highlight: true
