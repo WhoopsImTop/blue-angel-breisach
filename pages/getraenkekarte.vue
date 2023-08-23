@@ -21,13 +21,12 @@ export default {
   },
 
   data() {
-    return {
-    }
+    return {}
   },
 }
 </script>
   
-  <style scroped>
+<style scoped>
 .row-2 {
   align-items: flex-start !important;
 }

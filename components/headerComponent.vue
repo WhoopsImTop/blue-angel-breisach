@@ -32,9 +32,6 @@
       <NuxtLink :to="LocalizePath('/')">Home</NuxtLink>
       <NuxtLink :to="LocalizePath('/gallerie')">Gallerie</NuxtLink>
       <NuxtLink :to="LocalizePath('/#stripclub')">Der Stripclub</NuxtLink>
-      <NuxtLink :to="LocalizePath('/#oeffnungszeiten')"
-        >Öffnungszeiten</NuxtLink
-      >
       <NuxtLink :to="LocalizePath('/#faqs')">FAQ's</NuxtLink>
       <NuxtLink :to="LocalizePath('/kontakt')">Jobs</NuxtLink>
       <NuxtLink :to="LocalizePath('/kontakt')">Kontakt</NuxtLink>

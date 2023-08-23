@@ -195,36 +195,6 @@ collections:
                         widget: 'string'
                         required: false
                         i18n: true
-                        
-
-              - label: 'FAQ'
-                name: 'faq'
-                widget: 'list'
-                required: false
-                i18n: true
-                default: false
-                fields:
-                  - {
-                      label: 'Frage',
-                      name: 'question',
-                      widget: 'string',
-                      required: false,
-                      i18n: true,
-                    }
-                  - {
-                      label: 'Antwort',
-                      name: 'answer',
-                      widget: 'markdown',
-                      required: false,
-                      i18n: true,
-                    }
-                  - {
-                      label: 'geöffnet',
-                      name: 'open',
-                      widget: 'boolean',
-                      required: false,
-                      default: false,
-                    }
 
               - {
                   label: 'Map',
@@ -276,6 +246,93 @@ collections:
                   widget: 'string',
                   required: false,
                 }
+
+          - label: 'FAQ'
+            name: 'faq'
+            widget: 'list'
+            required: false
+            i18n: true
+            default: false
+            fields:
+                - {
+                  label: 'Überschrift',
+                  name: 'mainHeadline',
+                  widget: 'string',
+                  i18n: true,
+                  required: false,
+                }
+                - {
+                  label: 'unter Überschrift',
+                  name: 'subHeadline',
+                  widget: 'string',
+                  required: false,
+                  i18n: true,
+                }
+                - {
+                  label: 'Highlight',
+                  name: 'highlight',
+                  widget: 'boolean',
+                  required: false,
+                  i18n: false,
+                }
+                - {
+                  label: 'Textinhalt',
+                  name: 'contentText',
+                  widget: 'markdown',
+                  required: false,
+                  i18n: true,
+                }
+                - label: 'Button'
+                  name: 'button'
+                  widget: 'object'
+                  required: false
+                  collapsed: true
+                  i18n: true
+                  fields:
+                    - label: 'Button Text'
+                      name: 'buttonText'
+                      widget: 'string'
+                      required: false
+                      i18n: true
+                    - label: 'Button Link'
+                      name: 'buttonLink'
+                      widget: 'string'
+                      required: false
+                      i18n: true
+                    - label: 'Button Icon'
+                      name: 'buttonIcon'
+                      widget: 'boolean'
+                      required: false
+                      i18n: false
+
+                - label: 'FAQ'
+                  name: 'faq'
+                  widget: 'list'
+                  required: false
+                  i18n: true
+                  default: false
+                  fields:
+                      - {
+                        label: 'Frage',
+                        name: 'question',
+                        widget: 'string',
+                        required: false,
+                        i18n: true,
+                      }
+                      - {
+                        label: 'Antwort',
+                        name: 'answer',
+                        widget: 'markdown',
+                        required: false,
+                        i18n: true,
+                      }
+                      - {
+                        label: 'geöffnet',
+                        name: 'open',
+                        widget: 'boolean',
+                        required: false,
+                        default: false,
+                      }
 
           - label: 'Blöcke'
             name: 'blocks'

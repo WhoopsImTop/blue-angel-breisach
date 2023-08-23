@@ -1,8 +1,30 @@
 <template>
-  <div>
+  <div class="content-container text-block">
+    <h2>{{ pageComponent.mainHeadline }}</h2>
+    <h3
+      v-if="pageComponent.subHeadline"
+      :style="index == 0 ? 'margin-top: 5px' : ''"
+    >
+      {{ pageComponent.subHeadline }}
+    </h3>
+    <p
+      v-if="pageComponent.contentText"
+      v-html="$md.render(pageComponent.contentText)"
+    ></p>
+    <NuxtLink
+      v-if="
+        pageComponent.button &&
+        pageComponent.button.buttonText &&
+        pageComponent.button.buttonLink
+      "
+      :to="LocalizePath(pageComponent.button.buttonLink)"
+      :class="pageComponent.button.buttonIcon ? 'append-icon' : ''"
+      class="button"
+      >{{ pageComponent.button.buttonText }}</NuxtLink
+    >
     <div
       class="faq-container"
-      v-for="(faq, index) in faqs"
+      v-for="(faq, index) in pageComponent.faq"
       :key="index"
       :class="faq.open ? 'active' : ''"
       @click="toggleFaq(index)"
@@ -21,22 +43,26 @@
 <script>
 export default {
   props: {
-    faqProp: {
-      type: Array,
-      default: () => [],
+    component: {
+      type: Object,
+      default: () => {},
     },
   },
   data() {
     return {
-      faqs: this.faqProp,
+      pageComponent: this.component,
     }
   },
   mounted() {
-    console.log(this.faqs)
+    console.log(this.pageComponent)
   },
   methods: {
     toggleFaq(index) {
-      this.faqs[index].open = !this.faqs[index].open
+      this.pageComponent.faq[index].open = !this.pageComponent.faq[index].open
+    },
+    LocalizePath(path) {
+      const locale = this.$i18n.locale
+      return `/${locale}${path}`
     },
   },
 }

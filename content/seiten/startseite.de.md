@@ -128,7 +128,7 @@ components:
       sphereViewer: true
     highlight: true
     containerId: stripclub
-  - type: contentblock
+  - type: faq
     mainHeadline: FAQ
     subHeadline: ""
     contentText: Du hast eine Frage, die nicht im FAQ auftaucht? Kontaktiere uns
@@ -187,7 +187,6 @@ components:
           ermöglicht, sich interaktiv umzusehen. Die Tour kann sowohl am PC als
           auch mit dem Handy durch Bewegung oder mit einem VR Headset betrachtet
           werden. So kann man sich frei bewegen.
-          <a class="button" href="/#stripclub">Zum Rundgang</a>
       - open: false
         question: 10. Wie kann man den Blue Angel Stripclub kontaktieren?
         answer: |-
