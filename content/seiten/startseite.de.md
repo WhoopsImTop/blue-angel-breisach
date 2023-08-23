@@ -58,7 +58,7 @@ components:
       buttonText: zur Gallerie
       buttonLink: /gallerie
     imageblock:
-      image: /blue-angel-breisach-008.jpg
+      image: /blue-angel-breisach-011.jpg
   - type: contentblock
     mainHeadline: Specials & Private Party
     contentText: Entdecke im Blue Angel nicht nur sinnliche Performances und
@@ -87,7 +87,7 @@ components:
       buttonText: Räume Buchen
       buttonLink: /kontakt
     imageblock:
-      image: /blue-angel-breisach-013.jpg
+      image: /blue-angel-breisach-008.jpg
       3d-viewer: false
   - type: contentblock
     mainHeadline: Der Stripclub Blue Angel
