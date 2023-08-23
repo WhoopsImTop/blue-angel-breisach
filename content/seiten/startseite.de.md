@@ -113,26 +113,18 @@ components:
           linkText: Kontakt
           link: /kontakt
   - type: contentblock
-    mainHeadline: Erkunde unseren Stripclub in 360-Grad
+    mainHeadline: Blue Angel Stripclub
     contentText: >-
-      Tauche ein in den Blue Angel Stripclub wie nie zuvor! Nutze unsere
-      interaktive 360-Grad Galerie, um einen realistischen Blick in unsere
-      Räumlichkeiten zu werfen. Klicke am PC oder bewege dein Handy, um dich
-      umzusehen. Du kannst sogar eine VR-Brille verwenden, um noch tiefer
-      einzutauchen.
+      Tauche ein ins Nachtleben! Nutze unsere interaktive 360-Grad Galerie, um
+      einen realistischen Blick in unsere Räumlichkeiten zu werfen. Klicke am PC
+      oder bewege dein Handy, um dich umzusehen. Du kannst sogar eine VR-Brille
+      verwenden, um noch tiefer einzutauchen. 
 
-
-      **VERLOCKENDE EINDRÜCKE**\
 
       Erlebe unsere elegante Bühne, auf der unsere talentierten Tänzerinnen ihre Striptease-Künste präsentieren. Entdecke private Bereiche für besondere Anlässe, klimatisierte Räume, Raucher- und Nichtraucherbereiche – alles in beeindruckendem Ambiente.
 
 
-      **NOCH MEHR ERLEBEN**\
-
-      Bist du neugierig auf mehr? Dann schau dir unsere Bildergalerie an. Erweitere deine Eindrücke vom Blue Angel Stripclub und erlebe die Welt der Leidenschaft und Raffinesse in Bildern.
-
-
-      Bereit für eine sinnliche Erfahrung? Klicke unten, um mehr zu sehen und dich auf das Abenteuer vorzubereiten.
+      Bist du neugierig auf mehr?
     button:
       buttonText: Mehr Bilder
       buttonLink: /gallerie
