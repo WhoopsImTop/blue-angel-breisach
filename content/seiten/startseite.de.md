@@ -199,16 +199,5 @@ components:
           Telefon: [+49/7667 107 0](tel:004976671070)
     containerId: faqs
     speisekarte: []
-  - type: contentblock
-    mainHeadline: Bereit, die Bühne zu erobern?
-    contentText: Blue Angel - Stripclub sucht nach talentierten Stripperinnen, die
-      ihre Kunst bei uns zum Leben erwecken möchten. Werde Teil unserer
-      verführerischen Welt und entfache deine Leidenschaft auf der Bühne. Bewirb
-      dich noch heute.
-    button:
-      buttonText: Jetzt Bewerben
-      buttonLink: /kontakt
-    imageblock:
-      backgroundImage: /blue-angel-breisach-009.jpg
 id: 7bfaf87a-bd21-491d-8cdb-df3b21bb73bd
 ---
