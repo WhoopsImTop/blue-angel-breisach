@@ -42,7 +42,7 @@ components:
 
           info@blue-angel.de
   - type: contentblock
-    mainHeadline: Lean Back & Enjoy
+    mainHeadline: Striptease, Lapdance & Events
     imageblock:
       backgroundImage: /blue-angel-breisach-010.jpg
   - type: contentblock
