@@ -89,6 +89,34 @@ components:
     imageblock:
       image: /blue-angel-breisach-008.jpg
       3d-viewer: false
+  - type: blocks
+    block:
+      - icon: /blue-angel-opening-hours.svg
+        blockTitle: Öffnungszeiten
+        body: |-
+          Montag - Samstag
+          21:00 - 05:00 Uhr
+        block_id: oeffnungszeiten
+      - icon: /blue-angel-cocktail.svg
+        blockTitle: Getränkekarte
+        body: >-
+          Wir bieten für jeden Geschmack das passende Getränk.
+
+          Erlebe erlesene Genüsse mit unserer exquisiten Getränkekarte im Blue Angel.
+        link:
+          linkText: Zu den Getränken
+          link: /getraenkekarte
+        block_id: getraenkekarte
+      - icon: /blue-angel-specials.svg
+        blockTitle: Specials
+        body: >-
+          Du möchtest Specials wie Privat-Shows, Events oder sonstiges für dich
+          und/oder andere buchen? 
+
+          Dann schreibe uns gerne.
+        link:
+          linkText: Specials Buchen
+          link: /kontakt
   - type: contentblock
     mainHeadline: Der Stripclub Blue Angel
     contentText: Tauche ein in die Welt des Blue Angel - Stripclub und erlebe
@@ -171,34 +199,6 @@ components:
           Telefon: [+49/7667 107 0](tel:004976671070)
     containerId: faqs
     speisekarte: []
-  - type: blocks
-    block:
-      - icon: /blue-angel-opening-hours.svg
-        blockTitle: Öffnungszeiten
-        body: |-
-          Montag - Samstag
-          21:00 - 05:00 Uhr
-        block_id: oeffnungszeiten
-      - icon: /blue-angel-cocktail.svg
-        blockTitle: Getränkekarte
-        body: >-
-          Wir bieten für jeden Geschmack das passende Getränk.
-
-          Erlebe erlesene Genüsse mit unserer exquisiten Getränkekarte im Blue Angel.
-        link:
-          linkText: Zu den Getränken
-          link: /getraenkekarte
-        block_id: getraenkekarte
-      - icon: /blue-angel-specials.svg
-        blockTitle: Specials
-        body: >-
-          Du möchtest Specials wie Privat-Shows, Events oder sonstiges für dich
-          und/oder andere buchen? 
-
-          Dann schreibe uns gerne.
-        link:
-          linkText: Specials Buchen
-          link: /kontakt
   - type: contentblock
     mainHeadline: Wir suchen dich
     contentText: Bereit, die Bühne zu erobern? Der Blue Angel - Stripclub sucht nach
