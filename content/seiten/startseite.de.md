@@ -86,7 +86,7 @@ components:
     button:
       buttonText: ""
     imageblock:
-      sphereViewer: true
+      3d-viewer: true
     highlight: true
   - type: blocks
     block:
@@ -125,10 +125,64 @@ components:
       buttonText: Kontakt
       buttonLink: /kontakt
     faq:
-      - question: Dies ist eine Typische Frage, die der Club hin und wieder bekommt?
-        answer: Dies ist eine Typische Frage, die der Club hin und wieder bekommt?
+      - question: 1. Was ist der Blue Angel Stripclub in Breisach?
+        answer: >-
+          Der Blue Angel Stripclub ist eine etablierte Unterhaltungsdestination
+          in Breisach am Rhein nahe der Grenze zur Schweiz und Frankreich, die
+          seit über 30 Jahren eine einladende Atmosphäre für anspruchsvolle
+          Unterhaltung bietet.\
+
+          Das Cabaret wurde im Oktober 1993 eröffnet und 2009 wurde der gesamte Nachtclub komplett neu gestaltet. 2021 wurde eine moderne Klimaanlage inklusive Luftreinigung integriert.
         open: false
+      - open: false
+        question: 2. Welche Art von Unterhaltung wird im Blue Angel Stripclub angeboten?
+        answer: Im Blue Angel Stripclub können Sie atemberaubende Shows, verlockende
+          Lapdances, private Dances und vieles mehr mit unseren talentierten
+          Girls erleben. Ein Großbild-LED-TV zeigt zudem erotische Filme für
+          zusätzliche Unterhaltung.
+      - open: false
+        question: 3. Wann hat der Blue Angel Stripclub geöffnet?
+        answer: Die Öffnungszeiten des Blue Angel Stripclubs sind von Montag bis
+          Samstag, 21:00 - 05:00 Uhr. Der Eintritt ist kostenfrei. Am 24.12.
+          (Heiligabend) haben wir geschlossen. Am 31.12. (Silvester) haben wir
+          geöffnet.
+      - open: false
+        question: 4. Können private/geschäftliche Anlässe im Blue Angel Stripclub
+          gefeiert werden?
+        answer: Ja, unsere exklusive Location steht für private Anlässe wie
+          Junggesellenabschiede, Geburtstagsfeiern bis hin zu Videodrehs und
+          mehr zur Verfügung.
+      - open: false
+        question: 5. Was sind die Eintrittspreise?
+        answer: Der Eintritt ist kostenfrei.
+      - open: false
+        question: 6. Wie sind die Preise für Getränke?
+        answer: Das erste Getränk kostet mindestens 12 €, jedes weitere Getränk ab 7 €.
+          Die Getränkekarte bietet eine grosse Auswahl an alkoholischen,
+          nicht-alkoholischen (warm, kalt) Getränken und Flaschengetränken.
+      - open: false
+        question: 7. Welche Mix-Getränke sind enthalten, wenn man eine Flasche bestellt?
+        answer: Zu den 0,35 l / 0,5 l Flaschen gibt es jeweils 2 kostenlose Getränke wie
+          Coca Cola, Red Bull, Schweppes Bitter Lemon, Schweppes Tonic Water,
+          Orangensaft oder Apfelsaft. Jede weitere 0,5l Flasche kostet 15,00 €.
+      - open: false
+        question: 8. Welche Zahlungsmethoden werden akzeptiert?
+        answer: Neben Barzahlung akzeptieren wir selbstverständlich gängige Kreditkarten
+          wie EC, CB, Maestro, Mastercard und Visa.
+      - open: false
+        question: 9. Gibt es einen virtuellen Rundgang durch die Räumlichkeiten?
+        answer: Ja, wir bieten eine 360° Tour durch unsere Räumlichkeiten, die es Ihnen
+          ermöglicht, sich interaktiv umzusehen. Die Tour kann sowohl am PC als
+          auch mit dem Handy durch Bewegung oder mit einem VR Headset betrachtet
+          werden. So kann man sich frei bewegen.
+      - open: false
+        question: 10. Wie kann man den Blue Angel Stripclub kontaktieren?
+        answer: |-
+          Adresse: Gerberstr. 6, D-79206 Breisach am Rhein \
+          E-Mail: [info@blue-angel.de](mailto:info@blue-angel.de)
+          Telefon: [+49/7667 107 0](tel:004976671070)
     containerId: faqs
+    speisekarte: []
   - type: contentblock
     mainHeadline: Miete dir deinen Privaten Abend
     contentText: >-
