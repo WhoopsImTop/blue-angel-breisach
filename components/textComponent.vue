@@ -61,6 +61,9 @@
         <div v-if="component.contactForm">
           <formular-component></formular-component>
         </div>
+        <div v-if="component.imageblock && component.imageblock.sphereViewer">
+          <sphere-viewer-component></sphere-viewer-component>
+        </div>
       </div>
       <div
         style="position: relative; width: 100%"
@@ -90,6 +93,7 @@ export default {
   },
   computed: {
     checkVisibility() {
+      console.log(this.component)
       let visible = false
       if (this.component.imageblock && this.component.imageblock.image) {
         visible = true
@@ -98,6 +102,8 @@ export default {
       } else if (this.component.speisekarte) {
         visible = true
       } else if (this.component.contactForm) {
+        visible = true
+      } else if(this.component.imageblock && this.component.imageblock.sphereViewer) {
         visible = true
       }
       return visible

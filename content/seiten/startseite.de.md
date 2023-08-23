@@ -86,7 +86,7 @@ components:
     button:
       buttonText: ""
     imageblock:
-      3d-viewer: true
+      sphereViewer: true
     highlight: true
   - type: blocks
     block:

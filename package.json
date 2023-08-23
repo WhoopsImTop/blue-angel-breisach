@@ -20,6 +20,7 @@
     "@nuxtjs/i18n": "^7.3.1",
     "@nuxtjs/markdownit": "^2.0.0",
     "@nuxtjs/sitemap": "^2.4.0",
+    "@photo-sphere-viewer/core": "^5.3.0",
     "@studio-freight/lenis": "^1.0.19",
     "bootstrap": "^4.6.2",
     "bootstrap-vue": "^2.22.0",
@@ -31,6 +32,7 @@
     "nuxt": "^2.15.8",
     "nuxt-jsonld": "^1.5.7",
     "vue": "^2.7.10",
+    "vue-pannellum": "^0.5.3",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
   },

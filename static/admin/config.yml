@@ -148,7 +148,7 @@ collections:
                           i18n: true,
                         }
                   - label: '3D Viewer'
-                    name: '3d-viewer'
+                    name: 'sphereViewer'
                     widget: 'boolean'
                     required: false
                     i18n: false
