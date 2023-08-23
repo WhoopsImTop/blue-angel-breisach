@@ -46,8 +46,8 @@ components:
 
       Hier hast du die Möglichkeit, den Alltag hinter dir zu lassen und dich in ein berauschendes Erlebnis zu stürzen, das deine Sinne beflügelt und deine Neugier entfacht. Erlebe verlockende Lapdances und private Dances, die deine Fantasien Wirklichkeit werden lassen.
     button:
-      buttonText: zur Gallerie
-      buttonLink: /gallerie
+      buttonText: ""
+      buttonLink: ""
     imageblock:
       image: /blue-angel-breisach-011.jpg
   - type: contentblock
@@ -63,7 +63,7 @@ components:
       ein, in der Glanz, Glamour und Verführung zu einem atemberaubenden
       Erlebnis verschmelzen.
     button:
-      buttonText: Jetzt Buchen
+      buttonText: Specials Buchen
       buttonLink: /kontakt
     imageblock:
       image: /blue-angel-breisach-014.jpeg
@@ -75,7 +75,7 @@ components:
 
       Reserviert jetzt und erlebt unvergessliche Momente in einem Ambiente, das eure Sinne betört. 
     button:
-      buttonText: Räume Buchen
+      buttonText: Location anfragen
       buttonLink: /kontakt
     imageblock:
       image: /blue-angel-breisach-008.jpg
@@ -113,17 +113,29 @@ components:
           linkText: Kontakt
           link: /kontakt
   - type: contentblock
-    mainHeadline: Der Stripclub Blue Angel
-    contentText: Tauche ein in die Welt des Blue Angel - Stripclub und erlebe
-      exquisite Räumlichkeiten, von der eleganten Bühne, wo unsere Girls
-      Striptease zelebrieren, bis zu privaten Bereichen für besondere Anlässe.
-      Klimatisierte Räume, Raucher- und Nichtraucherbereiche sowie
-      beeindruckende Großbild LED schaffen das perfekte Ambiente. Genieße
-      private Dances & Lapdances in separaten Räumen. Monatlich erwarten dich
-      neue aufregende Stripshows. Willkommen in einem Ort voller Leidenschaft
-      und Raffinesse.
+    mainHeadline: Erkunde unseren Stripclub in 360-Grad
+    contentText: >-
+      Tauche ein in den Blue Angel Stripclub wie nie zuvor! Nutze unsere
+      interaktive 360-Grad Galerie, um einen realistischen Blick in unsere
+      Räumlichkeiten zu werfen. Klicke am PC oder bewege dein Handy, um dich
+      umzusehen. Du kannst sogar eine VR-Brille verwenden, um noch tiefer
+      einzutauchen.
+
+
+      **VERLOCKENDE EINDRÜCKE**\
+
+      Erlebe unsere elegante Bühne, auf der unsere talentierten Tänzerinnen ihre Striptease-Künste präsentieren. Entdecke private Bereiche für besondere Anlässe, klimatisierte Räume, Raucher- und Nichtraucherbereiche – alles in beeindruckendem Ambiente.
+
+
+      **NOCH MEHR ERLEBEN**\
+
+      Bist du neugierig auf mehr? Dann schau dir unsere Bildergalerie an. Erweitere deine Eindrücke vom Blue Angel Stripclub und erlebe die Welt der Leidenschaft und Raffinesse in Bildern.
+
+
+      Bereit für eine sinnliche Erfahrung? Klicke unten, um mehr zu sehen und dich auf das Abenteuer vorzubereiten.
     button:
-      buttonText: ""
+      buttonText: Mehr Bilder
+      buttonLink: /gallerie
     imageblock:
       sphereViewer: true
     highlight: true
