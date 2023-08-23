@@ -14,7 +14,8 @@ components:
       buttonLink: /kontakt
       buttonIcon: false
     imageblock:
-      image: /blue-angel-breisach-010.jpg
+      image: ""
+      backgroundImage: /blue-angel-breisach-010.jpg
   - type: blocks
     block:
       - blockTitle: Kostenfreier Eintritt
