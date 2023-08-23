@@ -106,7 +106,8 @@ components:
         blockTitle: Location
         body: |-
           Gerberstraße 6\
-          D-79206 Breisach am Rhein
+          D-79206 Breisach am Rhein\
+          [i﻿nfo@blue-angel.de](<i﻿nfo@blue-angel.de>)
         block_id: oeffnungszeiten
         link:
           linkText: Kontakt
