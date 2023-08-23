@@ -80,22 +80,6 @@ components:
     imageblock:
       image: /blue-angel-breisach-008.jpg
       sphereViewer: false
-  - type: contentblock
-    mainHeadline: Der Stripclub Blue Angel
-    contentText: Tauche ein in die Welt des Blue Angel - Stripclub und erlebe
-      exquisite Räumlichkeiten, von der eleganten Bühne, wo unsere Girls
-      Striptease zelebrieren, bis zu privaten Bereichen für besondere Anlässe.
-      Klimatisierte Räume, Raucher- und Nichtraucherbereiche sowie
-      beeindruckende Großbild LED schaffen das perfekte Ambiente. Genieße
-      private Dances & Lapdances in separaten Räumen. Monatlich erwarten dich
-      neue aufregende Stripshows. Willkommen in einem Ort voller Leidenschaft
-      und Raffinesse.
-    button:
-      buttonText: ""
-    imageblock:
-      3d-viewer: true
-    highlight: true
-    containerId: stripclub
   - type: blocks
     block:
       - icon: /blue-angel-cocktail.svg
@@ -141,8 +125,9 @@ components:
     button:
       buttonText: ""
     imageblock:
-      3d-viewer: true
+      sphereViewer: true
     highlight: true
+    containerId: stripclub
   - type: contentblock
     mainHeadline: FAQ
     subHeadline: ""
