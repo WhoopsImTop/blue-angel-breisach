@@ -88,7 +88,7 @@ components:
       buttonLink: /kontakt
     imageblock:
       image: /blue-angel-breisach-013.jpg
-      3d-viewer: false
+      sphereViewer: false
   - type: contentblock
     mainHeadline: Der Stripclub Blue Angel
     contentText: Tauche ein in die Welt des Blue Angel - Stripclub und erlebe
@@ -104,6 +104,7 @@ components:
     imageblock:
       3d-viewer: true
     highlight: true
+    containerId: stripclub
   - type: blocks
     block:
       - icon: /blue-angel-opening-hours.svg
@@ -191,6 +192,7 @@ components:
           ermöglicht, sich interaktiv umzusehen. Die Tour kann sowohl am PC als
           auch mit dem Handy durch Bewegung oder mit einem VR Headset betrachtet
           werden. So kann man sich frei bewegen.
+          <a class="button" href="/#stripclub">Zum Rundgang</a>
       - open: false
         question: 10. Wie kann man den Blue Angel Stripclub kontaktieren?
         answer: |-

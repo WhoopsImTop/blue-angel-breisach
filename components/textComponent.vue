@@ -103,7 +103,10 @@ export default {
         visible = true
       } else if (this.component.contactForm) {
         visible = true
-      } else if(this.component.imageblock && this.component.imageblock.sphereViewer) {
+      } else if (
+        this.component.imageblock &&
+        this.component.imageblock.sphereViewer
+      ) {
         visible = true
       }
       return visible
@@ -271,6 +274,10 @@ export default {
 
   .text-container {
     width: 40%;
+  }
+
+  .full-height {
+    height: 70vh;
   }
 }
 </style>

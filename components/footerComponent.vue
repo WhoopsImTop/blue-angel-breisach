@@ -12,7 +12,7 @@
         <NuxtLink :to="LocalizePath('/impressum')">{{
           translations[locale].impressum
         }}</NuxtLink>
-        <NuxtLink :to="LocalizePath('/datenschutzerklären')">{{
+        <NuxtLink :to="LocalizePath('/datenschutzerklaerung')">{{
           translations[locale].datenschutzerklären
         }}</NuxtLink>
       </div>
@@ -27,8 +27,17 @@
       </div>
     </div>
     <div class="highlighted">
-      <div class="content-container" style="padding: 8px 0">
-        <p style="text-transform: uppercase; margin: 0">© 2023 Blue Angel Breisach</p>
+      <div class="content-container footer-credencials">
+        <img
+          src="/payments.png"
+          alt="zahlungsmöglichleiten"
+          title="zahlungsmöglichekiten"
+          height="30"
+          style="margin: 10px 0"
+        />
+        <p style="text-transform: uppercase; margin: 0">
+          © 2023 Blue Angel Breisach
+        </p>
       </div>
     </div>
   </div>
@@ -94,6 +103,14 @@ export default {
   margin: 10px 0;
 }
 
+.footer-credencials {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+}
+
 @media (min-width: 995px) {
   .footer-container {
     display: grid;
@@ -114,6 +131,15 @@ export default {
 
   .social-actions {
     justify-self: end;
+  }
+
+  .footer-credencials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8px 20px;
   }
 }
 </style>

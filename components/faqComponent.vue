@@ -12,7 +12,7 @@
         <img src="/plus.svg" width="20" height="20" alt="open" />
       </div>
       <div class="faq__body">
-        <p>{{ faq.answer }}</p>
+        <p v-html="$md.render(faq.answer)"></p>
       </div>
     </div>
   </div>
