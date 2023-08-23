@@ -85,7 +85,7 @@ components:
       buttonLink: /kontakt
     imageblock:
       image: /blue-angel-breisach-014.jpeg
-      3d-viewer: false
+      sphereViewer: false
   - type: contentblock
     mainHeadline: Der Stripclub Blue Angel
     contentText: Tauche ein in die Welt des Blue Angel - Stripclub und erlebe
