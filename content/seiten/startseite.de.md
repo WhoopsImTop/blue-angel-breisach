@@ -82,12 +82,6 @@ components:
       3d-viewer: false
   - type: blocks
     block:
-      - icon: /blue-angel-opening-hours.svg
-        blockTitle: Öffnungszeiten
-        body: |-
-          Montag - Samstag
-          21:00 - 05:00 Uhr
-        block_id: oeffnungszeiten
       - icon: /blue-angel-cocktail.svg
         blockTitle: Getränkekarte
         body: >-
@@ -107,6 +101,15 @@ components:
           Dann schreibe uns gerne.
         link:
           linkText: Specials Buchen
+          link: /kontakt
+      - icon: /blue-angel-pin.svg
+        blockTitle: Anschrift
+        body: |-
+          Gerberstraße 6\
+          D-79206 Breisach am Rhein
+        block_id: oeffnungszeiten
+        link:
+          linkText: Kontakt
           link: /kontakt
   - type: contentblock
     mainHeadline: Der Stripclub Blue Angel
