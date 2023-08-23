@@ -74,7 +74,20 @@ components:
     imageblock:
       image: /blue-angel-breisach-013.jpg
   - type: contentblock
-    mainHeadline: Der Stripclub Blue angel
+    mainHeadline: Miete dir deinen Privaten Abend
+    contentText: >-
+      Genieße Intimität pur. Tauche ein in einen exklusiven Raum, umgeben von
+      Verführung und Glamour.
+
+      Reserviere jetzt und erlebe unvergessliche Momente in einem Ambiente, das deine Sinne betört.
+    button:
+      buttonText: Räume Buchen
+      buttonLink: /kontakt
+    imageblock:
+      image: /blue-angel-breisach-014.jpeg
+      3d-viewer: false
+  - type: contentblock
+    mainHeadline: Der Stripclub Blue Angel
     contentText: Tauche ein in die Welt des Blue Angel - Stripclub und erlebe
       exquisite Räumlichkeiten, von der eleganten Bühne, wo unsere Girls
       Striptease zelebrieren, bis zu privaten Bereichen für besondere Anlässe.
@@ -183,18 +196,6 @@ components:
           Telefon: [+49/7667 107 0](tel:004976671070)
     containerId: faqs
     speisekarte: []
-  - type: contentblock
-    mainHeadline: Miete dir deinen Privaten Abend
-    contentText: >-
-      Genieße Intimität pur. Tauche ein in einen exklusiven Raum, umgeben von
-      Verführung und Glamour.
-
-      Reserviere jetzt und erlebe unvergessliche Momente in einem Ambiente, das deine Sinne betört.
-    button:
-      buttonText: Räume Buchen
-      buttonLink: /kontakt
-    imageblock:
-      image: /blue-angel-breisach-014.jpeg
   - type: contentblock
     mainHeadline: Wir suchen dich
     contentText: Bereit, die Bühne zu erobern? Der Blue Angel - Stripclub sucht nach
