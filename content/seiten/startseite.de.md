@@ -66,7 +66,7 @@ components:
       buttonText: Specials Buchen
       buttonLink: /kontakt
     imageblock:
-      image: /blue-angel-breisach-014.jpeg
+      image: /blue-angel-breisach-specials-private-party.jpg
   - type: contentblock
     mainHeadline: Mietet euch einen exklusiven Raum
     contentText: >-
