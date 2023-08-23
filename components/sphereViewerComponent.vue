@@ -5,13 +5,11 @@
     :auto-load="false"
     :auto-rotate="true"
     :compass="true"    
-    :preview="'./panoramas/bar_preview.jpg'"
-    preview-title="'360° Ansicht laden'"
+    :preview="'/panoramas/preview.jpg'"
     :show-fullscreen="true"
     :mouse-zoom="false"
     :double-click-zoom="true"
     :hfov="180"
-    :hotSpots="hotSpots"
     style="height: 500px"
   ></v-pannellum>
 </template>
