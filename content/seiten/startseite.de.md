@@ -200,12 +200,11 @@ components:
     containerId: faqs
     speisekarte: []
   - type: contentblock
-    mainHeadline: Wir suchen dich
-    contentText: Bereit, die Bühne zu erobern? Der Blue Angel - Stripclub sucht nach
-      talentierten Stripperinnen, die ihre Kunst bei uns zum Leben erwecken
-      möchten. Werde Teil unserer verführerischen Welt und entfache deine
-      Leidenschaft auf der Bühne. Bewirb dich noch heute für eine aufregende
-      Karriere im Blue Angel.
+    mainHeadline: Bereit, die Bühne zu erobern?
+    contentText: Blue Angel - Stripclub sucht nach talentierten Stripperinnen, die
+      ihre Kunst bei uns zum Leben erwecken möchten. Werde Teil unserer
+      verführerischen Welt und entfache deine Leidenschaft auf der Bühne. Bewirb
+      dich noch heute.
     button:
       buttonText: Jetzt Bewerben
       buttonLink: /kontakt
