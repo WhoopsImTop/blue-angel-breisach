@@ -28,7 +28,7 @@ components:
           mehr mit unseren Girls.
         icon: /blue-angel-fire.svg
       - icon: /blue-angel-opening-hours.svg
-        blockTitle: Öffnunszeiten
+        blockTitle: Öffnungszeiten
         body: |-
           Montag - Samstag\
           21:00 - 05:00 Uhr
