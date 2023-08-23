@@ -103,7 +103,7 @@ components:
           linkText: Specials Buchen
           link: /kontakt
       - icon: /blue-angel-pin.svg
-        blockTitle: Anschrift
+        blockTitle: Location
         body: |-
           Gerberstraße 6\
           D-79206 Breisach am Rhein
