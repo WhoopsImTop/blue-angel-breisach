@@ -27,20 +27,11 @@ components:
         body: Erlebe atemberaubende Shows, verlockende Lapdances & Striptease und vieles
           mehr mit unseren Girls.
         icon: /blue-angel-fire.svg
-      - icon: /blue-angel-pin.svg
-        blockTitle: Kontakt
+      - icon: /blue-angel-opening-hours.svg
+        blockTitle: Öffnungszeiten
         body: |-
-          Gerberstraße 6
-
-
-          79206 Breisach am Rhein
-
-
-
-          (+49)7667 1070
-
-
-          info@blue-angel.de
+          Montag - Samstag\
+          21:00 - 05:00 Uhr
   - type: contentblock
     mainHeadline: Striptease, Lapdance & Events
     imageblock:
@@ -58,7 +49,7 @@ components:
       buttonText: zur Gallerie
       buttonLink: /gallerie
     imageblock:
-      image: /blue-angel-breisach-008.jpg
+      image: /blue-angel-breisach-011.jpg
   - type: contentblock
     mainHeadline: Specials & Private Party
     contentText: Entdecke im Blue Angel nicht nur sinnliche Performances und
@@ -87,7 +78,7 @@ components:
       buttonText: Räume Buchen
       buttonLink: /kontakt
     imageblock:
-      image: /blue-angel-breisach-013.jpg
+      image: /blue-angel-breisach-008.jpg
       sphereViewer: false
   - type: contentblock
     mainHeadline: Der Stripclub Blue Angel
@@ -107,12 +98,6 @@ components:
     containerId: stripclub
   - type: blocks
     block:
-      - icon: /blue-angel-opening-hours.svg
-        blockTitle: Öffnungszeiten
-        body: |-
-          Montag - Samstag
-          21:00 - 05:00 Uhr
-        block_id: oeffnungszeiten
       - icon: /blue-angel-cocktail.svg
         blockTitle: Getränkekarte
         body: >-
@@ -133,6 +118,31 @@ components:
         link:
           linkText: Specials Buchen
           link: /kontakt
+      - icon: /blue-angel-pin.svg
+        blockTitle: Location
+        body: |-
+          Gerberstraße 6\
+          D-79206 Breisach am Rhein\
+          [i﻿nfo@blue-angel.de](<i﻿nfo@blue-angel.de>)
+        block_id: oeffnungszeiten
+        link:
+          linkText: Kontakt
+          link: /kontakt
+  - type: contentblock
+    mainHeadline: Der Stripclub Blue Angel
+    contentText: Tauche ein in die Welt des Blue Angel - Stripclub und erlebe
+      exquisite Räumlichkeiten, von der eleganten Bühne, wo unsere Girls
+      Striptease zelebrieren, bis zu privaten Bereichen für besondere Anlässe.
+      Klimatisierte Räume, Raucher- und Nichtraucherbereiche sowie
+      beeindruckende Großbild LED schaffen das perfekte Ambiente. Genieße
+      private Dances & Lapdances in separaten Räumen. Monatlich erwarten dich
+      neue aufregende Stripshows. Willkommen in einem Ort voller Leidenschaft
+      und Raffinesse.
+    button:
+      buttonText: ""
+    imageblock:
+      3d-viewer: true
+    highlight: true
   - type: contentblock
     mainHeadline: FAQ
     subHeadline: ""
@@ -202,12 +212,11 @@ components:
     containerId: faqs
     speisekarte: []
   - type: contentblock
-    mainHeadline: Wir suchen dich
-    contentText: Bereit, die Bühne zu erobern? Der Blue Angel - Stripclub sucht nach
-      talentierten Stripperinnen, die ihre Kunst bei uns zum Leben erwecken
-      möchten. Werde Teil unserer verführerischen Welt und entfache deine
-      Leidenschaft auf der Bühne. Bewirb dich noch heute für eine aufregende
-      Karriere im Blue Angel.
+    mainHeadline: Bereit, die Bühne zu erobern?
+    contentText: Blue Angel - Stripclub sucht nach talentierten Stripperinnen, die
+      ihre Kunst bei uns zum Leben erwecken möchten. Werde Teil unserer
+      verführerischen Welt und entfache deine Leidenschaft auf der Bühne. Bewirb
+      dich noch heute.
     button:
       buttonText: Jetzt Bewerben
       buttonLink: /kontakt
