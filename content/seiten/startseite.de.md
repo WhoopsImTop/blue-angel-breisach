@@ -13,6 +13,8 @@ components:
       buttonText: Anfahrt
       buttonLink: /kontakt
       buttonIcon: false
+    imageblock:
+      image: /blue-angel-breisach-010.jpg
   - type: blocks
     block:
       - blockTitle: Kostenfreier Eintritt
@@ -72,20 +74,20 @@ components:
       buttonText: Jetzt Buchen
       buttonLink: /kontakt
     imageblock:
-      image: /blue-angel-breisach-013.jpg
+      image: /blue-angel-breisach-014.jpeg
   - type: contentblock
-    mainHeadline: Miete dir deinen Privaten Abend
+    mainHeadline: Mietet euch einen exklusiven Raum
     contentText: >-
-      Genieße Intimität pur. Tauche ein in einen exklusiven Raum, umgeben von
-      Verführung und Glamour.
+      Genießt die Intimität pur. Taucht ein in unseren exklusiven Raum, umgeben
+      von Verführung und Glamour. 
 
-      Reserviere jetzt und erlebe unvergessliche Momente in einem Ambiente, das deine Sinne betört.
+      Reserviert jetzt und erlebt unvergessliche Momente in einem Ambiente, das eure Sinne betört. 
     button:
       buttonText: Räume Buchen
       buttonLink: /kontakt
     imageblock:
-      image: /blue-angel-breisach-014.jpeg
-      sphereViewer: false
+      image: /blue-angel-breisach-013.jpg
+      3d-viewer: false
   - type: contentblock
     mainHeadline: Der Stripclub Blue Angel
     contentText: Tauche ein in die Welt des Blue Angel - Stripclub und erlebe
@@ -99,7 +101,7 @@ components:
     button:
       buttonText: ""
     imageblock:
-      sphereViewer: true
+      3d-viewer: true
     highlight: true
   - type: blocks
     block:
