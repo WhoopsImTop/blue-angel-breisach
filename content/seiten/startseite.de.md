@@ -20,7 +20,7 @@ components:
           Genieße den kostenfreien Eintritt 
           und tauche ein in die Welt des Blue Angel - Stripclub.
         icon: /blue-angel-door.svg
-      - blockTitle: Shows, lapDance und mehr
+      - blockTitle: Shows, LapDance und mehr
         body: Erlebe atemberaubende Shows, verlockende Lapdances & Striptease und vieles
           mehr mit unseren Girls.
         icon: /blue-angel-fire.svg
@@ -41,7 +41,7 @@ components:
   - type: contentblock
     mainHeadline: Lean Back & Enjoy
     imageblock:
-      backgroundImage: /blue-angel-breisach-008.jpg
+      backgroundImage: /blue-angel-breisach-011.jpg
   - type: contentblock
     mainHeadline: Striptease & Private Dance
     contentText: >-
@@ -55,7 +55,7 @@ components:
       buttonText: zur Gallerie
       buttonLink: /gallerie
     imageblock:
-      image: /blue-angel-breisach-011.jpg
+      image: /blue-angel-breisach-008.jpg
   - type: contentblock
     mainHeadline: Specials & Private Party
     contentText: Entdecke im Blue Angel nicht nur sinnliche Performances und
