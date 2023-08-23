@@ -108,8 +108,8 @@ export default {
 
 .header-link-container a {
   color: var(--background-dark);
-  font-size: 30px;
-  margin: 15px 0;
+  font-size: 20px;
+  margin: 10px 0;
   text-decoration: none;
 }
 
@@ -179,5 +179,14 @@ export default {
 .burger__container.active .burger__line:nth-child(3) {
   transform: rotate(-45deg) translate(7px, -7px);
   transition: 0.3s ease-in-out;
+}
+
+@media (min-width: 995px) {
+  .header-link-container a {
+    color: var(--background-dark);
+    font-size: 30px;
+    margin: 15px 0;
+    text-decoration: none;
+  }
 }
 </style>
