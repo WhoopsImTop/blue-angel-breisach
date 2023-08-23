@@ -84,6 +84,7 @@ export default {
             title: 'Nichtraucher Raum',
             type: 'equirectangular',
             panorama: '/panoramas/nichtraucher.png',
+            yaw: 90,
             hotSpots: [
               {
                 pitch: 0,
@@ -96,19 +97,19 @@ export default {
                 pitch: 0,
                 yaw: -72,
                 type: 'info',
-                text: 'LapDances',
+                text: 'Private Dances',
               },
               {
                 pitch: 0,
                 yaw: -113,
                 type: 'info',
-                text: 'LapDances',
+                text: 'Private Dances',
               },
               {
                 pitch: 0,
                 yaw: -133,
                 type: 'info',
-                text: 'LapDances',
+                text: 'Private Dances',
               },
             ],
           },
