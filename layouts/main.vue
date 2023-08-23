@@ -2,7 +2,7 @@
   <div>
     <div
       v-if="!sessionCookie"
-      class="content-container text-container text-block full-height"
+      class="content-container text-container text-block permission"
     >
       <img
         src="/blue-angel-stripclub-wortbildmarke.svg"
@@ -63,4 +63,11 @@ export default {
 </script>
 
 <style>
+.permission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 </style>
