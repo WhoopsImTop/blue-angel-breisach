@@ -53,7 +53,7 @@ export default {
     let prevScrollpos = window.pageYOffset
     window.onscroll = function () {
       this.currentScrollPos = window.pageYOffset
-      if (prevScrollpos > this.currentScrollPos) {
+      if (prevScrollpos > this.currentScrollPos && this.currentScrollPos > 80) {
         document.querySelector('.header').style.top = '0'
       } else {
         document.querySelector('.header').style.top = '-80px'
