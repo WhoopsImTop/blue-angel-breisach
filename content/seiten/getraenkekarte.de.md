@@ -6,7 +6,7 @@ components:
     map:
       showMap: false
     contactForm: false
-    mainHeadline: Getränkekarte
+    mainHeadline: Getränke&shy;karte
     contentText: Wir bieten für jeden Geschmack das passende Getränk. Erlebe
       erlesene Genüsse mit unserer exquisiten Getränkekarte im Blue Angel.
   - type: contentblock

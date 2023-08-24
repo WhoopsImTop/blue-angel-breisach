@@ -1,5 +1,5 @@
 <template>
-  <div class="content-container text-container">
+  <div class="content-container">
     <div
       class="menu-container"
       v-for="(menu, index) in getraenkekarte"
@@ -13,11 +13,20 @@
       </div>
       <div class="menu__body">
         <table style="width: 100%">
+          <thead>
+            <tr>
+              <th>Getränk</th>
+              <th class="align-end" style="padding-right: 15px;">Erstgetränk</th>
+              <th class="align-end">jedes weitere</th>
+            </tr>
+          </thead>
           <tbody>
             <tr v-for="(item, index) in menu.getraenke" :key="index">
-              <td>{{ item.name }}</td>
-              <td>{{ item.first_price ? priceFormat(item.first_price) : '' }}</td>
-              <td>{{ priceFormat(item.second_price) }}</td>
+              <td style="width: 70%">{{ item.name }}</td>
+              <td style="width: 15%; padding-right: 15px;" class="align-end">
+                {{ item.first_price ? priceFormat(item.first_price) : '' }}
+              </td>
+              <td style="width: 15%" class="align-end">{{ priceFormat(item.second_price) }}</td>
             </tr>
           </tbody>
         </table>
@@ -53,6 +62,7 @@ export default {
 <style>
 .menu-container {
   margin: -1px 0;
+  width: 100%;
 }
 
 .menu__header {
@@ -91,7 +101,7 @@ export default {
 }
 
 .menu-container.active > .menu__header img {
-/*   filter: invert(1); */
+  /*   filter: invert(1); */
 }
 
 .menu-container.active > .menu__header h5 {
@@ -121,5 +131,14 @@ export default {
 
 .menu__body tr:first-child td {
   border-top: none;
+}
+
+.menu__body thead tr th {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--red);
+}
+
+.align-end {
+  text-align: right;
 }
 </style>
