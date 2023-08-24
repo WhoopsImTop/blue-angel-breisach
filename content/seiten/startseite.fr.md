@@ -1,19 +1,15 @@
 ---
-siteTitle: Startseite
-slug: startseite
-meta:
-  metaTitle: Blue Angel Breisach | Striptease
-  metaDescription: Ich bin eine Metatextbeschreibung
+siteTitle: Accueil
+slug: accueil
+metaTitle: Blue Angel Breisach | Striptease
+metaDescription: Je suis une description de méta-texte
 components:
   - type: contentblock
-    mainHeadline: Blue Angel Stripclub
-    subHeadline: Breisach am Rhein
-    contentText: Betritt eine Welt jenseits des Alltäglichen, einen Ort, wo Eleganz
-      auf Verlockung trifft und die Nächte in sinnlichen Farben erstrahlen.
-      Tauche ein in die faszinierende Atmosphäre des Blue Angel – dem
-      verführerischsten Stripclub in Breisach am Rhein und Umgebung.
+    mainHeadline: Stripclub Blue Angel
+    subHeadline: Breisach sur le Rhin
+    contentText: Entrez dans un monde au-delà de l'ordinaire, un endroit où l'élégance rencontre la tentation et les nuits brillent de couleurs sensuelles. Plongez-vous dans l'atmosphère fascinante du Blue Angel - le stripclub le plus séduisant de Breisach sur le Rhin et ses environs.
     button:
-      buttonText: Anfahrt
+      buttonText: Itinéraire
       buttonLink: /kontakt
       buttonIcon: false
     imageblock:
@@ -21,64 +17,48 @@ components:
       backgroundImage: /blue-angel-breisach-004.jpg
   - type: blocks
     block:
-      - blockTitle: Kostenfreier Eintritt
-        body: |-
-          Genieße den kostenfreien Eintritt 
-          und tauche ein in die Welt des Blue Angel - Stripclub.
+      - blockTitle: Entrée Gratuite
+        body: Profitez de l'entrée gratuite et plongez dans le monde du Blue Angel - Stripclub.
         icon: /blue-angel-door.svg
-      - blockTitle: Shows, LapDance und mehr
-        body: Erlebe atemberaubende Shows, verlockende Lapdances & Striptease und vieles
-          mehr mit unseren Girls.
+      - blockTitle: Spectacles, Lap Dances et Plus
+        body: Découvrez des spectacles à couper le souffle, des danses envoûtantes & striptease, et bien plus encore avec nos filles talentueuses.
         icon: /blue-angel-fire.svg
       - icon: /blue-angel-opening-hours.svg
-        blockTitle: Öffnungszeiten
+        blockTitle: Horaires d'Ouverture
         body: |-
-          Montag - Samstag\
-          21:00 - 05:00 Uhr
+          Lundi - Samedi\
+          21h00 - 05h00
   - type: contentblock
-    mainHeadline: Striptease, Lapdance & Events
+    mainHeadline: Striptease, Lap Dance & Événements
     imageblock:
       backgroundImage: /blue-angel-breisach-010.jpg
   - type: contentblock
-    mainHeadline: Striptease & Private Dance
+    mainHeadline: Striptease & Danse Privée
     contentText: >-
-      Unsere exquisiten Girls vereinen Kunst und Anmut, während sie auf der
-      Bühne die Grenzen zwischen Fantasie und Realität verschwimmen lassen, mit
-      hinreißenden Striptease-Darbietungen, die den Puls beschleunigen.
+      Nos filles exquises allient art et grâce en brouillant les frontières entre le fantasme et la réalité sur scène, avec des performances de striptease captivantes qui accélèrent le pouls.
 
-
-      Hier hast du die Möglichkeit, den Alltag hinter dir zu lassen und dich in ein berauschendes Erlebnis zu stürzen, das deine Sinne beflügelt und deine Neugier entfacht. Erlebe verlockende Lapdances und private Dances, die deine Fantasien Wirklichkeit werden lassen.
+      Voici votre chance de laisser le quotidien derrière vous et de plonger dans une expérience exaltante qui éveille vos sens et votre curiosité. Découvrez des lap dances séduisants et des danses privées qui font de vos fantasmes une réalité.
     button:
       buttonText: ""
       buttonLink: ""
     imageblock:
       image: /blue-angel-breisach-011.jpg
   - type: contentblock
-    mainHeadline: Specials & Private Party
-    contentText: Entdecke im Blue Angel nicht nur sinnliche Performances und
-      verführerischen Striptease, sondern auch die Möglichkeit, besondere
-      Momente unvergesslich zu gestalten. Unsere exklusiven Räumlichkeiten
-      stehen für private Anlässe wie Junggesellenabschiede (JGA),
-      Geburtstagsfeiern oder weiteres zur Verfügung. Mit unserer Special
-      Reservierung kannst du eine intime Atmosphäre schaffen, um die festlichen
-      Augenblicke mit deinen Liebsten zu genießen. Und wenn es um den Höhepunkt
-      des Jahres geht, lädt der Blue Angel zur unvergleichlichen Silvesternacht
-      ein, in der Glanz, Glamour und Verführung zu einem atemberaubenden
-      Erlebnis verschmelzen.
+    mainHeadline: Offres Spéciales & Fête Privée
+    contentText: Au Blue Angel, découvrez non seulement des performances sensuelles et un striptease séduisant, mais aussi l'opportunité de rendre des moments spéciaux inoubliables. Nos espaces exclusifs sont disponibles pour des occasions privées telles que des enterrements de vie de garçon, des anniversaires, et plus encore. Avec nos réservations spéciales, vous pouvez créer une atmosphère intime pour profiter de moments festifs avec vos proches. Et quand il s'agit du point culminant de l'année, le Blue Angel vous invite à une soirée du Nouvel An inégalée où le glamour et la séduction se fondent dans une expérience à couper le souffle.
     button:
-      buttonText: Specials Buchen
-      buttonLink: /kontakt
+      buttonText: Réserver des Offres Spéciales
+      buttonLink: /contact
     imageblock:
       image: /blue-angel-breisach-specials-private-party.jpg
   - type: contentblock
-    mainHeadline: Mietet euch einen exklusiven Raum
+    mainHeadline: Louez un Espace Exclusif
     contentText: >-
-      Genießt die Intimität pur. Taucht ein in unseren exklusiven Raum, umgeben
-      von Verführung und Glamour. 
+      Profitez d'une intimité totale. Plongez-vous dans notre espace exclusif entouré de charme et de glamour.
 
-      Reserviert jetzt und erlebt unvergessliche Momente in einem Ambiente, das eure Sinne betört. 
+      Réservez maintenant et vivez des moments inoubliables dans une ambiance qui captive vos sens.
     button:
-      buttonText: Location anfragen
+      buttonText: Demander des Informations sur l'Espace
       buttonLink: /kontakt
     imageblock:
       image: /blue-angel-breisach-008.jpg
@@ -86,50 +66,44 @@ components:
   - type: blocks
     block:
       - icon: /blue-angel-cocktail.svg
-        blockTitle: Getränkekarte
+        blockTitle: Carte des Boissons
         body: >-
-          Wir bieten für jeden Geschmack das passende Getränk.
+          Nous proposons la boisson parfaite pour chaque goût.
 
-          Erlebe erlesene Genüsse mit unserer exquisiten Getränkekarte im Blue Angel.
+          Découvrez des délices exquis avec notre carte des boissons raffinée au Blue Angel.
         link:
-          linkText: Zu den Getränken
-          link: /getraenkekarte
-        block_id: getraenkekarte
+          linkText: Voir les Boissons
+          link: /carte-des-boissons
+        block_id: carte-des-boissons
       - icon: /blue-angel-specials.svg
-        blockTitle: Specials
+        blockTitle: Offres Spéciales
         body: >-
-          Du möchtest Specials wie Privat-Shows, Events oder sonstiges für dich
-          und/oder andere buchen? 
+          Intéressé(e) par la réservation d'offres spéciales telles que des spectacles privés, des événements, ou autre chose pour vous et/ou d'autres personnes ?
 
-          Dann schreibe uns gerne.
+          N'hésitez pas à nous contacter.
         link:
-          linkText: Specials Buchen
-          link: /kontakt
+          linkText: Réserver des Offres Spéciales
+          link: /contact
       - icon: /blue-angel-pin.svg
-        blockTitle: Location
+        blockTitle: Emplacement
         body: |-
-          Gerberstraße 6\
-          D-79206 Breisach am Rhein\
-          [i﻿nfo@blue-angel.de](<i﻿nfo@blue-angel.de>)
-        block_id: oeffnungszeiten
+          Gerberstrasse 6\
+          D-79206 Breisach sur le Rhin\
+          [info@blue-angel.de](<mailto:info@blue-angel.de>)
+        block_id: horaires-d-ouverture
         link:
-          linkText: Kontakt
+          linkText: Contact
           link: /kontakt
   - type: contentblock
-    mainHeadline: Blue Angel Stripclub
+    mainHeadline: Stripclub Blue Angel
     contentText: >-
-      Tauche ein ins Nachtleben! Nutze unsere interaktive 360-Grad Galerie, um
-      einen realistischen Blick in unsere Räumlichkeiten zu werfen. Klicke am PC
-      oder bewege dein Handy, um dich umzusehen. Du kannst sogar eine VR-Brille
-      verwenden, um noch tiefer einzutauchen. 
+      Plongez-vous et laissez-vous séduire par l'atmosphère sensuelle. Utilisez notre galerie interactive à 360 degrés pour jeter un coup d'œil réaliste dans nos locaux.
 
+      Des images soigneusement sélectionnées vous donnent un aperçu du monde enchanteur du striptease, de la scène palpitante et du bar séduisant. Vivez la véritable magie en personne et attendez-vous à des soirées inoubliables au Blue Angel.
 
-      Erlebe unsere elegante Bühne, auf der unsere talentierten Tänzerinnen ihre Striptease-Künste präsentieren. Entdecke private Bereiche für besondere Anlässe, klimatisierte Räume, Raucher- und Nichtraucherbereiche – alles in beeindruckendem Ambiente.
-
-
-      Bist du neugierig auf mehr?
+      Curieux d'en voir plus ?
     button:
-      buttonText: Mehr Bilder
+      buttonText: Plus d'Images
       buttonLink: /galerie
     imageblock:
       sphereViewer: true
@@ -138,69 +112,49 @@ components:
   - type: faq
     mainHeadline: FAQ
     subHeadline: ""
-    contentText: Du hast eine Frage, die nicht im FAQ auftaucht? Kontaktiere uns
-      gerne jederzeit.
+    contentText: |-
+      Vous avez une autre question ? N'hésitez pas à nous contacter à tout moment.
     button:
-      buttonText: Kontakt
-      buttonLink: /kontakt
+      buttonText: Contact
+      buttonLink: /contact
     faq:
-      - question: 1. Was ist der Blue Angel Stripclub in Breisach?
+      - question: 1. Qu'est-ce que le Stripclub Blue Angel à Breisach ?
         answer: >-
-          Der Blue Angel Stripclub ist eine etablierte Unterhaltungsdestination
-          in Breisach am Rhein nahe der Grenze zur Schweiz und Frankreich, die
-          seit über 30 Jahren eine einladende Atmosphäre für anspruchsvolle
-          Unterhaltung bietet.\
+          Le Stripclub Blue Angel est une destination de divertissement établie à Breisach sur le Rhin, près de la frontière entre la Suisse et la France, offrant une atmosphère accueillante pour un divertissement sophistiqué depuis plus de 30 ans.
 
-          Das Cabaret wurde im Oktober 1993 eröffnet und 2009 wurde der gesamte Nachtclub komplett neu gestaltet. 2021 wurde eine moderne Klimaanlage inklusive Luftreinigung integriert.
+          Le cabaret a été ouvert en octobre 1993 et a été entièrement redessiné en 2009. En 2021, un système de climatisation moderne avec purification de l'air a été intégré.
         open: false
       - open: false
-        question: 2. Welche Art von Unterhaltung wird im Blue Angel Stripclub angeboten?
-        answer: Im Blue Angel Stripclub können Sie atemberaubende Shows, verlockende
-          Lapdances, private Dances und vieles mehr mit unseren talentierten
-          Girls erleben. Ein Großbild-LED-TV zeigt zudem erotische Filme für
-          zusätzliche Unterhaltung.
+        question: 2. Quel type de divertissement est proposé au Stripclub Blue Angel ?
+        answer: Au Stripclub Blue Angel, vous pouvez découvrir des spectacles à couper le souffle, des danses envoûtantes, des danses privées et bien plus encore avec nos filles talentueuses. Un grand écran LED diffuse également des films érotiques pour un divertissement supplémentaire.
       - open: false
-        question: 3. Wann hat der Blue Angel Stripclub geöffnet?
-        answer: Die Öffnungszeiten des Blue Angel Stripclubs sind von Montag bis
-          Samstag, 21:00 - 05:00 Uhr. Der Eintritt ist kostenfrei. Am 24.12.
-          (Heiligabend) haben wir geschlossen. Am 31.12. (Silvester) haben wir
-          geöffnet.
+        question: 3. Quels sont les horaires d'ouverture du Stripclub Blue Angel ?
+        answer: Les horaires d'ouverture du Stripclub Blue Angel sont du lundi au samedi, de 21h00 à 05h00. L'entrée est gratuite. Nous sommes fermés le 24 décembre (veille de Noël) et ouverts le 31 décembre (veille du Nouvel An).
       - open: false
-        question: 4. Können private/geschäftliche Anlässe im Blue Angel Stripclub
-          gefeiert werden?
-        answer: Ja, unsere exklusive Location steht für private Anlässe wie
-          Junggesellenabschiede, Geburtstagsfeiern bis hin zu Videodrehs und
-          mehr zur Verfügung.
+        question: 4. Est-il possible d'organiser des événements privés/professionnels au Stripclub Blue Angel ?
+        answer: Oui, notre emplacement exclusif est disponible pour des occasions privées telles que les enterrements de vie de garçon, les anniversaires, les tournages vidéo, etc.
       - open: false
-        question: 5. Was sind die Eintrittspreise?
-        answer: Der Eintritt ist kostenfrei.
+        question: 5. Quels sont les tarifs d'entrée ?
+        answer: L'entrée est gratuite.
       - open: false
-        question: 6. Wie sind die Preise für Getränke?
-        answer: Das erste Getränk kostet mindestens 12 €, jedes weitere Getränk ab 7 €.
-          Die Getränkekarte bietet eine grosse Auswahl an alkoholischen,
-          nicht-alkoholischen (warm, kalt) Getränken und Flaschengetränken.
+        question: 6. Quels sont les prix des boissons ?
+        answer: La première boisson coûte au moins 12 €, et chaque boisson suivante à partir de 7 €. La carte des boissons propose un large choix de boissons alcoolisées et non alcoolisées (chaudes, froides), ainsi que des boissons en bouteille.
       - open: false
-        question: 7. Welche Mix-Getränke sind enthalten, wenn man eine Flasche bestellt?
-        answer: Zu den 0,35 l / 0,5 l Flaschen gibt es jeweils 2 kostenlose Getränke wie
-          Coca Cola, Red Bull, Schweppes Bitter Lemon, Schweppes Tonic Water,
-          Orangensaft oder Apfelsaft. Jede weitere 0,5l Flasche kostet 15,00 €.
+        question: 7. Quels cocktails sont inclus lorsque l'on commande une bouteille ?
+        answer: Pour les bouteilles de 0,35 l / 0,5 l, vous recevez 2 boissons gratuites chacune, comme du Coca-Cola, Red Bull, Schweppes Bitter Lemon, Schweppes Tonic Water, du jus d'orange ou du jus de pomme. Chaque bouteille supplémentaire de 0,5 l coûte 15,00 €.
       - open: false
-        question: 8. Welche Zahlungsmethoden werden akzeptiert?
-        answer: Neben Barzahlung akzeptieren wir selbstverständlich gängige Kreditkarten
-          wie EC, CB, Maestro, Mastercard und Visa.
+        question: 8. Quels modes de paiement sont acceptés ?
+        answer: En plus du paiement en espèces, nous acceptons bien sûr les cartes de crédit courantes telles que EC, CB, Maestro, Mastercard et Visa.
       - open: false
-        question: 9. Gibt es einen virtuellen Rundgang durch die Räumlichkeiten?
-        answer: Ja, wir bieten eine 360° Tour durch unsere Räumlichkeiten, die es Ihnen
-          ermöglicht, sich interaktiv umzusehen. Die Tour kann sowohl am PC als
-          auch mit dem Handy durch Bewegung oder mit einem VR Headset betrachtet
-          werden. So kann man sich frei bewegen.
+        question: 9. Existe-t-il une visite virtuelle des locaux ?
+        answer: Oui, nous proposons une visite à 360° de nos locaux, vous permettant d'explorer de manière interactive. La visite peut être visionnée sur PC et sur appareils mobiles grâce aux mouvements ou avec un casque de réalité virtuelle pour une expérience immersive.
       - open: false
-        question: 10. Wie kann man den Blue Angel Stripclub kontaktieren?
+        question: 10. Comment puis-je contacter le Stripclub Blue Angel ?
         answer: |-
-          Adresse: Gerberstr. 6, D-79206 Breisach am Rhein \
-          E-Mail: [info@blue-angel.de](mailto:info@blue-angel.de)
-          Telefon: [+49/7667 107 0](tel:004976671070)
+          Adresse : Gerberstr. 6, D-79206 Breisach sur le Rhin \
+          Email : [info@blue-angel.de](mailto:info@blue-angel.de)
+          Téléphone : [+49/7667 107 0](tel:004976671070)
     containerId: faqs
-    speisekarte: []
+    menu: []
 id: 7bfaf87a-bd21-491d-8cdb-df3b21bb73bd
 ---
