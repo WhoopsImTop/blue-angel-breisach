@@ -800,7 +800,7 @@ collections:
                             fields:
                               - label: 'Getränk'
                                 name: 'name'
-                                widget: 'string'
+                                widget: 'markdown'
                                 required: false
                                 i18n: true
                               - label: 'Preis erstes Getränk'
