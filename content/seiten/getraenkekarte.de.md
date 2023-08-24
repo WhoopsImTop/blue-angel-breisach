@@ -10,7 +10,8 @@ components:
     contentText: Wir bieten für jeden Geschmack das passende Getränk. Erlebe
       erlesene Genüsse mit unserer exquisiten Getränkekarte im Blue Angel.
     imageblock:
-      backgroundImage: /blue-angel-breisach-solo-strip-tanz.jpg
+      backgroundImage: ""
+      image: /blue-angel-breisach-solo-strip-tanz.jpg
   - type: getraenkekarte
     speisekarte:
       - category: Flaschenbiere 0,33l
