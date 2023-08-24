@@ -269,5 +269,30 @@ components:
           - name: Karaffe Mineralwasser (für Schorle)
             first_price: "7"
             second_price: "6"
+  - type: contentblock
+    mainHeadline: Miete dir deinem Privaten Abend
+    contentText: >-
+      Genieße Intimität pur. Tauche ein in einen exklusiven Raum, umgeben von
+      Verführung und Glamour.
+
+      Reserviere jetzt und erlebe unvergessliche Momente in einem Ambiente, das deine Sinne betört.
+    button:
+      buttonText: Räume Buchen
+      buttonLink: /kontakt
+    imageblock:
+      image: /blue-angel-breisach-014.jpeg
+    highlight: true
+  - type: contentblock
+    mainHeadline: Wir suchen Dich
+    contentText: Bereit, die Bühne zu erobern? Der Blue Angel - Stripclub sucht nach
+      talentierten Stripperinnen, die ihre Kunst bei uns zum Leben erwecken
+      möchten. Werde Teil unserer verführerischen Welt und entfache deine
+      Leidenschaft auf der Bühne. Bewirb dich noch heute für eine aufregende
+      Karriere im Blue Angel.
+    button:
+      buttonText: Jetzt Bewerben
+      buttonLink: /kontakt
+    imageblock:
+      backgroundImage: /blue-angel-breisach-009.jpg
 id: ae1ed92a-4d99-4a11-9d30-31465cab4324
 ---
