@@ -3,7 +3,7 @@ siteTitle: Galerie
 slug: galerie
 components:
   - type: contentblock
-    mainHeadline: Bildergalerie
+    mainHeadline: Blue Angel Bildergalerie
     contentText: Tauche ein und lass dich von der sinnlichen Atmosphäre verführen.
       Nutze unsere interaktive 360-Grad Galerie, um einen realistischen Blick in
       unsere Räumlichkeiten zu werfen. Sorgfältig ausgewählte Bilder geben dir
@@ -25,6 +25,7 @@ components:
         - image: /blue-angel-breisach-002.jpg
         - image: /blue-angel-breisach-001.jpg
         - image: /blue-angel-breisach-010.jpg
+    mainHeadline: Striptease, Tabledance & Emotionen
   - type: contentblock
     mainHeadline: Miete dir deinem Privaten Abend
     contentText: >-
