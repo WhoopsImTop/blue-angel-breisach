@@ -227,31 +227,20 @@ components:
             second_price: "6"
   - type: blocks
     block:
-      - icon: /blue-angel-cocktail.svg
-        blockTitle: Getränkekarte
-        body: >-
-          Wir bieten für jeden Geschmack das passende Getränk.
-
-          Erlebe erlesene Genüsse mit unserer exquisiten Getränkekarte im Blue Angel.
-        link:
-          linkText: Zu den Getränken
-          link: /getraenkekarte
-        block_id: getraenkekarte
+      - blockTitle: Kostenfreier Eintritt
+        body: |-
+          Genieße den kostenfreien Eintritt 
+          und tauche ein in die Welt des Blue Angel - Stripclub.
+        icon: /blue-angel-door.svg
+      - blockTitle: Shows, LapDance und mehr
+        body: Erlebe atemberaubende Shows, verlockende Lapdances & Striptease und vieles
+          mehr mit unseren Girls.
+        icon: /blue-angel-fire.svg
       - icon: /blue-angel-opening-hours.svg
         blockTitle: Öffnungszeiten
         body: |-
           Montag - Samstag\
           21:00 - 05:00 Uhr
-      - icon: /blue-angel-specials.svg
-        blockTitle: Specials
-        body: >-
-          Du möchtest Specials wie Privat-Shows, Events oder sonstiges für dich
-          und/oder andere buchen? 
-
-          Dann schreibe uns gerne.
-        link:
-          linkText: Specials Buchen
-          link: /kontakt
   - type: contentblock
     mainHeadline: Wir suchen Dich
     contentText: Bereit, die Bühne zu erobern? Der Blue Angel - Stripclub sucht nach
