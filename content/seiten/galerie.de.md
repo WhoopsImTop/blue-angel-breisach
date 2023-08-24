@@ -4,13 +4,15 @@ slug: galerie
 components:
   - type: contentblock
     mainHeadline: Blue Angel Bildergalerie
-    contentText: Tauche ein und lass dich von der sinnlichen Atmosphäre verführen.
+    contentText: >-
       Nutze unsere interaktive 360-Grad Galerie, um einen realistischen Blick in
-      unsere Räumlichkeiten zu werfen. Sorgfältig ausgewählte Bilder geben dir
-      einen Einblick in die bezaubernde Welt des Striptease, der pulsierenden
-      Bühne und der verführerischen Bar. Erlebe die wahre Magie vor Ort und
-      freue dich auf unvergessliche Abende im Blue Angel.
-    subHeadline: ""
+      unsere Räumlichkeiten zu werfen. Klicke am PC oder bewege dein Handy, um
+      dich umzusehen. Du kannst sogar eine VR-Brille verwenden, um noch tiefer
+      einzutauchen. 
+
+
+      Erlebe unsere elegante Bühne, auf der unsere talentierten Tänzerinnen ihre Striptease-Künste präsentieren. Entdecke private Bereiche für besondere Anlässe, klimatisierte Räume, Raucher- und Nichtraucherbereiche – alles in beeindruckendem Ambiente.
+    subHeadline: Tauche ein ins Nachtleben!
     imageblock:
       sphereViewer: true
   - type: contentblock
