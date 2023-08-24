@@ -30,7 +30,6 @@
       @click="toggleMenu = false"
     >
       <NuxtLink :to="LocalizePath('/')">Stripclub</NuxtLink>
-      <NuxtLink :to="LocalizePath('/#stripclub')">Virtueller Rundgang</NuxtLink>
       <NuxtLink :to="LocalizePath('/galerie')">Galerie</NuxtLink>
       <NuxtLink :to="LocalizePath('/getraenkekarte')">Getränkekarte</NuxtLink>
       <NuxtLink :to="LocalizePath('/#faqs')">FAQ's</NuxtLink>
