@@ -67,6 +67,11 @@ a {
 
 a:hover {
   text-decoration: none;
+  cursor: pointer;
+}
+
+html {
+  background-color: var(--background-dark);
 }
 
 body {
@@ -110,6 +115,7 @@ body {
   border-color: var(--red);
   transition: 0.3s ease-in-out;
   color: var(--red);
+  cursor: pointer;
 }
 
 .pnlm-load-button {
@@ -162,4 +168,5 @@ body {
   border-color: var(--background-dark);
   transition: 0.3s ease-in-out;
   color: var(--red);
+  cursor: pointer;
 }

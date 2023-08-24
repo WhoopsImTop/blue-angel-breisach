@@ -20,9 +20,25 @@ export default {
     return { pageData }
   },
 
-  data() {
+  head() {
     return {
+      title: this.pageData.metaTitle,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.pageData.metaDescription,
+        },
+      ],
     }
+  },
+
+  mounted() {
+    console.log(this.pageData)
+  },
+
+  data() {
+    return {}
   },
 }
 </script>

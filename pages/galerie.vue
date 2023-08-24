@@ -19,6 +19,18 @@ export default {
     return { pageData }
   },
 
+  head() {
+    return {
+      title: this.pageData.metaTitle ?? "Galerie | Blue Angel Breisach",
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.pageData.metaDescription ?? "Hier finden Sie unsere Galerie",
+        },
+      ],
+    }
+  },
 
   data() {
     return {

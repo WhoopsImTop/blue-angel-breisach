@@ -20,8 +20,17 @@ export default {
     return { pageData }
   },
 
-  data() {
-    return {}
+  head() {
+    return {
+      title: this.pageData.metaTitle ?? "Getränkekarte | Blue Angel Breisach",
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.pageData.metaDescription ?? "Hier finden Sie unsere Getränke",
+        },
+      ],
+    }
   },
 }
 </script>

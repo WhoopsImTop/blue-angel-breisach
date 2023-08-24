@@ -1,6 +1,8 @@
 ---
 siteTitle: Startseite
 slug: startseite
+metaTitle: Blue Angel Breisach | Striptease
+metaDescription: Ich bin eine Metatextbeschreibung
 components:
   - type: contentblock
     mainHeadline: Blue Angel Stripclub

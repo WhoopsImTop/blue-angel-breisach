@@ -12,6 +12,12 @@ export default {
     ).fetch()
     return { pageData }
   },
+
+  head() {
+    return {
+      title: "Datenschutzerklärung",
+    }
+  },
 }
 </script>
 

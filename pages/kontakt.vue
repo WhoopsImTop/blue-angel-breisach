@@ -18,6 +18,20 @@ export default {
     ).fetch()
     return { pageData }
   },
+
+  head() {
+    return {
+      title: this.pageData.metaTitle ?? "Kontakt | Blue Angel Breisach",
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.pageData.metaDescription ?? "Hier finden Sie unsere Kontakt",
+        },
+      ],
+    }
+  },
+
   data() {
     return {
     };

@@ -20,6 +20,19 @@ export default {
     return { pageData }
   },
 
+  head() {
+    return {
+      title: this.pageData.metaTitle ?? "Jobs | Blue Angel Breisach",
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.pageData.metaDescription ?? "Hier finden Sie unsere Jobs",
+        },
+      ],
+    }
+  },
+
   data() {
     return {
     }

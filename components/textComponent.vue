@@ -1,6 +1,7 @@
 <template>
   <div :class="returnClasses" :style="returnStyle">
     <div
+      :style="index === 0 ? 'margin-top: 100px' : ''"
       class="content-container text-block"
       :class="returnRowClass"
       :id="component.containerId"
@@ -192,6 +193,11 @@ export default {
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+
+.row-2 {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .full-height {

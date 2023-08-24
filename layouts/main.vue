@@ -15,8 +15,10 @@
         sind für Minderjährige nicht geeignet. Ich bin mindestens 18 Jahre alt
         und habe den Hinweis zur Kenntnis genommen:
       </p>
-      <a class="button" style="margin-bottom: 15px" @click="goToSite">Betreten</a>
-      <a class="button" @click="goBackInHistory">Verlassen</a>
+      <div class="button-row">
+        <a class="button" @click="goToSite">Betreten</a>
+        <a class="button" @click="goBackInHistory">Verlassen</a>
+      </div>
     </div>
     <div v-else>
       <headerComponent />
@@ -69,5 +71,33 @@ export default {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  max-width: 500px;
+}
+
+.button-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-row .button {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 995px) {
+  .button-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .button-row .button {
+    margin: 0px;
+  }
+
+  .button-row .button:first-child {
+    margin-right: 10px;
+  }
 }
 </style>
