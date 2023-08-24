@@ -10,6 +10,8 @@ components:
       verführerischen Bar. Erlebe die wahre Magie vor Ort und freue dich auf
       unvergessliche Abende im Blue Angel.
     subHeadline: Blue Angel Stripclub
+    imageblock:
+      sphereViewer: true
   - type: contentblock
     map:
       showMap: false
