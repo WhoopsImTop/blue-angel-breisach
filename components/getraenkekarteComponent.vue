@@ -1,5 +1,5 @@
 <template>
-  <div class="content-container">
+  <div class="content-container text-block">
     <div
       class="menu-container"
       v-for="(menu, index) in getraenkekarte"
@@ -68,7 +68,7 @@ export default {
 .menu__header {
   padding: 10px;
   border-top: 1px solid var(--red);
-  border-bottom: 1px solid var(--red-light);
+  border-bottom: 1px solid var(--red);
   display: flex;
   justify-content: space-between;
   align-items: center;
