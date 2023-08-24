@@ -70,13 +70,13 @@ export default {
 
 <style>
 .faq-container {
-  margin: 10px 0;
+  margin: -1px 0;
 }
 
 .faq__header {
   padding: 10px;
-  border-top: 1px solid var(--red-light);
-  border-bottom: 1px solid var(--red-light);
+  border-top: 1px solid var(--red);
+  border-bottom: 1px solid var(--red);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,7 +95,9 @@ export default {
 }
 
 .faq-container.active > .faq__header {
+  border: none;
   border-bottom: none;
+  background-color: var(--red);
 }
 
 .faq__header h5 {
@@ -106,7 +108,8 @@ export default {
 
 .faq-container.active > .faq__body {
   display: block;
-  border-bottom: 1px solid var(--red-light);
+  padding: 10px;
+  border: 2px solid var(--red);
 }
 
 .faq__body {

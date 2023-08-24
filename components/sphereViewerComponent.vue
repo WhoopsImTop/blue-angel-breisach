@@ -2,14 +2,13 @@
   <v-pannellum
     :src="srcTour"
     :orientation="true"
-    :auto-load="false"
-    :auto-rotate="true"
-    :compass="true"    
+    :auto-load="true"
+    :auto-rotate="true"  
     :preview="'/panoramas/preview.jpg'"
     :show-fullscreen="true"
     :mouse-zoom="false"
     :double-click-zoom="true"
-    :hfov="180"
+    :hfov="100"
     style="height: 500px"
   ></v-pannellum>
 </template>
