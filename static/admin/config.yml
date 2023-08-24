@@ -60,7 +60,7 @@ collections:
         widget: 'string'
         i18n: true
         required: false
-            
+
       - label: 'Meta Beschreibung'
         name: 'metaDescription'
         widget: 'string'
@@ -143,7 +143,7 @@ collections:
                       widget: 'image',
                       required: false,
                       i18n: false,
-                      default: false
+                      default: false,
                     }
                   - label: 'Gallerie'
                     name: 'galery'
@@ -234,20 +234,20 @@ collections:
                         i18n: false,
                       },
                       {
-                        label: "Maps API Key",
-                        name: "api_key",
-                        widget: "string",
+                        label: 'Maps API Key',
+                        name: 'api_key',
+                        widget: 'string',
                         required: false,
                         i18n: false,
-                      }
+                      },
                     ],
                 }
-              
+
               - {
-                  label: "Kontaktformular",
-                  name: "contactForm",
-                  widget: "boolean",
-                  required: false,  
+                  label: 'Kontaktformular',
+                  name: 'contactForm',
+                  widget: 'boolean',
+                  required: false,
                   i18n: false,
                   default: false,
                 }
@@ -280,85 +280,85 @@ collections:
             i18n: true
             default: false
             fields:
-                - {
+              - {
                   label: 'Überschrift',
                   name: 'mainHeadline',
                   widget: 'string',
                   i18n: true,
                   required: false,
                 }
-                - {
+              - {
                   label: 'unter Überschrift',
                   name: 'subHeadline',
                   widget: 'string',
                   required: false,
                   i18n: true,
                 }
-                - {
+              - {
                   label: 'Highlight',
                   name: 'highlight',
                   widget: 'boolean',
                   required: false,
                   i18n: false,
                 }
-                - {
+              - {
                   label: 'Textinhalt',
                   name: 'contentText',
                   widget: 'markdown',
                   required: false,
                   i18n: true,
                 }
-                - label: 'Button'
-                  name: 'button'
-                  widget: 'object'
-                  required: false
-                  collapsed: true
-                  i18n: true
-                  fields:
-                    - label: 'Button Text'
-                      name: 'buttonText'
-                      widget: 'string'
-                      required: false
-                      i18n: true
-                    - label: 'Button Link'
-                      name: 'buttonLink'
-                      widget: 'string'
-                      required: false
-                      i18n: true
-                    - label: 'Button Icon'
-                      name: 'buttonIcon'
-                      widget: 'boolean'
-                      required: false
-                      i18n: false
+              - label: 'Button'
+                name: 'button'
+                widget: 'object'
+                required: false
+                collapsed: true
+                i18n: true
+                fields:
+                  - label: 'Button Text'
+                    name: 'buttonText'
+                    widget: 'string'
+                    required: false
+                    i18n: true
+                  - label: 'Button Link'
+                    name: 'buttonLink'
+                    widget: 'string'
+                    required: false
+                    i18n: true
+                  - label: 'Button Icon'
+                    name: 'buttonIcon'
+                    widget: 'boolean'
+                    required: false
+                    i18n: false
 
-                - label: 'FAQ'
-                  name: 'faq'
-                  widget: 'list'
-                  required: false
-                  i18n: true
-                  default: false
-                  fields:
-                      - {
-                        label: 'Frage',
-                        name: 'question',
-                        widget: 'string',
-                        required: false,
-                        i18n: true,
-                      }
-                      - {
-                        label: 'Antwort',
-                        name: 'answer',
-                        widget: 'markdown',
-                        required: false,
-                        i18n: true,
-                      }
-                      - {
-                        label: 'geöffnet',
-                        name: 'open',
-                        widget: 'boolean',
-                        required: false,
-                        default: false,
-                      }
+              - label: 'FAQ'
+                name: 'faq'
+                widget: 'list'
+                required: false
+                i18n: true
+                default: false
+                fields:
+                  - {
+                      label: 'Frage',
+                      name: 'question',
+                      widget: 'string',
+                      required: false,
+                      i18n: true,
+                    }
+                  - {
+                      label: 'Antwort',
+                      name: 'answer',
+                      widget: 'markdown',
+                      required: false,
+                      i18n: true,
+                    }
+                  - {
+                      label: 'geöffnet',
+                      name: 'open',
+                      widget: 'boolean',
+                      required: false,
+                      default: false,
+                    }
 
           - label: 'Blöcke'
             name: 'blocks'
@@ -424,7 +424,13 @@ collections:
                         widget: 'file'
                         required: false
                         i18n: true
-                  - { label: "ID", name: "block_id", widget: "string", required: false, i18n: false }
+                  - {
+                      label: 'ID',
+                      name: 'block_id',
+                      widget: 'string',
+                      required: false,
+                      i18n: false,
+                    }
 
           - label: 'Kompetenzblöcke'
             name: 'competenciesBlocks'
@@ -660,139 +666,149 @@ collections:
                 widget: 'list'
                 i18n: true
                 types:
-                  - label: 'Bild'
-                    name: 'image'
+                  - label: 'Bildblock'
+                    name: 'imageblock'
                     widget: 'object'
+                    i18n: false
+                    collapsed: true
+                    required: false
+                    default: false
                     fields:
                       - {
                           label: 'Bild',
                           name: 'image',
                           widget: 'image',
-                          requried: false,
-                          i18n: true,
-                        }
-                      - {
-                          label: 'Bildunterschrift',
-                          name: 'imageAltText',
                           required: false,
-                          i18n: true,
+                          i18n: false,
+                          default: false,
                         }
-                  - label: 'Button'
-                    name: 'button'
-                    widget: 'object'
-                    fields:
-                      - {
-                          label: 'Button Text',
-                          name: 'buttonText',
-                          widget: 'string',
-                          required: false,
-                          i18n: true,
-                        }
-                      - {
-                          label: 'Button Link',
-                          name: 'buttonLink',
-                          widget: 'string',
-                          required: false,
-                          i18n: true,
-                        }
-                      - {
-                          label: 'Button Download',
-                          name: 'buttonDownloadLink',
-                          widget: 'file',
-                          required: false,
-                          i18n: true,
-                        }
-                  - label: 'Kacheln'
-                    name: 'cards'
-                    widget: 'object'
-                    fields:
-                      - label: 'Kacheln'
-                        name: 'competencies'
-                        widget: 'relation'
-                        collection: 'kompetenzen'
+                      - label: 'Gallerie'
+                        name: 'galery'
+                        widget: 'list'
                         required: false
-                        multiple: true
-                        i18n: false
-                        value_field: '{{slug}}'
-                        search_fields: ['competenceName']
-                        display_fields: ['competenceName']
-                      - label: 'Anzeigetext'
-                        name: 'showText'
-                        widget: 'boolean'
+                        i18n: true
                         default: false
+                        fields:
+                          - {
+                              label: 'Bild',
+                              name: 'image',
+                              widget: 'image',
+                              required: false,
+                              i18n: true,
+                            }
+                      - label: '3D Viewer'
+                        name: 'sphereViewer'
+                        widget: 'boolean'
                         required: false
-                  - label: 'Text'
-                    name: 'text'
-                    widget: 'object'
-                    fields:
+                        i18n: false
+                        default: false
                       - {
-                          label: 'Kleine Überschrift',
-                          name: 'smallHeadline',
-                          widget: 'string',
-                          i18n: true,
+                          label: 'Hintergrundbild',
+                          name: 'backgroundImage',
+                          widget: 'image',
                           required: false,
+                          i18n: false,
                         }
+                  - label: 'Textblock'
+                    name: 'Textblock'
+                    widget: 'object'
+                    i18n: true
+                    collapsed: true
+                    required: false
+                    fields:
                       - {
                           label: 'Überschrift',
-                          name: 'headline',
+                          name: 'mainHeadline',
                           widget: 'string',
                           i18n: true,
                           required: false,
                         }
                       - {
-                          label: 'Text',
-                          name: 'text',
-                          widget: 'markdown',
-                          i18n: true,
+                          label: 'unter Überschrift',
+                          name: 'subHeadline',
+                          widget: 'string',
                           required: false,
+                          i18n: true,
                         }
+                      - {
+                          label: 'Highlight',
+                          name: 'highlight',
+                          widget: 'boolean',
+                          required: false,
+                          i18n: false,
+                        }
+                      - {
+                          label: 'Textinhalt',
+                          name: 'contentText',
+                          widget: 'markdown',
+                          required: false,
+                          i18n: true,
+                        }
+
                       - label: 'Button'
                         name: 'button'
                         widget: 'object'
+                        required: false
+                        collapsed: true
+                        i18n: true
                         fields:
-                          - {
-                              label: 'Button Text',
-                              name: 'buttonText',
-                              widget: 'string',
-                              required: false,
-                              i18n: true,
-                            }
-                          - {
-                              label: 'Button Link',
-                              name: 'buttonLink',
-                              widget: 'string',
-                              required: false,
-                              i18n: true,
-                            }
-                          - {
-                              label: 'Button Download',
-                              name: 'buttonDownloadLink',
-                              widget: 'file',
-                              required: false,
-                              i18n: true,
-                            }
-                  - label: 'Kooparationsformular'
-                    name: 'cooperationForm'
+                          - label: 'Button Text'
+                            name: 'buttonText'
+                            widget: 'string'
+                            required: false
+                            i18n: true
+                          - label: 'Button Link'
+                            name: 'buttonLink'
+                            widget: 'string'
+                            required: false
+                            i18n: true
+                          - label: 'Button Icon'
+                            name: 'buttonIcon'
+                            widget: 'boolean'
+                            required: false
+                            i18n: false
+                  - label: 'Speisekartenblock'
+                    name: 'speisekartenblock'
                     widget: 'object'
+                    i18n: true
+                    collapsed: true
+                    required: false
                     fields:
-                      - {
-                          label: 'Formular einbinden',
-                          name: 'embedForm',
-                          widget: 'boolean',
-                          i18n: true,
-                          required: false,
-                        }
-                  - label: 'Kontaktformular'
-                    name: 'contactForm'
-                    widget: 'object'
-                    fields:
-                      - {
-                          label: 'Formular einbinden',
-                          name: 'embedForm',
-                          widget: 'boolean',
-                          i18n: true,
-                          required: false,
-                        }
+                      - label: 'Speisekarte'
+                        name: 'speisekarte'
+                        widget: 'list'
+                        required: false
+                        i18n: true
+                        default: false
+                        fields:
+                          - label: 'Kategorie'
+                            name: 'category'
+                            widget: 'string'
+                            required: false
+                            i18n: true
+
+                          - label: 'Getränke'
+                            name: 'getraenke'
+                            widget: 'list'
+                            required: false
+                            i18n: true
+                            fields:
+                              - label: 'Getränk'
+                                name: 'name'
+                                widget: 'string'
+                                required: false
+                                i18n: true
+                              - label: 'Preis erstes Getränk'
+                                name: 'first_price'
+                                widget: 'string'
+                                required: false
+                                i18n: true
+                              - label: 'Preis zweites Getränk'
+                                name: 'second_price'
+                                widget: 'string'
+                                required: false
+                                i18n: true
+
       - { label: 'ID', name: 'id', widget: 'uuid' }
 
   - name: 'blog'

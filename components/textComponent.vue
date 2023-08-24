@@ -94,7 +94,6 @@ export default {
   },
   computed: {
     checkVisibility() {
-      console.log(this.component)
       let visible = false
       if (this.component.imageblock && this.component.imageblock.image) {
         visible = true
