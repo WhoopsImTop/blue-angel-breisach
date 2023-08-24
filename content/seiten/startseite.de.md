@@ -136,8 +136,9 @@ components:
   - type: faq
     mainHeadline: FAQ
     subHeadline: ""
-    contentText: Du hast eine Frage, die nicht im FAQ auftaucht? Kontaktiere uns
-      gerne jederzeit.
+    contentText: |-
+      Du hast eine weitere Frage?\
+      Kontaktiere uns gerne jederzeit.
     button:
       buttonText: Kontakt
       buttonLink: /kontakt
