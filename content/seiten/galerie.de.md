@@ -1,13 +1,15 @@
 ---
-siteTitle: Gallerie
-slug: gallerie
+siteTitle: Galerie
+slug: galerie
 components:
   - type: contentblock
-    mainHeadline: Gallerie
-    contentText: Tauche ein in unsere verlockende Galerie und lasse dich von den
-      sinnlichen Augenblicken im Blue Angel faszinieren. Hier kannst du einen
-      Vorgeschmack auf die hinreißenden Girls und die aufregende Bühne erhalten,
-      während du dich auf die Drinks an unserer verführerischen Bar freust.
+    mainHeadline: Bildergalerie
+    contentText: Tauche ein und lass dich von der sinnlichen Atmosphäre verführen.
+      Unsere sorgfältig ausgewählten Bilder geben dir einen Einblick in die Welt
+      der bezaubernden Tänzerinnen, der pulsierenden Bühne und der
+      verführerischen Bar. Erlebe die wahre Magie vor Ort und freue dich auf
+      unvergessliche Abende im Blue Angel.
+    subHeadline: Blue Angel Stripclub
   - type: contentblock
     map:
       showMap: false
