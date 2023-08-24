@@ -1,5 +1,5 @@
 <template>
-  <div class="content-container text-block">
+  <div id="faqs" class="content-container text-block">
     <h2>{{ pageComponent.mainHeadline }}</h2>
     <h3
       v-if="pageComponent.subHeadline"

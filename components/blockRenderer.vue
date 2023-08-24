@@ -6,17 +6,21 @@
       :index="index"
     ></text-component>
     <faq-component
-      v-else-if="component.type === 'faq'"
+      v-if="component.type === 'faq'"
       :component="component"
     ></faq-component>
     <block-component
-      v-else-if="component.type === 'blocks'"
+      v-if="component.type === 'blocks'"
       :component="component"
     ></block-component>
     <job-formular-component
-      v-else-if="component.type === 'jobForm'"
+      v-if="component.type === 'jobForm'"
       :component="component"
     ></job-formular-component>
+    <getraenkekarte-component
+      v-if="component.type === 'getraenkekarte'"
+      :component="component"
+    ></getraenkekarte-component>
   </div>
 </template>
 

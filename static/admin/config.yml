@@ -173,41 +173,6 @@ collections:
                       i18n: false,
                     }
 
-              - label: 'Speisekarte'
-                name: 'speisekarte'
-                widget: 'list'
-                required: false
-                i18n: true
-                default: false
-                fields:
-                  - label: 'Kategorie'
-                    name: 'category'
-                    widget: 'string'
-                    required: false
-                    i18n: true
-
-                  - label: 'Getränke'
-                    name: 'getraenke'
-                    widget: 'list'
-                    required: false
-                    i18n: true
-                    fields:
-                      - label: 'Getränk'
-                        name: 'name'
-                        widget: 'string'
-                        required: false
-                        i18n: true
-                      - label: 'Preis erstes Getränk'
-                        name: 'first_price'
-                        widget: 'string'
-                        required: false
-                        i18n: true
-                      - label: 'Preis zweites Getränk'
-                        name: 'second_price'
-                        widget: 'string'
-                        required: false
-                        i18n: true
-
               - {
                   label: 'Map',
                   name: 'map',
@@ -258,6 +223,46 @@ collections:
                   widget: 'string',
                   required: false,
                 }
+          - label: "Getränkekarte"
+            name: "getraenkekarte"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            required: false
+            fields:
+              - label: 'Speisekarte'
+                name: 'speisekarte'
+                widget: 'list'
+                required: false
+                i18n: true
+                default: false
+                fields:
+                  - label: 'Kategorie'
+                    name: 'category'
+                    widget: 'string'
+                    required: false
+                    i18n: true
+                  - label: 'Getränke'
+                    name: 'getraenke'
+                    widget: 'list'
+                    required: false
+                    i18n: true
+                    fields:
+                      - label: 'Getränk'
+                        name: 'name'
+                        widget: 'string'
+                        required: false
+                        i18n: true
+                      - label: 'Preis erstes Getränk'
+                        name: 'first_price'
+                        widget: 'string'
+                        required: false
+                        i18n: true
+                      - label: 'Preis zweites Getränk'
+                        name: 'second_price'
+                        widget: 'string'
+                        required: false
+                        i18n: true
 
           - label: 'Job Formular'
             name: 'jobForm'

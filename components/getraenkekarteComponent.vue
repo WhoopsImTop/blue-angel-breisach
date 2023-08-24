@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content-container text-container">
     <div
       class="menu-container"
       v-for="(menu, index) in getraenkekarte"
@@ -16,7 +16,7 @@
           <tbody>
             <tr v-for="(item, index) in menu.getraenke" :key="index">
               <td>{{ item.name }}</td>
-              <td>{{ priceFormat(item.first_price) }}</td>
+              <td>{{ item.first_price ? priceFormat(item.first_price) : '' }}</td>
               <td>{{ priceFormat(item.second_price) }}</td>
             </tr>
           </tbody>
@@ -28,10 +28,10 @@
 
 <script>
 export default {
-  props: ['getraenkekarteProp'],
+  props: ['component'],
   data() {
     return {
-      getraenkekarte: this.getraenkekarteProp,
+      getraenkekarte: this.component.speisekarte,
     }
   },
   methods: {
@@ -57,7 +57,7 @@ export default {
 
 .menu__header {
   padding: 10px;
-  border-top: 1px solid var(--red-light);
+  border-top: 1px solid var(--red);
   border-bottom: 1px solid var(--red-light);
   display: flex;
   justify-content: space-between;
@@ -87,11 +87,11 @@ export default {
 }
 
 .menu-container.active > .menu__header {
-  background-color: var(--red-light) !important;
+  background-color: var(--red) !important;
 }
 
 .menu-container.active > .menu__header img {
-  filter: invert(1);
+/*   filter: invert(1); */
 }
 
 .menu-container.active > .menu__header h5 {
@@ -100,8 +100,8 @@ export default {
 
 .menu-container.active > .menu__body {
   display: block;
-  border-bottom: 1px solid var(--red-light);
-  border: 2px solid var(--red-light);
+  border-bottom: 1px solid var(--red);
+  border: 2px solid var(--red);
 }
 
 .menu__body {
