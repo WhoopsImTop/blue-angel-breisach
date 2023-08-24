@@ -10,7 +10,7 @@ components:
     contentText: Wir bieten für jeden Geschmack das passende Getränk. Erlebe
       erlesene Genüsse mit unserer exquisiten Getränkekarte im Blue Angel.
     imageblock:
-      backgroundImage: /blue-angel-breisach-champagner-sekt-flirten.jpg
+      backgroundImage: /blue-angel-breisach-solo-strip-tanz.jpg
       image: ""
   - type: getraenkekarte
     speisekarte:
