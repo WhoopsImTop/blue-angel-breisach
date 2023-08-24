@@ -14,19 +14,33 @@ components:
     contentText: "![](/blue-angel-breisach-011.jpg)"
     imageblock:
       image: ""
-  - type: contentblock
-    mainHeadline: Miete dir deinem Privaten Abend
-    contentText: >-
-      Genieße Intimität pur. Tauche ein in einen exklusiven Raum, umgeben von
-      Verführung und Glamour.
+  - type: blocks
+    block:
+      - icon: /blue-angel-cocktail.svg
+        blockTitle: Getränkekarte
+        body: >-
+          Wir bieten für jeden Geschmack das passende Getränk.
 
-      Reserviere jetzt und erlebe unvergessliche Momente in einem Ambiente, das deine Sinne betört.
-    button:
-      buttonText: Räume Buchen
-      buttonLink: /kontakt
-    imageblock:
-      image: /blue-angel-breisach-014.jpeg
-    highlight: true
+          Erlebe erlesene Genüsse mit unserer exquisiten Getränkekarte im Blue Angel.
+        link:
+          linkText: Zu den Getränken
+          link: /getraenkekarte
+        block_id: getraenkekarte
+      - icon: /blue-angel-opening-hours.svg
+        blockTitle: Öffnungszeiten
+        body: |-
+          Montag - Samstag\
+          21:00 - 05:00 Uhr
+      - icon: /blue-angel-specials.svg
+        blockTitle: Specials
+        body: >-
+          Du möchtest Specials wie Privat-Shows, Events oder sonstiges für dich
+          und/oder andere buchen? 
+
+          Dann schreibe uns gerne.
+        link:
+          linkText: Specials Buchen
+          link: /kontakt
   - type: contentblock
     mainHeadline: Wir suchen Dich
     contentText: Bereit, die Bühne zu erobern? Der Blue Angel - Stripclub sucht nach
