@@ -21,12 +21,24 @@ components:
     contactForm: false
     imageblock:
       galery:
-        - image: /blue-angel-breisach-005.jpg
-        - image: /blue-angel-breisach-004.jpg
-        - image: /blue-angel-breisach-003.jpeg
-        - image: /blue-angel-breisach-002.jpg
-        - image: /blue-angel-breisach-001.jpg
-        - image: /blue-angel-breisach-010.jpg
+        - image: /blue-angel-breisach-champagner-sekt-flirten.jpg
+        - image: /blue-angel-breisach-erotisch-unterwaesche.jpg
+        - image: /blue-angel-breisach-high-heels-club-party.jpg
+        - image: /blue-angel-breisach-maedels-kuessen-show.jpg
+        - image: /blue-angel-breisach-nachtclub-glamour-maske-.jpg
+        - image: /blue-angel-breisach-nackte-haut.jpg
+        - image: /blue-angel-breisach-private-dance.jpg
+        - image: /blue-angel-breisach-sinnlich-erotisch.jpg
+        - image: /blue-angel-breisach-solo-strip-tanz.jpg
+        - image: /blue-angel-breisach-stripclub-exklusiv-vip.jpg
+        - image: /blue-angel-breisach-stripclub-girls.jpg
+        - image: /blue-angel-breisach-stripperin-jungesellenabschied.jpg
+        - image: /blue-angel-breisach-striptease-poledance-show.jpg
+        - image: /blue-angel-breisach-striptease-solo.jpg
+        - image: /blue-angel-breisach-strumpfhose-fuesse-fetisch.jpg
+        - image: /blue-angel-breisach-tabledance-poledance-show.jpg
+        - image: /blue-angel-breisach-tanz-erotik.jpg
+        - image: /blue-angel-breisach-tanz-strip-stange.jpg
     mainHeadline: Striptease, Tabledance & Emotionen
   - type: blocks
     block:
