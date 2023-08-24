@@ -3,7 +3,7 @@ siteTitle: Galerie
 slug: galerie
 components:
   - type: contentblock
-    mainHeadline: Blue Angel Bildergalerie
+    mainHeadline: Bildergalerie
     contentText: >-
       Nutze unsere interaktive 360-Grad Galerie, um einen realistischen Blick in
       unsere Räumlichkeiten zu werfen. Klicke am PC oder bewege dein Handy, um
