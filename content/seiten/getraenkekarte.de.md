@@ -16,13 +16,13 @@ components:
     speisekarte:
       - category: Flaschenbiere 0,33l
         getraenke:
-          - name: Rothaus Pils Tannenzäpfle
+          - name: Rothaus Pils Tannenzäpfle <sup>14</sup>
             first_price: "12"
             second_price: "8"
-          - name: Rothaus Alkoholfreies Zäpfle
+          - name: Rothaus Alkoholfreies Zäpfle <sup>14</sup>
             first_price: "12"
             second_price: "8"
-          - name: Paulaner Hefe Weißbier
+          - name: Paulaner Hefe Weißbier <sup>14,15</sup>
             first_price: "12"
             second_price: "8"
       - category: Alkoholfreie Getränke 0,25l
@@ -30,7 +30,7 @@ components:
           - name: Mineralwasser
             first_price: "12"
             second_price: "8"
-          - name: Coca Cola
+          - name: Coca Cola <sup>2,11</sup>
             first_price: "12"
             second_price: "8"
           - name: Apfelsaft
@@ -42,21 +42,21 @@ components:
           - name: Orangensaft
             first_price: "12"
             second_price: "8"
-          - name: Schweppes Bitter Lemon
+          - name: Schweppes Bitter Lemon <sup>10</sup>
             first_price: "12"
             second_price: "8"
-          - name: Schweppes Tonic Water
+          - name: Schweppes Tonic Water <sup>10</sup>
             first_price: "12"
             second_price: "8"
-          - name: Red Bull
+          - name: Red Bull <sup>2,11,12</sup>
             first_price: "13"
             second_price: "9"
       - category: Warme Getränke
         getraenke:
-          - name: Espresso
+          - name: Espresso <sup>11</sup>
             first_price: "12"
             second_price: "7"
-          - name: Kaffee Creme
+          - name: Kaffee Creme <sup>11</sup>
             first_price: "12"
             second_price: "7"
           - name: Glas Tee (Pfefferminz o. Schwarztee)
@@ -64,46 +64,46 @@ components:
             second_price: "7"
       - category: Longdrinks 4 cl
         getraenke:
-          - name: Asbach Cola
+          - name: Asbach Cola <sup>2,11</sup>
             first_price: "15"
             second_price: "11"
-          - name: Barcadi Cola / Orange
+          - name: Barcadi Cola  <sup>2,11</sup> / Orange
             first_price: "15"
             second_price: "11"
-          - name: Havana Club Cola / Orange
+          - name: Havana Club Cola <sup>2,11</sup> / Orange
             first_price: "15"
             second_price: "11"
-          - name: Vodka Lemon / Tonic / Cola
+          - name: Vodka Lemon <sup>10</sup> / Tonic <sup>10</sup> / Cola <sup>2,11</sup>
             first_price: "15"
             second_price: "11"
           - name: Vodka Apfelsaft / Orange
             first_price: "15"
             second_price: "11"
-          - name: Vodka Red Bull
+          - name: Vodka Red Bull <sup>2,11,12</sup>
             first_price: "16"
             second_price: "12"
-          - name: Gin Lemon / Tonic / Cola / Orange
+          - name: Gin Lemon <sup>10</sup>/ Tonic <sup>10</sup>/ Cola <sup>2,11</sup>/ Orange
             first_price: "15"
             second_price: "11"
-          - name: Whisky Cola / Orange / Soda / Apfelsaft
+          - name: Whisky <sup>2</sup> Cola<sup>2,11</sup> / Orange / Soda / Apfelsaft
             first_price: "15"
             second_price: "11"
-          - name: Whisky Red Bull
+          - name: Whisky <sup>2</sup> Red Bull <sup>2,11,12</sup>
             first_price: "16"
             second_price: "12"
-          - name: Jack Daniels Cola
+          - name: Jack Daniels Cola <sup>2,11</sup>
             first_price: "16"
             second_price: "12"
-          - name: Jack Daniels Red Bull
+          - name: Jack Daniels Red Bull <sup>2,11,12</sup>
             first_price: "17"
             second_price: "13"
-          - name: Ricard Wasser / Orange / Cola
+          - name: Ricard<sup>2</sup> Wasser / Orange / Cola <sup>2,11</sup>
             first_price: "15"
             second_price: "11"
-          - name: Pernod Wasser / Orange / Cola
+          - name: Pernod<sup>2</sup> Wasser / Orange / Cola <sup>2,11</sup>
             first_price: "15"
             second_price: "11"
-          - name: Campari Soda / Orange
+          - name: Campari<sup>2</sup> Soda / Orange
             first_price: "15"
             second_price: "11"
       - category: Spirituosen 4 cl
@@ -123,13 +123,13 @@ components:
           - name: Vodka Three Sixty
             first_price: "14"
             second_price: "10"
-          - name: Campari
+          - name: Campari<sup>2</sup>
             first_price: "14"
             second_price: "10"
-          - name: Pernod
+          - name: Pernod<sup>2</sup>
             first_price: "14"
             second_price: "10"
-          - name: Ricard
+          - name: Ricard<sup>2</sup>
             first_price: "14"
             second_price: "10"
           - name: Fernet Branca
@@ -150,19 +150,19 @@ components:
             second_price: "17"
       - category: Scotch Whisky 4 cl
         getraenke:
-          - name: Johnnie Waldker Red Label
+          - name: Johnnie Waldker Red Label<sup>2</sup>
             first_price: "14"
             second_price: "10"
-          - name: Ballantines
+          - name: Ballantines<sup>2</sup>
             first_price: "14"
             second_price: "10"
-          - name: Haig Dimple
+          - name: Haig Dimple<sup>2</sup>
             first_price: "16"
             second_price: "12"
-          - name: JεB Justerini & Brooks
+          - name: JεB Justerini & Brooks<sup>2</sup>
             first_price: "16"
             second_price: "12"
-          - name: Chivas Regal 12 Years
+          - name: Chivas Regal 12 Years<sup>2</sup>
             first_price: "17"
             second_price: "13"
       - category: Burbon Whiskey 4 cl
@@ -178,7 +178,7 @@ components:
             second_price: "13"
       - category: Canadian Whisky 4 cl
         getraenke:
-          - name: Crown Royal
+          - name: Crown Royal<sup>2</sup>
             first_price: "19"
             second_price: "15"
       - category: Flaschen
@@ -195,9 +195,9 @@ components:
             second_price: "95"
           - name: Vodka Three Sixty 700ml
             second_price: "150"
-          - name: Johnnie Walker Red Label 350ml
+          - name: Johnnie Walker Red Label<sup>2</sup> 350ml
             second_price: "90"
-          - name: Johnnie Walker Red Label 700ml
+          - name: Johnnie Walker Red Label<sup>2</sup> 700ml
             second_price: "150"
           - name: Jack Daniel's 350ml
             second_price: "100"
@@ -205,6 +205,16 @@ components:
             second_price: "130"
           - name: Jack Daniel's 700ml
             second_price: "170"
+          - name: "\t\r
+
+              Dazu erhalten Sie zu den 0,35 l / 0,5l Flasche 2x
+              und bei den 0,7l Flaschen 3x Coca Cola<sup>2,11</sup> Orangensaft,
+              Schweppes Bitter Lemon<sup>10</sup>, Schweppes Tonic Water 10, Red
+              Bull<sup>2,11,12</sup> oder Apfelsaft kostenlos.\r
+
+              \r
+
+              Jede weitere 0,5l kosten 15,00 €."
       - category: Flaschenweine 250ml
         getraenke:
           - name: Heinrich Hansjakob
@@ -228,6 +238,16 @@ components:
           - name: Karaffe Mineralwasser (für Schorle)
             first_price: "7"
             second_price: "6"
+  - type: contentblock
+    imageblock:
+      image: false
+      galery: false
+      sphereViewer: false
+    map:
+      showMap: false
+    contactForm: false
+    contentText: 2) mit Farbstoffen 10) chininhaltig 11) koffeinhaltig 12) mit
+      Taurin 14) Gerstenmalz 15) Weizenmalz
   - type: blocks
     block:
       - blockTitle: Kostenfreier Eintritt
