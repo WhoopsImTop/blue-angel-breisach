@@ -16,22 +16,28 @@
           <thead>
             <tr>
               <th>Getränk</th>
-              <th class="align-end" style="padding-right: 15px;">Erstgetränk</th>
+              <th class="align-end" style="padding-right: 15px">Erstgetränk</th>
               <th class="align-end">jedes weitere</th>
             </tr>
           </thead>
           <tbody>
             <tr v-for="(item, index) in menu.getraenke" :key="index">
-              <td style="width: 70%">{{ item.name }}</td>
-              <td style="width: 15%; padding-right: 15px;" class="align-end">
+              <td style="width: 70%" v-html="item.name"></td>
+              <td style="width: 15%; padding-right: 15px" class="align-end">
                 {{ item.first_price ? priceFormat(item.first_price) : '' }}
               </td>
-              <td style="width: 15%" class="align-end">{{ priceFormat(item.second_price) }}</td>
+              <td style="width: 15%" class="align-end">
+                {{ item.first_price ? priceFormat(item.second_price) : '' }}
+              </td>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
+    <p style="margin: 30px 0;">
+      2) mit Farbstoffen 10) chininhaltig 11) koffeinhaltig 12) mit Taurin 14)
+      Gerstenmalz 15) Weizenmalz
+    </p>
   </div>
 </template>
 

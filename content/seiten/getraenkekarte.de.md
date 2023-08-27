@@ -238,16 +238,6 @@ components:
           - name: Karaffe Mineralwasser (für Schorle)
             first_price: "7"
             second_price: "6"
-  - type: contentblock
-    imageblock:
-      image: false
-      galery: false
-      sphereViewer: false
-    map:
-      showMap: false
-    contactForm: false
-    contentText: 2) mit Farbstoffen 10) chininhaltig 11) koffeinhaltig 12) mit
-      Taurin 14) Gerstenmalz 15) Weizenmalz
   - type: blocks
     block:
       - blockTitle: Kostenfreier Eintritt
