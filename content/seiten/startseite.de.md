@@ -2,7 +2,8 @@
 siteTitle: Startseite
 slug: startseite
 metaTitle: Blue Angel Breisach | Striptease
-metaDescription: Ich bin eine Metatextbeschreibung
+metaDescription: " Tauche ein in die faszinierende Atmosphäre des Blue Angel –
+  dem verführerischsten Stripclub in Breisach am Rhein und Umgebung."
 components:
   - type: contentblock
     mainHeadline: Blue Angel Stripclub
@@ -51,7 +52,7 @@ components:
       buttonText: ""
       buttonLink: ""
     imageblock:
-      image: /blue-angel-breisach-011.jpg
+      image: /blue-angel-breisach-stripclub-girls.jpg
   - type: contentblock
     mainHeadline: Specials & Private Party
     contentText: Entdecke im Blue Angel nicht nur sinnliche Performances und
