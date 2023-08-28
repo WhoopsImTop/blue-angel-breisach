@@ -318,6 +318,7 @@ export default {
   flex-direction: row;
   justify-content: center;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .language-switcher-formular .language-switcher-item {
