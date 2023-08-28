@@ -71,7 +71,9 @@
             >{{ translations[currentLocale].formFields.privacyPolicy }}
           </label>
         </div>
-        <div class="button">{{ translations[currentLocale].formFields.apply }}</div>
+        <div class="button">
+          {{ translations[currentLocale].formFields.apply }}
+        </div>
       </form>
     </div>
   </div>
@@ -110,7 +112,8 @@ export default {
             email: 'E-Mail',
             phoneNumber: 'Telefonnummer',
             message: 'Nachricht',
-            privacyPolicy: 'Ich bin mit der verarbeitung meiner Daten einverstanden.',
+            privacyPolicy:
+              'Ich bin mit der verarbeitung meiner Daten einverstanden.',
             apply: 'Bewerben',
           },
         },
@@ -323,10 +326,16 @@ export default {
 
 .language-switcher-formular .language-switcher-item {
   margin-left: 20px;
+  margin-bottom: 10px;
   cursor: pointer;
   font-family: var(--secondary-font);
   font-size: 18px;
   color: var(--red);
+}
+
+.language-switcher-item.active img {
+  outline: 2px solid var(--red);
+  outline-offset: 2px;
 }
 
 @media (min-width: 995px) {
