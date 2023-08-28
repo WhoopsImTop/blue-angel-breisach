@@ -27,7 +27,7 @@
                 {{ item.first_price ? priceFormat(item.first_price) : '' }}
               </td>
               <td style="width: 15%" class="align-end">
-                {{ item.first_price ? priceFormat(item.second_price) : '' }}
+                {{ item.second_price ? priceFormat(item.second_price) : '' }}
               </td>
             </tr>
           </tbody>
