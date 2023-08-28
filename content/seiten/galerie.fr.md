@@ -20,24 +20,24 @@ components:
     contactForm: false
     imageblock:
       galery:
-        - image: /blue-angel-breisach-filles-s-embrassant-spectacle.jpg
-        - image: /blue-angel-breisach-danse-poteau-striptease.jpg
-        - image: /blue-angel-breisach-champagne-mousseux-flirter.jpg
-        - image: /blue-angel-breisach-lingerie-erotique.jpg
-        - image: /blue-angel-breisach-talons-hauts-soiree-en-club.jpg
-        - image: /blue-angel-breisach-stripclub-exclusif-vip.jpg
-        - image: /blue-angel-breisach-boite-de-nuit-glamour-masque.jpg
-        - image: /blue-angel-breisach-peau-nue.jpg
-        - image: /blue-angel-breisach-danse-privee.jpg
-        - image: /blue-angel-breisach-sensuel-erotique.jpg
-        - image: /blue-angel-breisach-filles-du-stripclub.jpg
-        - image: /blue-angel-breisach-stripper-fete-de-fin-de-celibat.jpg
-        - image: /blue-angel-breisach-danse-strip-en-solo.jpg
-        - image: /blue-angel-breisach-striptease-danse-au-poteau.jpg
-        - image: /blue-angel-breisach-striptease-en-solo.jpg
-        - image: /blue-angel-breisach-collants-pieds-fetichisme.jpg
-        - image: /blue-angel-breisach-danse-tableau-poteau.jpg
-        - image: /blue-angel-breisach-danse-erotisme.jpg
+        - image: /blue-angel-breisach-maedels-kuessen-show.jpg
+        - image: /blue-angel-breisach-tanz-strip-stange.jpg
+        - image: /blue-angel-breisach-champagner-sekt-flirten.jpg
+        - image: /blue-angel-breisach-erotisch-unterwaesche.jpg
+        - image: /blue-angel-breisach-high-heels-club-party.jpg
+        - image: /blue-angel-breisach-stripclub-exklusiv-vip.jpg
+        - image: /blue-angel-breisach-nachtclub-glamour-maske-.jpg
+        - image: /blue-angel-breisach-nackte-haut.jpg
+        - image: /blue-angel-breisach-private-dance.jpg
+        - image: /blue-angel-breisach-sinnlich-erotisch.jpg
+        - image: /blue-angel-breisach-stripclub-girls.jpg
+        - image: /blue-angel-breisach-stripperin-jungesellenabschied.jpg
+        - image: /blue-angel-breisach-solo-strip-tanz.jpg
+        - image: /blue-angel-breisach-striptease-poledance-show.jpg
+        - image: /blue-angel-breisach-striptease-solo.jpg
+        - image: /blue-angel-breisach-strumpfhose-fuesse-fetisch.jpg
+        - image: /blue-angel-breisach-tabledance-poledance-show.jpg
+        - image: /blue-angel-breisach-tanz-erotik.jpg
     mainHeadline: Striptease, Tabledance & Émotions
   - type: blocks
     block:

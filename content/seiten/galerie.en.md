@@ -20,24 +20,24 @@ components:
     contactForm: false
     imageblock:
       galery:
-        - image: /blue-angel-breisach-girls-kissing-show.jpg
-        - image: /blue-angel-breisach-dance-pole-strip.jpg
-        - image: /blue-angel-breisach-champagne-sparkling-flirting.jpg
-        - image: /blue-angel-breisach-erotic-lingerie.jpg
+        - image: /blue-angel-breisach-maedels-kuessen-show.jpg
+        - image: /blue-angel-breisach-tanz-strip-stange.jpg
+        - image: /blue-angel-breisach-champagner-sekt-flirten.jpg
+        - image: /blue-angel-breisach-erotisch-unterwaesche.jpg
         - image: /blue-angel-breisach-high-heels-club-party.jpg
-        - image: /blue-angel-breisach-stripclub-exclusive-vip.jpg
-        - image: /blue-angel-breisach-nightclub-glamour-mask.jpg
-        - image: /blue-angel-breisach-nude-skin.jpg
+        - image: /blue-angel-breisach-stripclub-exklusiv-vip.jpg
+        - image: /blue-angel-breisach-nachtclub-glamour-maske-.jpg
+        - image: /blue-angel-breisach-nackte-haut.jpg
         - image: /blue-angel-breisach-private-dance.jpg
-        - image: /blue-angel-breisach-sensual-erotic.jpg
+        - image: /blue-angel-breisach-sinnlich-erotisch.jpg
         - image: /blue-angel-breisach-stripclub-girls.jpg
-        - image: /blue-angel-breisach-stripper-bachelorette-party.jpg
-        - image: /blue-angel-breisach-solo-strip-dance.jpg
+        - image: /blue-angel-breisach-stripperin-jungesellenabschied.jpg
+        - image: /blue-angel-breisach-solo-strip-tanz.jpg
         - image: /blue-angel-breisach-striptease-poledance-show.jpg
         - image: /blue-angel-breisach-striptease-solo.jpg
-        - image: /blue-angel-breisach-pantyhose-feet-fetish.jpg
+        - image: /blue-angel-breisach-strumpfhose-fuesse-fetisch.jpg
         - image: /blue-angel-breisach-tabledance-poledance-show.jpg
-        - image: /blue-angel-breisach-dance-eroticism.jpg
+        - image: /blue-angel-breisach-tanz-erotik.jpg
     mainHeadline: Striptease, Tabledance & Emotions
   - type: blocks
     block:
