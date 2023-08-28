@@ -16,7 +16,7 @@ components:
       www.blue-angel.de
   - type: contentblock
     map:
-      showMap: true
+      showMap: false
     contactForm: true
     mainHeadline: Nachricht
     contentText: |-
