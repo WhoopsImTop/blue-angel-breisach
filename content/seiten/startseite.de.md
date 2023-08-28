@@ -177,8 +177,13 @@ components:
           Junggesellenabschiede, Geburtstagsfeiern bis hin zu Videodrehs und
           mehr zur Verfügung.
       - open: false
-        question: 5. Was sind die Eintrittspreise?
-        answer: Der Eintritt ist kostenfrei.
+        question: 5. Was sind die Preise?
+        answer: >-
+          Der Eintritt ist kostenfrei.\
+
+          Unsere Table Dollars, die ihr den Tänzerinnen zustecken könnt, kosten 1 $ = 2 €.\
+
+          D﻿ie Getränkepreise entnehmt ihr unsere Getränkekarte.
       - open: false
         question: 6. Wie sind die Preise für Getränke?
         answer: Das erste Getränk kostet mindestens 12 €, jedes weitere Getränk ab 7 €.
