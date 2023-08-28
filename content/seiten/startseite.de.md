@@ -47,7 +47,7 @@ components:
       hinreißenden Striptease-Darbietungen, die den Puls beschleunigen.
 
 
-      Hier hast du die Möglichkeit, den Alltag hinter dir zu lassen und dich in ein berauschendes Erlebnis zu stürzen, das deine Sinne beflügelt und deine Neugier entfacht. Erlebe verlockende Lapdances und private Dances, die deine Fantasien Wirklichkeit werden lassen.
+      Hier hast du die Möglichkeit, den Alltag hinter dir zu lassen und dich in ein berauschendes Erlebnis zu stürzen, das deine Sinne beflügelt und deine Neugier entfacht. Erlebe verlockende Lapdances und private Dances, die deine Fantasien Wirklichkeit werden lassen. Belohne unsere Tänzerinnen und stecke ihnen Table Dollars zu.
     button:
       buttonText: ""
       buttonLink: ""
