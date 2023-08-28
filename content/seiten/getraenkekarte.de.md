@@ -205,16 +205,12 @@ components:
             second_price: "130"
           - name: Jack Daniel's 700ml
             second_price: "170"
-          - name: "\t\r
+          - name: >-
+              	
+              Dazu erhalten Sie zu den 0,35 l / 0,5 l Flasche 2x 0,5 l und zu den 0,7l Flaschen 3x  0,5 l Coca Cola<sup>2,11</sup>, Red Bull<sup>2,11,12</sup>, Schweppes Bitter Lemon<sup>10</sup>, Schweppes Tonic Water<sup>10</sup>, Orangensaft  oder Apfelsaft kostenlos.
 
-              Dazu erhalten Sie zu den 0,35 l / 0,5l Flasche 2x
-              und bei den 0,7l Flaschen 3x Coca Cola<sup>2,11</sup> Orangensaft,
-              Schweppes Bitter Lemon<sup>10</sup>, Schweppes Tonic Water 10, Red
-              Bull<sup>2,11,12</sup> oder Apfelsaft kostenlos.\r
 
-              \r
-
-              Jede weitere 0,5l kosten 15,00 €."
+              Jede weitere 0,5l kosten 15,00 €.
       - category: Flaschenweine 250ml
         getraenke:
           - name: Heinrich Hansjakob - Weißer Burgunder Trocken (Qualitätswein)
