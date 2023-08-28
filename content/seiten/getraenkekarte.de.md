@@ -263,7 +263,7 @@ components:
       Karriere im Blue Angel.
     button:
       buttonText: Jetzt Bewerben
-      buttonLink: /kontakt
+      buttonLink: /jobs
     imageblock:
       backgroundImage: /blue-angel-breisach-009.jpg
 id: ae1ed92a-4d99-4a11-9d30-31465cab4324
