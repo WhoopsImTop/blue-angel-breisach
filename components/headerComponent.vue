@@ -55,7 +55,7 @@
       <NuxtLink :to="LocalizePath('/')">{{ menuEntryTranslations[$i18n.locale].stripclub }}</NuxtLink>
       <NuxtLink :to="LocalizePath('/galerie')">{{ menuEntryTranslations[$i18n.locale].galerie }}</NuxtLink>
       <NuxtLink :to="LocalizePath('/getraenkekarte')">{{ menuEntryTranslations[$i18n.locale].getraenkekarte }}</NuxtLink>
-      <NuxtLink :to="LocalizePath('/#faqs')">{{ menuEntryTranslations[$i18n.locale].faqs }}</NuxtLink>
+      <a style="color: #090101" @click="goToFAQS(LocalizePath('/'), '#faqs')">{{ menuEntryTranslations[$i18n.locale].faqs }}</a>
       <NuxtLink :to="LocalizePath('/jobs')">{{ menuEntryTranslations[$i18n.locale].jobs }}</NuxtLink>
       <NuxtLink :to="LocalizePath('/kontakt')">{{ menuEntryTranslations[$i18n.locale].kontakt }}</NuxtLink>
 
@@ -130,6 +130,14 @@ export default {
   methods: {
     LocalizePath(path) {
       return `/${this.$i18n.locale}${path}`
+    },
+    goToFAQS(path, anchor) {
+      this.$router.push(path)
+      setTimeout(() => {
+        document.querySelector(anchor).scrollIntoView({
+          behavior: 'smooth',
+        })
+      }, 100)
     },
   },
 }
