@@ -94,13 +94,15 @@ export default {
   height: 30px;
   border-radius: 50%;
   border: 2px solid var(--red);
-  margin-right: 10px;
+  margin-right: 10px !important;
   overflow: hidden;
 }
 
 .language-switch__container .active {
   outline: 2px solid var(--red);
   outline-offset: 2px;
+  -moz-outline-radius: 50%;
+  outline-radius: 50%;
 }
 
 .language-switch__container img {

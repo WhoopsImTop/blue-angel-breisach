@@ -3,7 +3,7 @@
     <div class="header">
       <div v-if="!isMobile" class="content-container header-desktop">
         <div class="header__content">
-          <LanguageSwitchComponent class="navigation-left"/>
+          <LanguageSwitchComponent class="navigation-left" />
           <NuxtLink :to="LocalizePath('/')">
             <img
               src="/blue-angel-stripclub-wortbildmarke.svg"
@@ -44,9 +44,6 @@
               <div class="burger__line"></div>
             </div>
           </div>
-          <div class="language-switch">
-            <LanguageSwitchComponent />
-          </div>
         </div>
       </div>
     </div>
@@ -55,12 +52,16 @@
       :class="toggleMenu ? 'active' : ''"
       @click="toggleMenu = false"
     >
-      <NuxtLink :to="LocalizePath('/')">Stripclub</NuxtLink>
-      <NuxtLink :to="LocalizePath('/galerie')">Galerie</NuxtLink>
-      <NuxtLink :to="LocalizePath('/getraenkekarte')">Getränkekarte</NuxtLink>
-      <NuxtLink :to="LocalizePath('/#faqs')">FAQ's</NuxtLink>
-      <NuxtLink :to="LocalizePath('/jobs')">Jobs</NuxtLink>
-      <NuxtLink :to="LocalizePath('/kontakt')">Kontakt</NuxtLink>
+      <NuxtLink :to="LocalizePath('/')">{{ menuEntryTranslations[$i18n.locale].stripclub }}</NuxtLink>
+      <NuxtLink :to="LocalizePath('/galerie')">{{ menuEntryTranslations[$i18n.locale].galerie }}</NuxtLink>
+      <NuxtLink :to="LocalizePath('/getraenkekarte')">{{ menuEntryTranslations[$i18n.locale].getraenkekarte }}</NuxtLink>
+      <NuxtLink :to="LocalizePath('/#faqs')">{{ menuEntryTranslations[$i18n.locale].faqs }}</NuxtLink>
+      <NuxtLink :to="LocalizePath('/jobs')">{{ menuEntryTranslations[$i18n.locale].jobs }}</NuxtLink>
+      <NuxtLink :to="LocalizePath('/kontakt')">{{ menuEntryTranslations[$i18n.locale].kontakt }}</NuxtLink>
+
+      <div class="language-switch">
+        <LanguageSwitchComponent @click="toggleMenu = true" />
+      </div>
     </div>
   </div>
 </template>
@@ -72,6 +73,32 @@ export default {
       toggleMenu: false,
       currentScrollPos: 0,
       isMobile: false,
+      menuEntryTranslations: {
+        de: {
+          stripclub: 'Stripclub',
+          galerie: 'Galerie',
+          getraenkekarte: 'Getränkekarte',
+          faqs: 'FAQ\'s',
+          jobs: 'Jobs',
+          kontakt: 'Kontakt',
+        },
+        en: {
+          stripclub: 'Stripclub',
+          galerie: 'Gallery',
+          getraenkekarte: 'Drinks',
+          faqs: 'FAQ\'s',
+          jobs: 'Jobs',
+          kontakt: 'Contact',
+        },
+        fr: {
+          stripclub: 'Club de strip-tease',
+          galerie: 'Galerie',
+          getraenkekarte: 'Carte des boissons',
+          faqs: 'FAQ',
+          jobs: 'Emplois',
+          kontakt: 'Contact',
+        },        
+      },
     }
   },
 
@@ -110,7 +137,6 @@ export default {
 
 <style>
 .header {
-  height: 140px;
   width: 100%;
   position: fixed;
   transition: top 0.3s;
