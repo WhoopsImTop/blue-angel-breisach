@@ -203,5 +203,23 @@ components:
           Telefon: [+49/7667 107 0](tel:004976671070)
     containerId: faqs
     speisekarte: []
+  - type: contentblock
+    imageblock:
+      image: false
+      galery: false
+      sphereViewer: false
+      backgroundImage: /blue-angel-breisach-poledance-tabledance.jpg
+    map:
+      showMap: false
+    contactForm: false
+    mainHeadline: Wir suchen Dich
+    contentText: Bereit, die Bühne zu erobern? Der Blue Angel - Stripclub sucht nach
+      talentierten Stripperinnen, die ihre Kunst bei uns zum Leben erwecken
+      möchten. Werde Teil unserer verführerischen Welt und entfache deine
+      Leidenschaft auf der Bühne. Bewirb dich noch heute für eine aufregende
+      Karriere im Blue Angel.
+    button:
+      buttonText: Jetzt bewerben
+      buttonLink: /jobs
 id: 7bfaf87a-bd21-491d-8cdb-df3b21bb73bd
 ---
