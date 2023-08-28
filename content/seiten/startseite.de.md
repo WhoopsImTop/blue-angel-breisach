@@ -183,7 +183,7 @@ components:
 
           Unsere Table Dollars, die ihr den Tänzerinnen zustecken könnt, kosten 1 $ = 2 €.\
 
-          D﻿ie Getränkepreise entnehmt ihr unsere Getränkekarte.
+          D﻿ie aktuellen Getränkepreise entnehmt ihr bitte unsere Getränkekarte.
       - open: false
         question: 6. Wie sind die Preise für Getränke?
         answer: Das erste Getränk kostet mindestens 12 €, jedes weitere Getränk ab 7 €.
