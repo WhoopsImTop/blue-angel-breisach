@@ -78,7 +78,7 @@ components:
       buttonText: Jetzt Bewerben
       buttonLink: /jobs
     imageblock:
-      backgroundImage: /blue-angel-breisach-nackte-haut.jpg
+      backgroundImage: /blue-angel-breisach-strumpfhose-fuesse-fetisch.jpg
       image: ""
 id: 9d75f2b4-8ce0-4606-920a-a025efa415c9
 ---
