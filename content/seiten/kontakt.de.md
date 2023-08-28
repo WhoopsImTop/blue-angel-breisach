@@ -53,6 +53,5 @@ components:
       buttonLink: /#kontakt
     imageblock:
       image: /blue-angel-breisach-014.jpeg
-    speisekarte: []
 id: ba819956-8842-453a-95a4-3bfc33f2328e
 ---

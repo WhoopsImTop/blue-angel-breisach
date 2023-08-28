@@ -24,13 +24,14 @@
         <p>{{ translations[currentLocale].text.atmosphere }}</p>
       </div>
       <div class="informational-text">
-        <p>{{ translations[currentLocale].text.contact }}</p>
+        <p v-html="translations[currentLocale].text.contact"></p>
       </div>
     </div>
 
     <div class="formular-container">
       <form>
         <div class="formular-row">
+          <input type="hidden" name="image_form" value="1">
           <input
             type="text"
             id="fname"
@@ -53,7 +54,7 @@
             :placeholder="translations[currentLocale].formFields.phoneNumber"
           />
         </div>
-        <input type="file" id="file" name="file" />
+        <input type="file" accept="image/*" id="file" name="file" multiple/>
         <textarea
           id="subject"
           name="subject"
@@ -71,7 +72,7 @@
             >{{ translations[currentLocale].formFields.privacyPolicy }}
           </label>
         </div>
-        <div class="button">
+        <div class="button" @click="sendMail()">
           {{ translations[currentLocale].formFields.apply }}
         </div>
       </form>
@@ -100,11 +101,11 @@ export default {
         de: {
           text: {
             welcome:
-              'Wir suchen ständig aufgeschlossene und charmante Damen/Girls (+18 Jahre) für unser Cabaret/Nightclub.',
+              'Der Blue Angel Stripclub sucht immer nach aufgeschlossenen, charmanten und talentierten Tänzerinnen (+18 Jahre). Werde Teil unserer verführerischen Welt und entfache deine Leidenschaft auf der Bühne.',
             atmosphere:
-              'Wir bieten eine angenehme Atmosphäre in einem exklusiven Cabaret. Die Wohnmöglichkeiten mit Internetzugang befinden sich im Hause. Gegenüber ist ein Fitness Studio mit Sauna, Pool und Solarium.',
+              'Wir bieten eine angenehme Atmosphäre in unserem exklusiven Cabaret. Zusätzlich bieten wir Wohnmöglichkeiten inklusive Internetzugang direkt im Haus. Gegenüber befindet ein professionelles Fitness Studio mit Sauna, Pool und Solarium.',
             contact:
-              'Du erreichst uns unter Mobil 0049/172-6320404 (auch mit SMS oder WhatsApp) oder unter der Rubrik Kontakt.',
+              'Du erreichst uns unter +49 172 63 20 40 4 (Auch per SMS oder WhatsApp) oder du nutzt einfach dieses Formular. Sende uns gerne ein paar Fotos von dir. Wir garantieren diskreten Umgang mit all deinen Informationen. <br> <br>Bewirb dich noch heute.',
           },
           formFields: {
             firstName: 'Vorname',
@@ -113,7 +114,7 @@ export default {
             phoneNumber: 'Telefonnummer',
             message: 'Nachricht',
             privacyPolicy:
-              'Ich bin mit der verarbeitung meiner Daten einverstanden.',
+              'Ich bin mit der Verarbeitung meiner Daten einverstanden.',
             apply: 'Bewerben',
           },
         },
@@ -296,6 +297,35 @@ export default {
     '$i18n.locale': function (newLocale) {
       this.currentLocale = newLocale
       this.$forceUpdate()
+    },
+  },
+  methods: {
+    sendMail() {
+      if (!this.privacyPolicy) {
+        alert('Please accept the privacy policy')
+        return
+      }
+
+      const form = document.querySelector('form')
+      const formData = new FormData(form)
+
+      fetch('http://blue-angel-breisach.de/mail.php', {
+        method: 'POST',
+        body: formData,
+      })
+        .then((response) => {
+          console.log(response)
+        })
+        .then((data) => {
+          if (data.success) {
+            alert('Mail sent successfully')
+          } else {
+            alert('Something went wrong')
+          }
+        })
+        .catch((error) => {
+          console.error('Error:', error)
+        })
     },
   },
 }

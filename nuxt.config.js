@@ -7,8 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title:
-      'Blue Angle | Nightclub, Striptease, Cabaret in Breisach',
+    title: 'Blue Angle | Nightclub, Striptease, Cabaret in Breisach',
     htmlAttrs: {
       lang: 'de',
     },
@@ -73,6 +72,7 @@ export default {
     '@nuxt/content',
     '@nuxtjs/markdownit',
     '@nuxtjs/i18n',
+    'nuxt-gmaps',
   ],
 
   plugins: ['~/plugins/jsonld'],
@@ -86,6 +86,10 @@ export default {
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
     path: 'content',
+  },
+
+  gmaps: {
+    key: "AIzaSyBw_QNEvvoRbs-czfH2GbPPkupqDdJTxhg"
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

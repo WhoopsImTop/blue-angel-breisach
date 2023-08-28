@@ -1,7 +1,7 @@
 <template>
   <div :class="returnClasses" :style="returnStyle">
     <div
-      :style="index === 0 ? 'margin-top: 100px' : ''"
+      :style="index === 0 ? 'margin-top: 100px;' : ''"
       class="content-container text-block"
       :class="returnRowClass"
       :id="component.containerId"
@@ -11,9 +11,11 @@
           component.mainHeadline ||
           component.subHeadline ||
           component.contentText ||
-          component.button
+          component.button ||
+          component.map.showMap
         "
         class="colum-content text-container"
+        :style="index === 0 && component.map.showMap ? 'width: 100%;' : ''"
       >
         <h1
           v-if="component.mainHeadline && index == 0"
@@ -42,6 +44,19 @@
           class="button"
           >{{ component.button.buttonText }}</NuxtLink
         >
+        <div v-if="component.map.showMap">
+          <iframe
+            width="100%"
+            height="450"
+            style="border: 0"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB1J_aUNrJLoK4EXiuiZgAKl1pJuuJMojQ
+    &q=Blue+Angel,Breisach+am+Rhein"
+          >
+          </iframe>
+        </div>
       </div>
       <div class="colum-content" v-if="checkVisibility">
         <img
