@@ -12,7 +12,7 @@ components:
     imageblock:
       backgroundImage: /blue-angel-breisach-solo-strip-dance.jpg
       image: ""
-  - type: drinkmenu
+  - type: getraenkekarte
     speisekarte:
       - category: Bottled Beers 0.33l
         drinks:

@@ -12,7 +12,7 @@ components:
     imageblock:
       backgroundImage: /blue-angel-breisach-solo-strip-dance.jpg
       image: ""
-  - type: carteboissons
+  - type: getraenkekarte
     speisekarte:
       - category: Bières en Bouteille 0,33 l
         boissons:
