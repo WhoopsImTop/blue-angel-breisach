@@ -150,7 +150,9 @@ components:
           seit über 30 Jahren eine einladende Atmosphäre für anspruchsvolle
           Unterhaltung bietet.\
 
-          Das Cabaret wurde im Oktober 1993 eröffnet und 2009 wurde der gesamte Nachtclub komplett neu gestaltet. 2021 wurde eine moderne Klimaanlage inklusive Luftreinigung integriert.
+          Das Cabaret wurde im Oktober 1993 eröffnet und 2009 wurde der gesamte Nachtclub komplett neu gestaltet. Alle Räume sind klimatisiert und 2021 wurde eine moderne  Luftreinigung integriert. \
+
+          Parkplätze befinden sich in ausreichender Anzahl direkt neben dem Blue Angel.
         open: false
       - open: false
         question: 2. Welche Art von Unterhaltung wird im Blue Angel Stripclub angeboten?
