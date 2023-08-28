@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="header">
-      <div class="content-container">
+      <div v-if="!isMobile" class="content-container header-desktop">
         <div class="header__content">
-          <LanguageSwitchComponent />
+          <LanguageSwitchComponent class="navigation-left"/>
           <NuxtLink :to="LocalizePath('/')">
             <img
               src="/blue-angel-stripclub-wortbildmarke.svg"
@@ -20,6 +20,32 @@
             <div class="burger__line"></div>
             <div class="burger__line"></div>
             <div class="burger__line"></div>
+          </div>
+        </div>
+      </div>
+      <div v-if="isMobile" class="content-container header-mobile">
+        <div class="header__content">
+          <div class="navigation">
+            <NuxtLink :to="LocalizePath('/')">
+              <img
+                src="/blue-angel-stripclub-wortbildmarke.svg"
+                alt="blue-angle-logo"
+                title="blue-angle-logo"
+                height="60"
+              />
+            </NuxtLink>
+            <div
+              class="burger__container"
+              :class="toggleMenu ? 'active' : ''"
+              @click="toggleMenu = !toggleMenu"
+            >
+              <div class="burger__line"></div>
+              <div class="burger__line"></div>
+              <div class="burger__line"></div>
+            </div>
+          </div>
+          <div class="language-switch">
+            <LanguageSwitchComponent />
           </div>
         </div>
       </div>
@@ -45,6 +71,7 @@ export default {
     return {
       toggleMenu: false,
       currentScrollPos: 0,
+      isMobile: false,
     }
   },
 
@@ -52,13 +79,26 @@ export default {
     let prevScrollpos = window.pageYOffset
     window.onscroll = function () {
       this.currentScrollPos = window.pageYOffset
-      if (prevScrollpos > this.currentScrollPos || this.currentScrollPos < 100) {
+      if (
+        prevScrollpos > this.currentScrollPos ||
+        this.currentScrollPos < 100
+      ) {
         document.querySelector('.header').style.top = '0'
       } else {
         document.querySelector('.header').style.top = '-80px'
       }
       prevScrollpos = this.currentScrollPos
     }
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 995) {
+        this.isMobile = false
+      } else {
+        this.isMobile = true
+      }
+    })
+
+    window.innerWidth < 995 ? (this.isMobile = true) : (this.isMobile = false)
   },
   methods: {
     LocalizePath(path) {
@@ -70,7 +110,7 @@ export default {
 
 <style>
 .header {
-  height: 80px;
+  height: 140px;
   width: 100%;
   position: fixed;
   transition: top 0.3s;
@@ -82,8 +122,7 @@ export default {
 
 .header__content {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   height: 100%;
   width: 100%;
   padding: 15px 0;
@@ -193,7 +232,51 @@ export default {
   transition: 0.3s ease-in-out;
 }
 
+.header-desktop {
+  display: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.language-switch {
+  padding: 10px;
+}
+
 @media (min-width: 995px) {
+  .header {
+    height: 80px;
+  }
+
+  .header-mobile {
+    display: none;
+  }
+
+  .header-desktop {
+    display: block;
+  }
+
+  .header__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .navigation-left {
+    justify-self: flex-start;
+  }
+
+  .burger__container {
+    justify-self: flex-end;
+  }
+
   .header-link-container a {
     color: var(--background-dark);
     font-size: 30px;

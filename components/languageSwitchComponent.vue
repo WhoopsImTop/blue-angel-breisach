@@ -1,33 +1,22 @@
 <template>
   <div
     class="language-switch"
-    :class="isActive ? 'active' : ''"
-    @click="isActive = !isActive"
   >
     <div class="language-switch__container">
-      <div class="language-switch__current">
+      <NuxtLink
+        v-for="language in languages"
+        :key="language.language_code"
+        :to="switchLocale(language.language_code)"
+        class="language-switch__current"
+        :class="language.language_code === currentLanguage ? 'active' : ''"
+        @click="changeLocale(language.language_code)"
+      >
         <img
-          :src="selectedLanguage.language_image"
-          :alt="selectedLanguage.language_name"
-          :title="selectedLanguage.language_name"
+          :src="language.language_image"
+          :alt="language.language_name"
+          :title="language.language_name"
         />
-      </div>
-      <div class="language-switch__list">
-        <NuxtLink
-          v-for="language in languages"
-          :key="language.language_code"
-          class="language-switch__item"
-          :to="switchLocale(language.language_code)"
-          @click="changeLocale(language.language_code)"
-        >
-          <img
-            :src="language.language_image"
-            :alt="language.language_name"
-            :title="language.language_name"
-          />
-          <p>{{ language.language_name }}</p>
-        </NuxtLink>
-      </div>
+      </NuxtLink>
     </div>
   </div>
 </template>
@@ -107,6 +96,11 @@ export default {
   border: 2px solid var(--red);
   margin-right: 10px;
   overflow: hidden;
+}
+
+.language-switch__container .active {
+  outline: 2px solid var(--red);
+  outline-offset: 2px;
 }
 
 .language-switch__container img {

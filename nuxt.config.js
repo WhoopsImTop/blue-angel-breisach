@@ -41,7 +41,7 @@ export default {
   ],
 
   i18n: {
-    locales: ['de', 'en', 'fr'],
+    locales: ['de', 'en', 'fr', 'ro', 'pl', 'ru', 'hu', 'bg', 'cs', 'sk'],
     defaultLocale: 'de',
     strategy: 'prefix',
   },
