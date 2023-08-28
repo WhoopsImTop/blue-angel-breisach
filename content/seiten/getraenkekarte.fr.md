@@ -1,45 +1,45 @@
 ---
-siteTitle: Drink Menu
-slug: drink-menu
-metaDescription: We offer the perfect drink for every taste. Experience exquisite delights with our exquisite drink menu at Blue Angel.
+siteTitle: Carte des Boissons
+slug: carte-des-boissons
+metaDescription: Nous offrons la boisson parfaite pour chaque goût. Découvrez des délices exquis avec notre carte des boissons exquise au Blue Angel.
 components:
   - type: contentblock
     map:
       showMap: false
     contactForm: false
-    mainHeadline: Drink Menu
-    contentText: We offer the perfect drink for every taste. Experience exquisite delights with our exquisite drink menu at Blue Angel.
+    mainHeadline: Carte des Boissons
+    contentText: Nous offrons la boisson parfaite pour chaque goût. Découvrez des délices exquis avec notre carte des boissons exquise au Blue Angel.
     imageblock:
       backgroundImage: /blue-angel-breisach-solo-strip-dance.jpg
       image: ""
-  - type: drinkmenu
+  - type: carteboissons
     speisekarte:
-      - category: Bottled Beers 0.33l
-        drinks:
+      - category: Bières en Bouteille 0,33 l
+        boissons:
           - name: Rothaus Pils Tannenzäpfle <sup>14</sup>
             first_price: "12"
             second_price: "8"
-          - name: Rothaus Non-Alcoholic Zäpfle <sup>14</sup>
+          - name: Rothaus Sans Alcool Zäpfle <sup>14</sup>
             first_price: "12"
             second_price: "8"
           - name: Paulaner Hefe Weißbier <sup>14,15</sup>
             first_price: "12"
             second_price: "8"
-      - category: Non-Alcoholic Drinks 0.25l
-        drinks:
-          - name: Mineral Water
+      - category: Boissons Sans Alcool 0,25 l
+        boissons:
+          - name: Eau Minérale
             first_price: "12"
             second_price: "8"
           - name: Coca Cola <sup>2,11</sup>
             first_price: "12"
             second_price: "8"
-          - name: Apple Juice
+          - name: Jus de Pomme
             first_price: "12"
             second_price: "8"
-          - name: Apple Juice Spritzer
+          - name: Jus de Pomme Gazéifié
             first_price: "12"
             second_price: "8"
-          - name: Orange Juice
+          - name: Jus d'Orange
             first_price: "12"
             second_price: "8"
           - name: Schweppes Bitter Lemon <sup>10</sup>
@@ -51,19 +51,19 @@ components:
           - name: Red Bull <sup>2,11,12</sup>
             first_price: "13"
             second_price: "9"
-      - category: Hot Drinks
-        drinks:
+      - category: Boissons Chaudes
+        boissons:
           - name: Espresso <sup>11</sup>
             first_price: "12"
             second_price: "7"
-          - name: Coffee Creme <sup>11</sup>
+          - name: Café Crème <sup>11</sup>
             first_price: "12"
             second_price: "7"
-          - name: Glass of Tea (Peppermint or Black Tea)
+          - name: Verre de Thé (Menthe Poivrée ou Thé Noir)
             first_price: "12"
             second_price: "7"
       - category: Long Drinks 4 cl
-        drinks:
+        boissons:
           - name: Asbach Cola <sup>2,11</sup>
             first_price: "15"
             second_price: "11"
@@ -76,7 +76,7 @@ components:
           - name: Vodka Lemon <sup>10</sup> / Tonic <sup>10</sup> / Cola <sup>2,11</sup>
             first_price: "15"
             second_price: "11"
-          - name: Vodka Apple Juice / Orange
+          - name: Vodka Jus de Pomme / Orange
             first_price: "15"
             second_price: "11"
           - name: Vodka Red Bull <sup>2,11,12</sup>
@@ -85,7 +85,7 @@ components:
           - name: Gin Lemon <sup>10</sup>/ Tonic <sup>10</sup>/ Cola <sup>2,11</sup>/ Orange
             first_price: "15"
             second_price: "11"
-          - name: Whisky <sup>2</sup> Cola<sup>2,11</sup> / Orange / Soda / Apple Juice
+          - name: Whisky <sup>2</sup> Cola<sup>2,11</sup> / Orange / Soda / Jus de Pomme
             first_price: "15"
             second_price: "11"
           - name: Whisky <sup>2</sup> Red Bull <sup>2,11,12</sup>
@@ -97,17 +97,17 @@ components:
           - name: Jack Daniels Red Bull <sup>2,11,12</sup>
             first_price: "17"
             second_price: "13"
-          - name: Ricard<sup>2</sup> Water / Orange / Cola <sup>2,11</sup>
+          - name: Ricard<sup>2</sup> Eau / Orange / Cola <sup>2,11</sup>
             first_price: "15"
             second_price: "11"
-          - name: Pernod<sup>2</sup> Water / Orange / Cola <sup>2,11</sup>
+          - name: Pernod<sup>2</sup> Eau / Orange / Cola <sup>2,11</sup>
             first_price: "15"
             second_price: "11"
           - name: Campari<sup>2</sup> Soda / Orange
             first_price: "15"
             second_price: "11"
-      - category: Spirits 4 cl
-        drinks:
+      - category: Spiritueux 4 cl
+        boissons:
           - name: Barcadi
             first_price: "14"
             second_price: "10"
@@ -136,12 +136,12 @@ components:
             first_price: "14"
             second_price: "10"
       - category: Brandy 4 cl
-        drinks:
+        boissons:
           - name: Asbach Uralt
             first_price: "14"
             second_price: "10"
       - category: Cognac 4 cl
-        drinks:
+        boissons:
           - name: Remy Martin VSOP
             first_price: "21"
             second_price: "17"
@@ -149,7 +149,7 @@ components:
             first_price: "21"
             second_price: "17"
       - category: Scotch Whisky 4 cl
-        drinks:
+        boissons:
           - name: Johnnie Walker Red Label<sup>2</sup>
             first_price: "14"
             second_price: "10"
@@ -162,11 +162,11 @@ components:
           - name: JεB Justerini & Brooks<sup>2</sup>
             first_price: "16"
             second_price: "12"
-          - name: Chivas Regal 12 Years<sup>2</sup>
+          - name: Chivas Regal 12 Ans<sup>2</sup>
             first_price: "17"
             second_price: "13"
       - category: Bourbon Whiskey 4 cl
-        drinks:
+        boissons:
           - name: Jim Beam
             first_price: "14"
             second_price: "10"
@@ -176,68 +176,68 @@ components:
           - name: Gentleman Jack Daniel's
             first_price: "17"
             second_price: "13"
-      - category: Canadian Whisky 4 cl
-        drinks:
+      - category: Whisky Canadien 4 cl
+        boissons:
           - name: Crown Royal<sup>2</sup>
             first_price: "19"
             second_price: "15"
-      - category: Bottles
-        drinks:
-          - name: Asbach Uralt 350ml
+      - category: Bouteilles
+        boissons:
+          - name: Asbach Uralt 350 ml
             second_price: "90"
-          - name: Barcadi 350ml
+          - name: Barcadi 350 ml
             second_price: "90"
-          - name: Barcadi 700ml
+          - name: Barcadi 700 ml
             second_price: "150"
-          - name: Vodka Moskovskaya 500ml
+          - name: Vodka Moskovskaya 500 ml
             second_price: "95"
-          - name: Vodka Three Sixty 500ml
+          - name: Vodka Three Sixty 500 ml
             second_price: "95"
-          - name: Vodka Three Sixty 700ml
+          - name: Vodka Three Sixty 700 ml
             second_price: "150"
-          - name: Johnnie Walker Red Label<sup>2</sup> 350ml
+          - name: Johnnie Walker Red Label<sup>2</sup> 350 ml
             second_price: "90"
-          - name: Johnnie Walker Red Label<sup>2</sup> 700ml
+          - name: Johnnie Walker Red Label<sup>2</sup> 700 ml
             second_price: "150"
-          - name: Jack Daniel's 350ml
+          - name: Jack Daniel's 350 ml
             second_price: "100"
-          - name: Jack Daniel's 500ml
+          - name: Jack Daniel's 500 ml
             second_price: "130"
-          - name: Jack Daniel's 700ml
+          - name: Jack Daniel's 700 ml
             second_price: "170"
           - name: >-
-              This includes 2x 0.5l Coca Cola<sup>2,11</sup>, Red Bull<sup>2,11,12</sup>, Schweppes Bitter Lemon<sup>10</sup>, Schweppes Tonic Water<sup>10</sup>, Orange Juice, or Apple Juice for 0.35l / 0.5l bottles, and 3x 0.5l for 0.7l bottles, free of charge.
-              Additional 0.5l cost 15.00 € each.
-      - category: Bottle Wines 250ml
-        drinks:
-          - name: Heinrich Hansjakob - White Burgundy Dry (Quality Wine)
+              Cela inclut 2x 0,5 l de Coca Cola<sup>2,11</sup>, Red Bull<sup>2,11,12</sup>, Schweppes Bitter Lemon<sup>10</sup>, Schweppes Tonic Water<sup>10</sup>, Jus d'Orange ou Jus de Pomme pour les bouteilles de 0,35 l / 0,5 l, et 3x 0,5 l pour les bouteilles de 0,7 l, gratuitement.
+              Des bouteilles supplémentaires de 0,5 l coûtent 15,00 € chacune.
+      - category: Vins en Bouteille 250 ml
+        boissons:
+          - name: Heinrich Hansjakob - Bourgogne Blanc Sec (Vin de Qualité)
             second_price: "12"
             first_price: "16"
-          - name: Heinrich Hansjakob - Pinot Noir Red Wine Dry (Quality Wine)
+          - name: Heinrich Hansjakob - Vin Rouge Pinot Noir Sec (Vin de Qualité)
             first_price: "16"
             second_price: "12"
-          - name: Carafe of Mineral Water (for Spritzers)
+          - name: Carafe d'Eau Minérale (pour les Schorles)
             first_price: "7"
             second_price: "6"
   - type: blocks
     block:
-      - blockTitle: Free Entry
+      - blockTitle: Entrée Gratuite
         body: |-
-          Enjoy free entry and immerse yourself in the world of Blue Angel - Stripclub.
+          Profitez de l'entrée gratuite et plongez-vous dans le monde de Blue Angel - Stripclub.
         icon: /blue-angel-door.svg
-      - blockTitle: Shows, Lap Dances, and More
-        body: Experience breathtaking shows, enticing lap dances & striptease, and much more with our girls.
+      - blockTitle: Spectacles, Lap Dances et Plus
+        body: Découvrez des spectacles époustouflants, des lap dances séduisants et des stripteases avec nos filles.
         icon: /blue-angel-fire.svg
       - icon: /blue-angel-opening-hours.svg
-        blockTitle: Opening Hours
+        blockTitle: Horaires d'Ouverture
         body: |-
-          Monday - Saturday\
-          9:00 PM - 5:00 AM
+          Lundi - Samedi\
+          21h00 - 5h00
   - type: contentblock
-    mainHeadline: Join Us
-    contentText: Ready to conquer the stage? Blue Angel - Stripclub is looking for talented dancers who want to bring their art to life with us. Become part of our alluring world and ignite your passion on stage. Apply today for an exciting career at Blue Angel.
+    mainHeadline: Rejoignez-nous
+    contentText: Prêt à conquérir la scène ? Blue Angel - Stripclub recherche des danseuses talentueuses qui veulent donner vie à leur art avec nous. Faites partie de notre monde séduisant et faites jaillir votre passion sur scène. Postulez dès aujourd'hui pour une carrière passionnante chez Blue Angel.
     button:
-      buttonText: Apply Now
+      buttonText: Postuler Maintenant
       buttonLink: /jobs
     imageblock:
       backgroundImage: /blue-angel-breisach-009.jpg
