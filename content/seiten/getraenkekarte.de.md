@@ -165,7 +165,7 @@ components:
           - name: Chivas Regal 12 Years<sup>2</sup>
             first_price: "17"
             second_price: "13"
-      - category: Burbon Whiskey 4 cl
+      - category: Bourbon Whiskey 4 cl
         getraenke:
           - name: Jim Beam
             first_price: "14"
@@ -217,22 +217,10 @@ components:
               Jede weitere 0,5l kosten 15,00 €."
       - category: Flaschenweine 250ml
         getraenke:
-          - name: Heinrich Hansjakob
+          - name: Heinrich Hansjakob - Weißer Burgunder Trocken (Qualitätswein)
             second_price: "12"
             first_price: "16"
-          - name: Weißer Burgunder Trocken
-            first_price: "16"
-            second_price: "12"
-          - name: Trocken Qualitätswein
-            first_price: "16"
-            second_price: "12"
-          - name: Heinrich Hansjakob
-            first_price: "16"
-            second_price: "12"
-          - name: Spätburgunder Rotwein Trocken
-            first_price: "16"
-            second_price: "12"
-          - name: Qualitätswein
+          - name: Heinrich Hansjakob - Spätburgunder Rotwein Trocken (Qualitätswein)
             first_price: "16"
             second_price: "12"
           - name: Karaffe Mineralwasser (für Schorle)
@@ -263,7 +251,7 @@ components:
       Karriere im Blue Angel.
     button:
       buttonText: Jetzt Bewerben
-      buttonLink: /kontakt
+      buttonLink: /jobs
     imageblock:
       backgroundImage: /blue-angel-breisach-009.jpg
 id: ae1ed92a-4d99-4a11-9d30-31465cab4324

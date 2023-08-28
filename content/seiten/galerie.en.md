@@ -5,7 +5,9 @@ components:
   - type: contentblock
     mainHeadline: Image Gallery
     contentText: >-
-      Use our interactive 360-degree gallery to take a realistic look inside our premises. Click on your PC or move your phone to look around. You can even use a VR headset for an even deeper immersion.
+      Use our interactive 360-degree gallery to take a realistic look inside our
+      premises. Click on your PC or move your phone to look around. You can even
+      use a VR headset for an even deeper immersion.
 
       Discover our elegant stage where our talented dancers showcase their stripping skills. Explore private areas for special occasions, air-conditioned rooms, smoking and non-smoking sections – all in an impressive ambiance.
     subHeadline: Dive into the Nightlife!
@@ -56,7 +58,8 @@ components:
       - icon: /blue-angel-specials.svg
         blockTitle: Specials
         body: >-
-          Interested in booking specials like private shows, events, or anything else for yourself and/or others?
+          Interested in booking specials like private shows, events, or anything
+          else for yourself and/or others?
 
           Feel free to contact us.
         link:
@@ -64,7 +67,10 @@ components:
           link: /kontakt
   - type: contentblock
     mainHeadline: We're Looking for You
-    contentText: Ready to conquer the stage? Blue Angel - Stripclub is searching for talented dancers who want to bring their art to life with us. Join our seductive world and ignite your passion on stage. Apply today for an exciting career at Blue Angel.
+    contentText: Ready to conquer the stage? Blue Angel - Stripclub is searching for
+      talented dancers who want to bring their art to life with us. Join our
+      seductive world and ignite your passion on stage. Apply today for an
+      exciting career at Blue Angel.
     button:
       buttonText: Apply Now
       buttonLink: /kontakt

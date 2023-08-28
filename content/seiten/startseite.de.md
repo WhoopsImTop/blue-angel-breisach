@@ -2,7 +2,8 @@
 siteTitle: Startseite
 slug: startseite
 metaTitle: Blue Angel Breisach | Striptease
-metaDescription: Ich bin eine Metatextbeschreibung
+metaDescription: " Tauche ein in die faszinierende Atmosphäre des Blue Angel –
+  dem verführerischsten Stripclub in Breisach am Rhein und Umgebung."
 components:
   - type: contentblock
     mainHeadline: Blue Angel Stripclub
@@ -51,7 +52,7 @@ components:
       buttonText: ""
       buttonLink: ""
     imageblock:
-      image: /blue-angel-breisach-011.jpg
+      image: /blue-angel-breisach-stripclub-girls.jpg
   - type: contentblock
     mainHeadline: Specials & Private Party
     contentText: Entdecke im Blue Angel nicht nur sinnliche Performances und
@@ -203,5 +204,23 @@ components:
           Telefon: [+49/7667 107 0](tel:004976671070)
     containerId: faqs
     speisekarte: []
+  - type: contentblock
+    imageblock:
+      image: false
+      galery: false
+      sphereViewer: false
+      backgroundImage: /blue-angel-breisach-poledance-tabledance.jpg
+    map:
+      showMap: false
+    contactForm: false
+    mainHeadline: Wir suchen Dich
+    contentText: Bereit, die Bühne zu erobern? Der Blue Angel - Stripclub sucht nach
+      talentierten Stripperinnen, die ihre Kunst bei uns zum Leben erwecken
+      möchten. Werde Teil unserer verführerischen Welt und entfache deine
+      Leidenschaft auf der Bühne. Bewirb dich noch heute für eine aufregende
+      Karriere im Blue Angel.
+    button:
+      buttonText: Jetzt bewerben
+      buttonLink: /jobs
 id: 7bfaf87a-bd21-491d-8cdb-df3b21bb73bd
 ---

@@ -5,7 +5,10 @@ components:
   - type: contentblock
     mainHeadline: Galerie d'Images
     contentText: >-
-      Utilisez notre galerie interactive à 360 degrés pour jeter un coup d'œil réaliste dans nos locaux. Cliquez sur votre PC ou déplacez votre téléphone pour regarder autour de vous. Vous pouvez même utiliser un casque de réalité virtuelle pour une immersion plus profonde.
+      Utilisez notre galerie interactive à 360 degrés pour jeter un coup d'œil
+      réaliste dans nos locaux. Cliquez sur votre PC ou déplacez votre téléphone
+      pour regarder autour de vous. Vous pouvez même utiliser un casque de
+      réalité virtuelle pour une immersion plus profonde.
 
       Découvrez notre élégante scène où nos danseuses talentueuses présentent leurs talents de striptease. Explorez des espaces privés pour des occasions spéciales, des salles climatisées, des zones fumeurs et non-fumeurs, le tout dans un cadre impressionnant.
     subHeadline: Plongez dans la vie nocturne !
@@ -56,7 +59,8 @@ components:
       - icon: /blue-angel-specials.svg
         blockTitle: Offres Spéciales
         body: >-
-          Vous souhaitez réserver des offres spéciales comme des spectacles privés, des événements ou autres pour vous et/ou d'autres personnes ?
+          Vous souhaitez réserver des offres spéciales comme des spectacles
+          privés, des événements ou autres pour vous et/ou d'autres personnes ?
 
           N'hésitez pas à nous contacter.
         link:
@@ -64,7 +68,10 @@ components:
           link: /kontakt
   - type: contentblock
     mainHeadline: Nous Vous Cherchons
-    contentText: Prêt(e) à conquérir la scène ? Le Blue Angel - Stripclub recherche des danseuses talentueuses qui souhaitent donner vie à leur art chez nous. Rejoignez notre monde séduisant et faites brûler votre passion sur scène. Postulez dès aujourd'hui pour une carrière passionnante au Blue Angel.
+    contentText: Prêt(e) à conquérir la scène ? Le Blue Angel - Stripclub recherche
+      des danseuses talentueuses qui souhaitent donner vie à leur art chez nous.
+      Rejoignez notre monde séduisant et faites brûler votre passion sur scène.
+      Postulez dès aujourd'hui pour une carrière passionnante au Blue Angel.
     button:
       buttonText: Postuler Maintenant
       buttonLink: /kontakt
