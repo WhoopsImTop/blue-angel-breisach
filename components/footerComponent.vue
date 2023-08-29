@@ -17,13 +17,16 @@
         }}</NuxtLink>
       </div>
       <div class="social-actions">
-        <img src="/images/facebook.svg" alt="facebook" width="30" height="30" />
-        <img
-          src="/images/instagram.svg"
-          alt="instagram"
-          width="30"
-          height="30"
-        />
+        <a href="https://www.facebook.com/blue.angel.breisach" target="_blank">
+          <img src="/images/facebook.svg" alt="facebook" width="30" height="30"
+        /></a>
+        <a href="https://www.instagram.com/blue.angel.breisach/" target="_blank"
+          ><img
+            src="/images/instagram.svg"
+            alt="instagram"
+            width="30"
+            height="30"
+        /></a>
       </div>
     </div>
     <div class="highlighted">
