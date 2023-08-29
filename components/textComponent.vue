@@ -6,6 +6,7 @@
       :class="returnRowClass"
       :id="component.containerId"
     >
+      <nuxt-link v-if="component.jobs" :to="LocalizePath('/jobs')" class="jobnoctice">JOBS</nuxt-link>
       <div
         v-if="
           component.mainHeadline ||
@@ -255,6 +256,30 @@ export default {
   width: 100%;
 }
 
+.jobnoctice {
+  position: absolute;
+  top: 100px;
+  right: 30px;
+  background-color: var(--red);
+  color: var(--background-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--primary-font);
+  font-size: 18px;
+  font-weight: bolder;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  transform: rotate(25deg);
+}
+
+.jobnoctice:hover {
+  background-color: var(--background-dark);
+  color: var(--red);
+  border: 2px solid var(--red);
+}
+
 @media (min-width: 995px) {
   .row {
     display: flex;
@@ -298,5 +323,24 @@ export default {
   .full-height {
     height: 70vh;
   }
+
+  
+.jobnoctice {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  background-color: var(--red);
+  color: var(--background-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--primary-font);
+  font-size: 25px;
+  font-weight: bolder;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transform: rotate(25deg);
+}
 }
 </style>
