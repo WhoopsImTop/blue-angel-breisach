@@ -8,15 +8,18 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Blue Angel | Nightclub, Striptease, Cabaret in Breisach',
-    description:
-      'Tauche ein in die faszinierende Atmosphäre des Blue Angel – dem verführerischsten Stripclub in Breisach am Rhein und Umgebung.',
     htmlAttrs: {
       lang: 'de',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Tauche ein in die faszinierende Atmosphäre des Blue Angel – dem verführerischsten Stripclub in Breisach am Rhein und Umgebung.',
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
