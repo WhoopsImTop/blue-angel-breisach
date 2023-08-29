@@ -2,7 +2,9 @@
 siteTitle: Jobs
 slug: jobs
 metaTitle: Blue Angel - Jobs
-metaDescription: "Werde Teil unseres Teams im Blue Angel – Wo Leidenschaft und Unterhaltung aufeinandertreffen. Entdecke spannende Karrieremöglichkeiten in einer blühenden Atmosphäre. Dein Traumjob erwartet dich!"
+metaDescription: Werde Teil unseres Teams im Blue Angel – Wo Leidenschaft und
+  Unterhaltung aufeinandertreffen. Entdecke spannende Karrieremöglichkeiten in
+  einer blühenden Atmosphäre. Dein Traumjob erwartet dich!
 components:
   - type: contentblock
     imageblock:
@@ -14,7 +16,7 @@ components:
     map:
       showMap: false
     contactForm: false
-    mainHeadline: WIR SUCHEN DICH
+    mainHeadline: Wir suchen Dich
     contentText: Der Blue Angel - Stripclub sucht nach talentierten Stripperinnen,
       die ihre Kunst bei uns zum Leben erwecken möchten. Werde Teil unserer
       verführerischen Welt und entfache deine Leidenschaft auf der Bühne. Bewirb

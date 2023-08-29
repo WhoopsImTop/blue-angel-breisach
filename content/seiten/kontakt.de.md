@@ -2,7 +2,8 @@
 siteTitle: Kontakt
 slug: kontakt
 metaTitle: Blue Angel - Kontakt
-metaDescription: "Im Blue Angel, deinem Top-Stripclub in Breisach am Rhein, bieten wir Buchungen und Junggesellenabschiede an. Kontaktiere uns jetzt!"
+metaDescription: Im Blue Angel, deinem Top-Stripclub in Breisach am Rhein,
+  bieten wir Buchungen und Junggesellenabschiede an. Kontaktiere uns jetzt!
 components:
   - type: contentblock
     map:
@@ -30,10 +31,10 @@ components:
       showMap: false
     mainHeadline: Wir suchen dich
     contentText: Bereit, die Bühne zu erobern? Der Blue Angel - Stripclub sucht nach
-      talentierten Stripperinnen, die ihre Kunst bei uns zum Leben erwecken
-      möchten. Werde Teil unserer verführerischen Welt und entfache deine
-      Leidenschaft auf der Bühne. Bewirb dich noch heute für eine aufregende
-      Karriere im Blue Angel.
+      talentierten Stripperinnen & Tischdamen, die ihre Kunst bei uns zum Leben
+      erwecken möchten. Werde Teil unserer verführerischen Welt und entfache
+      deine Leidenschaft auf der Bühne. Bewirb dich noch heute für eine
+      aufregende Karriere im Blue Angel.
     button:
       buttonText: Jetzt bewerben
       buttonLink: /kontakt

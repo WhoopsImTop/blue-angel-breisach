@@ -1,14 +1,16 @@
 ---
 siteTitle: Carte des Boissons
 slug: carte-des-boissons
-metaDescription: Nous offrons la boisson parfaite pour chaque goût. Découvrez des délices exquis avec notre carte des boissons exquise au Blue Angel.
+metaDescription: Nous offrons la boisson parfaite pour chaque goût. Découvrez
+  des délices exquis avec notre carte des boissons exquise au Blue Angel.
 components:
   - type: contentblock
     map:
       showMap: false
     contactForm: false
     mainHeadline: Carte des Boissons
-    contentText: Nous offrons la boisson parfaite pour chaque goût. Découvrez des délices exquis avec notre carte des boissons exquise au Blue Angel.
+    contentText: Nous offrons la boisson parfaite pour chaque goût. Découvrez des
+      délices exquis avec notre carte des boissons exquise au Blue Angel.
     imageblock:
       backgroundImage: /blue-angel-breisach-solo-strip-dance.jpg
       image: ""
@@ -205,9 +207,12 @@ components:
             second_price: "130"
           - name: Jack Daniel's 700 ml
             second_price: "170"
-          - name: >-
-              Cela inclut 2x 0,5 l de Coca Cola<sup>2,11</sup>, Red Bull<sup>2,11,12</sup>, Schweppes Bitter Lemon<sup>10</sup>, Schweppes Tonic Water<sup>10</sup>, Jus d'Orange ou Jus de Pomme pour les bouteilles de 0,35 l / 0,5 l, et 3x 0,5 l pour les bouteilles de 0,7 l, gratuitement.
-              Des bouteilles supplémentaires de 0,5 l coûtent 15,00 € chacune.
+          - name: Cela inclut 2x 0,5 l de Coca Cola<sup>2,11</sup>, Red
+              Bull<sup>2,11,12</sup>, Schweppes Bitter Lemon<sup>10</sup>,
+              Schweppes Tonic Water<sup>10</sup>, Jus d'Orange ou Jus de Pomme
+              pour les bouteilles de 0,35 l / 0,5 l, et 3x 0,5 l pour les
+              bouteilles de 0,7 l, gratuitement. Des bouteilles supplémentaires
+              de 0,5 l coûtent 15,00 € chacune.
       - category: Vins en Bouteille 250 ml
         boissons:
           - name: Heinrich Hansjakob - Bourgogne Blanc Sec (Vin de Qualité)
@@ -222,11 +227,12 @@ components:
   - type: blocks
     block:
       - blockTitle: Entrée Gratuite
-        body: |-
-          Profitez de l'entrée gratuite et plongez-vous dans le monde de Blue Angel - Stripclub.
+        body: Profitez de l'entrée gratuite et plongez-vous dans le monde de Blue Angel
+          - Stripclub.
         icon: /blue-angel-door.svg
       - blockTitle: Spectacles, Lap Dances et Plus
-        body: Découvrez des spectacles époustouflants, des lap dances séduisants et des stripteases avec nos filles.
+        body: Découvrez des spectacles époustouflants, des lap dances séduisants et des
+          stripteases avec nos filles.
         icon: /blue-angel-fire.svg
       - icon: /blue-angel-opening-hours.svg
         blockTitle: Horaires d'Ouverture
@@ -235,7 +241,11 @@ components:
           21h00 - 5h00
   - type: contentblock
     mainHeadline: Rejoignez-nous
-    contentText: Prêt à conquérir la scène ? Blue Angel - Stripclub recherche des danseuses talentueuses qui veulent donner vie à leur art avec nous. Faites partie de notre monde séduisant et faites jaillir votre passion sur scène. Postulez dès aujourd'hui pour une carrière passionnante chez Blue Angel.
+    contentText: Prêt à monter sur scène ? Le Blue Angel - Club de Striptease
+      recherche des danseuses talentueuses & et dames de table qui veulent
+      donner vie à leur art avec nous. Faites partie de notre monde séduisant et
+      faites brûler votre passion sur scène. Postulez dès aujourd'hui pour une
+      carrière excitante au Blue Angel.
     button:
       buttonText: Postuler Maintenant
       buttonLink: /jobs

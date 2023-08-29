@@ -2,7 +2,8 @@
 siteTitle: Contact
 slug: contact
 metaTitle: Blue Angel - Contact
-metaDescription: "At Blue Angel, your premier strip club in Breisach am Rhein, we offer bookings and bachelor parties. Contact us now!"
+metaDescription: At Blue Angel, your premier strip club in Breisach am Rhein, we
+  offer bookings and bachelor parties. Contact us now!
 components:
   - type: contentblock
     map:
@@ -30,9 +31,9 @@ components:
       showMap: false
     mainHeadline: Join Us
     contentText: Ready to take the stage? Blue Angel - Stripclub is looking for
-      talented dancers who want to bring their art to life with us. Become a part
-      of our seductive world and ignite your passion on stage. Apply today for an
-      exciting career at Blue Angel.
+      talented dancers & table girls who want to bring their art to life with
+      us. Become a part of our seductive world and ignite your passion on stage.
+      Apply today for an exciting career at Blue Angel.
     button:
       buttonText: Apply Now
       buttonLink: /kontakt

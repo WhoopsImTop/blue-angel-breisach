@@ -1,10 +1,9 @@
 ---
 siteTitle: Galerie
 slug: galerie
-metaTitle: "Blue Angel - Galerie"
-metaDescription: "Entdecke private Bereiche für besondere Anlässe,
-  klimatisierte Räume, Raucher- und Nichtraucherbereiche – alles in
-  beeindruckendem Ambiente."
+metaTitle: Blue Angel - Galerie
+metaDescription: Entdecke private Bereiche für besondere Anlässe, klimatisierte
+  Räume, Raucher- und Nichtraucherbereiche – alles in beeindruckendem Ambiente.
 components:
   - type: contentblock
     mainHeadline: Bildergalerie
@@ -74,10 +73,10 @@ components:
   - type: contentblock
     mainHeadline: Wir suchen Dich
     contentText: Bereit, die Bühne zu erobern? Der Blue Angel - Stripclub sucht nach
-      talentierten Stripperinnen, die ihre Kunst bei uns zum Leben erwecken
-      möchten. Werde Teil unserer verführerischen Welt und entfache deine
-      Leidenschaft auf der Bühne. Bewirb dich noch heute für eine aufregende
-      Karriere im Blue Angel.
+      talentierten Stripperinnen & Tischdamen, die ihre Kunst bei uns zum Leben
+      erwecken möchten. Werde Teil unserer verführerischen Welt und entfache
+      deine Leidenschaft auf der Bühne. Bewirb dich noch heute für eine
+      aufregende Karriere im Blue Angel.
     button:
       buttonText: Jetzt Bewerben
       buttonLink: /jobs

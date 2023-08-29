@@ -1,14 +1,16 @@
 ---
 siteTitle: Drink Menu
 slug: drink-menu
-metaDescription: We offer the perfect drink for every taste. Experience exquisite delights with our exquisite drink menu at Blue Angel.
+metaDescription: We offer the perfect drink for every taste. Experience
+  exquisite delights with our exquisite drink menu at Blue Angel.
 components:
   - type: contentblock
     map:
       showMap: false
     contactForm: false
     mainHeadline: Drink Menu
-    contentText: We offer the perfect drink for every taste. Experience exquisite delights with our exquisite drink menu at Blue Angel.
+    contentText: We offer the perfect drink for every taste. Experience exquisite
+      delights with our exquisite drink menu at Blue Angel.
     imageblock:
       backgroundImage: /blue-angel-breisach-solo-strip-dance.jpg
       image: ""
@@ -205,9 +207,11 @@ components:
             second_price: "130"
           - name: Jack Daniel's 700ml
             second_price: "170"
-          - name: >-
-              This includes 2x 0.5l Coca Cola<sup>2,11</sup>, Red Bull<sup>2,11,12</sup>, Schweppes Bitter Lemon<sup>10</sup>, Schweppes Tonic Water<sup>10</sup>, Orange Juice, or Apple Juice for 0.35l / 0.5l bottles, and 3x 0.5l for 0.7l bottles, free of charge.
-              Additional 0.5l cost 15.00 € each.
+          - name: This includes 2x 0.5l Coca Cola<sup>2,11</sup>, Red
+              Bull<sup>2,11,12</sup>, Schweppes Bitter Lemon<sup>10</sup>,
+              Schweppes Tonic Water<sup>10</sup>, Orange Juice, or Apple Juice
+              for 0.35l / 0.5l bottles, and 3x 0.5l for 0.7l bottles, free of
+              charge. Additional 0.5l cost 15.00 € each.
       - category: Bottle Wines 250ml
         drinks:
           - name: Heinrich Hansjakob - White Burgundy Dry (Quality Wine)
@@ -222,11 +226,12 @@ components:
   - type: blocks
     block:
       - blockTitle: Free Entry
-        body: |-
-          Enjoy free entry and immerse yourself in the world of Blue Angel - Stripclub.
+        body: Enjoy free entry and immerse yourself in the world of Blue Angel -
+          Stripclub.
         icon: /blue-angel-door.svg
       - blockTitle: Shows, Lap Dances, and More
-        body: Experience breathtaking shows, enticing lap dances & striptease, and much more with our girls.
+        body: Experience breathtaking shows, enticing lap dances & striptease, and much
+          more with our girls.
         icon: /blue-angel-fire.svg
       - icon: /blue-angel-opening-hours.svg
         blockTitle: Opening Hours
@@ -235,7 +240,10 @@ components:
           9:00 PM - 5:00 AM
   - type: contentblock
     mainHeadline: Join Us
-    contentText: Ready to conquer the stage? Blue Angel - Stripclub is looking for talented dancers who want to bring their art to life with us. Become part of our alluring world and ignite your passion on stage. Apply today for an exciting career at Blue Angel.
+    contentText: Ready to take the stage? Blue Angel - Stripclub is looking for
+      talented dancers & table girls who want to bring their art to life with
+      us. Become a part of our seductive world and ignite your passion on stage.
+      Apply today for an exciting career at Blue Angel.
     button:
       buttonText: Apply Now
       buttonLink: /jobs
