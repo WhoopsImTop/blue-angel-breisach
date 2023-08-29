@@ -2,7 +2,9 @@
 siteTitle: Contact
 slug: contact
 metaTitle: Blue Angel - Contact
-metaDescription: "Au Blue Angel, votre club de strip de choix à Breisach am Rhein, nous proposons des réservations et des enterrements de vie de garçon. Contactez-nous dès maintenant !"
+metaDescription: Au Blue Angel, votre club de strip de choix à Breisach am
+  Rhein, nous proposons des réservations et des enterrements de vie de garçon.
+  Contactez-nous dès maintenant !
 components:
   - type: contentblock
     map:
@@ -21,15 +23,20 @@ components:
       showMap: false
     contactForm: true
     mainHeadline: Message
-    contentText: |-
+    contentText: >-
       Vous avez des questions, des suggestions ou des commentaires ?
+
       N'hésitez pas à nous contacter à tout moment en utilisant notre formulaire de contact.
     highlight: true
   - type: contentblock
     map:
       showMap: false
     mainHeadline: Rejoignez-nous
-    contentText: Prêt(e) à monter sur scène ? Le Blue Angel - Stripclub recherche des danseuses talentueuses qui veulent donner vie à leur art avec nous. Faites partie de notre monde séduisant et faites brûler votre passion sur scène. Postulez dès aujourd'hui pour une carrière passionnante au Blue Angel.
+    contentText: Prêt(e) à monter sur scène ? Le Blue Angel - Stripclub recherche
+      des danseuses talentueuses & dames de table qui veulent donner vie à leur
+      art avec nous. Faites partie de notre monde séduisant et faites brûler
+      votre passion sur scène. Postulez dès aujourd'hui pour une carrière
+      passionnante au Blue Angel.
     button:
       buttonText: Postulez Maintenant
       buttonLink: /kontakt
@@ -41,7 +48,8 @@ components:
       showMap: false
     mainHeadline: Louez Votre Soirée Privée
     contentText: >-
-      Profitez d'une intimité totale. Plongez-vous dans un espace exclusif entouré de séduction et de glamour.
+      Profitez d'une intimité totale. Plongez-vous dans un espace exclusif
+      entouré de séduction et de glamour.
 
       Réservez maintenant et vivez des moments inoubliables dans une ambiance qui captive vos sens.
     highlight: true
