@@ -73,6 +73,7 @@ export default {
     },
     goToSite() {
       sessionStorage.setItem('session', true)
+      this.sessionCookie = sessionStorage.getItem('session')
     },
     goBackInHistory() {
       this.$router.go(-1)
