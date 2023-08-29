@@ -37,8 +37,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $success = mail($to, $subject, $content, $headers);
 
     if ($success) {
-        echo "Email sent successfully.";
+        echo json_encode(["success" => true]);
     } else {
-        echo "Error sending email.";
+        echo json_encode(["success" => false]);
     }
 }
