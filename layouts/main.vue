@@ -33,7 +33,7 @@ export default {
   data() {
     return {
       lenis: null,
-      sessionCookie: sessionStorage.getItem('session'),
+      sessionCookie: sessionStorage.getItem('session') ?? false,
       translations: {
         de: {
           message:
