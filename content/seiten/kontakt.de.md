@@ -41,20 +41,5 @@ components:
     imageblock:
       backgroundImage: /blue-angel-breisach-009.jpg
     containerId: kontakt
-  - type: contentblock
-    map:
-      showMap: false
-    mainHeadline: Miete dir deinen Privaten Abend
-    contentText: >-
-      Genieße Intimität pur. Tauche ein in einen exklusiven Raum, umgeben von
-      Verführung und Glamour.
-
-      Reserviere jetzt und erlebe unvergessliche Momente in einem Ambiente, das deine Sinne betört.
-    highlight: true
-    button:
-      buttonText: Räume Buchen
-      buttonLink: /#kontakt
-    imageblock:
-      image: /blue-angel-breisach-014.jpeg
 id: ba819956-8842-453a-95a4-3bfc33f2328e
 ---

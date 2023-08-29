@@ -43,20 +43,5 @@ components:
     imageblock:
       backgroundImage: /blue-angel-breisach-009.jpg
     containerId: kontakt
-  - type: contentblock
-    map:
-      showMap: false
-    mainHeadline: Louez Votre Soirée Privée
-    contentText: >-
-      Profitez d'une intimité totale. Plongez-vous dans un espace exclusif
-      entouré de séduction et de glamour.
-
-      Réservez maintenant et vivez des moments inoubliables dans une ambiance qui captive vos sens.
-    highlight: true
-    button:
-      buttonText: Réserver des Salles
-      buttonLink: /#kontakt
-    imageblock:
-      image: /blue-angel-breisach-014.jpeg
 id: ba819956-8842-453a-95a4-3bfc33f2328e
 ---
