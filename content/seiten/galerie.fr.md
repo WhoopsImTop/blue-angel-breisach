@@ -1,13 +1,18 @@
 ---
 siteTitle: Galerie
 slug: galerie
-metaTitle: "Blue Angel - Galerie"
-metaDescription: "Découvrez nos espaces privés pour des occasions spéciales, des salles climatisées, des zones fumeurs et non-fumeurs - le tout dans un cadre impressionnant."
+metaTitle: Blue Angel - Galerie
+metaDescription: Découvrez nos espaces privés pour des occasions spéciales, des
+  salles climatisées, des zones fumeurs et non-fumeurs - le tout dans un cadre
+  impressionnant.
 components:
   - type: contentblock
     mainHeadline: Galerie d'Images
     contentText: >-
-      Utilisez notre galerie interactive à 360 degrés pour jeter un coup d'œil réaliste à l'intérieur de nos locaux. Cliquez sur votre PC ou bougez votre téléphone pour regarder autour de vous. Vous pouvez même utiliser un casque de réalité virtuelle pour plonger encore plus profondément.
+      Utilisez notre galerie interactive à 360 degrés pour jeter un coup d'œil
+      réaliste à l'intérieur de nos locaux. Cliquez sur votre PC ou bougez votre
+      téléphone pour regarder autour de vous. Vous pouvez même utiliser un
+      casque de réalité virtuelle pour plonger encore plus profondément.
 
 
       Découvrez notre élégante scène, où nos danseuses talentueuses présentent leurs compétences en striptease. Découvrez des espaces privés pour des occasions spéciales, des salles climatisées, des zones fumeurs et non-fumeurs - le tout dans une ambiance impressionnante.
@@ -59,7 +64,8 @@ components:
       - icon: /blue-angel-specials.svg
         blockTitle: Offres Spéciales
         body: >-
-          Envie de réserver des offres spéciales comme des shows privés, des événements ou autre chose pour vous et/ou d'autres ?
+          Envie de réserver des offres spéciales comme des shows privés, des
+          événements ou autre chose pour vous et/ou d'autres ?
 
           N'hésitez pas à nous écrire.
         link:
@@ -67,7 +73,11 @@ components:
           link: /kontakt
   - type: contentblock
     mainHeadline: Nous Vous Cherchons
-    contentText: Prêt à conquérir la scène ? Blue Angel - Stripclub recherche des strip-teaseuses talentueuses qui veulent donner vie à leur art avec nous. Faites partie de notre monde séduisant et faites naître votre passion sur scène. Postulez dès aujourd'hui pour une carrière passionnante chez Blue Angel.
+    contentText: Prêt à monter sur scène ? Le Blue Angel - Club de Strip-tease
+      recherche des danseuses talentueuses & et dames de table qui veulent
+      donner vie à leur art avec nous. Faites partie de notre monde séduisant et
+      faites brûler votre passion sur scène. Postulez dès aujourd'hui pour une
+      carrière excitante au Blue Angel.
     button:
       buttonText: Postulez Maintenant
       buttonLink: /jobs

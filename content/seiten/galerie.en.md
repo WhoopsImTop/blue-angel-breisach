@@ -1,13 +1,16 @@
 ---
 siteTitle: Gallery
 slug: gallery
-metaTitle: "Blue Angel - Gallery"
-metaDescription: "Explore private areas for special occasions, air-conditioned rooms, smoking and non-smoking zones - all within an impressive ambiance."
+metaTitle: Blue Angel - Gallery
+metaDescription: Explore private areas for special occasions, air-conditioned
+  rooms, smoking and non-smoking zones - all within an impressive ambiance.
 components:
   - type: contentblock
     mainHeadline: Image Gallery
     contentText: >-
-      Use our interactive 360-degree gallery to take a realistic look inside our premises. Click on your PC or move your phone to look around. You can even use a VR headset to dive even deeper.
+      Use our interactive 360-degree gallery to take a realistic look inside our
+      premises. Click on your PC or move your phone to look around. You can even
+      use a VR headset to dive even deeper.
 
 
       Experience our elegant stage, where our talented dancers showcase their striptease skills. Discover private areas for special occasions, air-conditioned rooms, smoking and non-smoking areas - all in an impressive ambiance.
@@ -59,7 +62,8 @@ components:
       - icon: /blue-angel-specials.svg
         blockTitle: Specials
         body: >-
-          Want to book specials like private shows, events, or anything else for yourself and/or others?
+          Want to book specials like private shows, events, or anything else for
+          yourself and/or others?
 
           Feel free to write to us.
         link:
@@ -67,7 +71,10 @@ components:
           link: /kontakt
   - type: contentblock
     mainHeadline: We're Looking for You
-    contentText: Ready to conquer the stage? Blue Angel - Stripclub is looking for talented strippers who want to bring their art to life with us. Become part of our seductive world and ignite your passion on stage. Apply today for an exciting career at Blue Angel.
+    contentText: Ready to take the stage? Blue Angel - Stripclub is looking for
+      talented dancers & table girls who want to bring their art to life with
+      us. Become a part of our seductive world and ignite your passion on stage.
+      Apply today for an exciting career at Blue Angel.
     button:
       buttonText: Apply Now
       buttonLink: /jobs
