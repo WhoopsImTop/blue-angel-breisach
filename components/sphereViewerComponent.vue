@@ -2,7 +2,7 @@
   <v-pannellum
     :src="srcTour"
     :orientation="true"
-    :auto-load="true"
+    :auto-load="false"
     :auto-rotate="true"  
     :preview="'/panoramas/preview.jpg'"
     :show-fullscreen="true"

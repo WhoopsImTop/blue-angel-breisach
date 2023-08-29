@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Blue Angel | Nightclub, Striptease, Cabaret in Breisach',
+    title: 'Blue Angel - Nightclub, Striptease, Cabaret in Breisach',
     htmlAttrs: {
       lang: 'de',
     },
