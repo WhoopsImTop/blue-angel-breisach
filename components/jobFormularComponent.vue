@@ -499,7 +499,10 @@ export default {
         })
         .then((data) => {
           if (data.success) {
-            alert('Mail sent successfully')
+            this.success = true
+            setTimeout(() => {
+              this.success = false
+            }, 5000)
           } else {
             alert('Something went wrong')
           }
