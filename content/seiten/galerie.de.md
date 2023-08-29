@@ -1,8 +1,8 @@
 ---
 siteTitle: Galerie
 slug: galerie
-metaTitle: ""
-metaDescription: " Entdecke private Bereiche für besondere Anlässe,
+metaTitle: "Blue Angel - Galerie"
+metaDescription: "Entdecke private Bereiche für besondere Anlässe,
   klimatisierte Räume, Raucher- und Nichtraucherbereiche – alles in
   beeindruckendem Ambiente."
 components:
