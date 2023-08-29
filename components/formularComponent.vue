@@ -190,7 +190,7 @@ export default {
       message += 'Nachricht: ' + this.formFields.message + '\n'
       fromData.append('message', message)
 
-      fetch('https://blue-angel-breisach.de/mail.php', {
+      fetch('https://blue-angel.de/mail.php', {
         method: 'POST',
         body: fromData,
       })
