@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <div class="formular-container">
+    <div class="formular-container" style="position: relative">
       <form>
         <div class="formular-row">
           <input type="hidden" name="image_form" value="1" />
