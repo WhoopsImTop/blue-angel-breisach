@@ -329,7 +329,6 @@ export default {
       message += 'Nachricht: ' + this.formFields.message + '\n';
       fromData.append('message', message)
 
-      //get images and attach them
       for (let i = 0; i < this.formFields.images.length; i++) {
         fromData.append('images[]', this.formFields.images[i])
       }
