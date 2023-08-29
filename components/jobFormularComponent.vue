@@ -57,7 +57,7 @@
             v-model="formFields.phoneNumber"
           />
         </div>
-        <input type="file" accept="image/*" id="file" name="files" multiple v-model="formFields.images" />
+        <input type="file" accept="image/*" id="files" name="files" multiple  @change="handleFileChange" />
         <textarea
           id="subject"
           name="subject"
@@ -313,6 +313,9 @@ export default {
     },
   },
   methods: {
+    handleFileChange(event) {
+      this.formFields.images = event.target.files;
+    },
     sendMail() {
       if (!this.privacyPolicy) {
         alert('Please accept the privacy policy')
@@ -329,8 +332,8 @@ export default {
       message += 'Nachricht: ' + this.formFields.message + '\n';
       fromData.append('message', message)
 
-      for (let i = 0; i < this.formFields.images.length; i++) {
-        fromData.append('images[]', this.formFields.images[i])
+      for(const file of this.formFields.images) {
+        fromData.append('images[]', file)
       }
 
       fetch('http://blue-angel-breisach.de/mail.php', {
