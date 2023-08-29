@@ -10,14 +10,14 @@
         title="blue-angle-logo"
         height="60"
       />
-      <p>
-        Die nachfolgenden Seiten beinhalten eindeutige erotische Inhalte und
-        sind für Minderjährige nicht geeignet. Ich bin mindestens 18 Jahre alt
-        und habe den Hinweis zur Kenntnis genommen:
-      </p>
+      <p>{{ translations[$i18n.locale].message }}</p>
       <div class="button-row">
-        <a class="button" @click="goToSite">Betreten</a>
-        <a class="button" @click="goBackInHistory">Verlassen</a>
+        <a class="button" @click="goToSite">{{
+          translations[$i18n.locale].enter
+        }}</a>
+        <a class="button" @click="goBackInHistory">{{
+          translations[$i18n.locale].leave
+        }}</a>
       </div>
     </div>
     <div v-else>
@@ -36,6 +36,26 @@ export default {
     return {
       lenis: null,
       sessionCookie: sessionStorage.getItem('session'),
+      translations: {
+        de: {
+          message:
+            'Die nachfolgenden Seiten beinhalten eindeutige erotische Inhalte und sind für Minderjährige nicht geeignet. Ich bin mindestens 18 Jahre alt und habe den Hinweis zur Kenntnis genommen',
+          enter: 'Betreten',
+          leave: 'Verlassen',
+        },
+        en: {
+          message:
+            'The following pages contain explicit erotic content and are not suitable for minors. I am at least 18 years old and have taken note of the notice',
+          enter: 'Enter',
+          leave: 'Leave',
+        },
+        fr: {
+          message:
+            "Les pages suivantes contiennent un contenu érotique explicite et ne conviennent pas aux mineurs. J'ai au moins 18 ans et j'ai pris note de l'avis",
+          enter: 'Entrer',
+          leave: 'Quitter',
+        },
+      },
     }
   },
   watch: {
