@@ -49,7 +49,7 @@ components:
           Experience exquisite delights with our exquisite drink menu at Blue Angel.
         link:
           linkText: View Drinks
-          link: /drink-menu
+          link: /getraenkekarte
         block_id: drink-menu
       - icon: /blue-angel-opening-hours.svg
         blockTitle: Opening Hours

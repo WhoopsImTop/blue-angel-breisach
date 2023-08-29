@@ -79,7 +79,7 @@ components:
           Experience exquisite delights with our exquisite drink menu at Blue Angel.
         link:
           linkText: See Drinks
-          link: /drink-menu
+          link: /getraenkekarte
         block_id: drink-menu
       - icon: /blue-angel-specials.svg
         blockTitle: Specials
@@ -87,7 +87,7 @@ components:
           Interested in booking specials like private shows, events, or other things for yourself and/or others? Feel free to contact us.
         link:
           linkText: Book Specials
-          link: /contact
+          link: /kontakt
       - icon: /blue-angel-pin.svg
         blockTitle: Location
         body: |-
@@ -97,7 +97,7 @@ components:
         block_id: opening-hours
         link:
           linkText: Contact
-          link: /contact
+          link: /kontakt
   - type: contentblock
     mainHeadline: Blue Angel Stripclub
     contentText: >-

@@ -49,7 +49,7 @@ components:
           Découvrez des délices exquis avec notre carte des boissons exquises chez Blue Angel.
         link:
           linkText: Voir les Boissons
-          link: /carte-des-boissons
+          link: /getraenkekarte
         block_id: carte-des-boissons
       - icon: /blue-angel-opening-hours.svg
         blockTitle: Heures d'Ouverture

@@ -79,7 +79,7 @@ components:
           Découvrez des délices exquis avec notre carte des boissons raffinées au Blue Angel.
         link:
           linkText: Voir les Boissons
-          link: /carte-des-boissons
+          link: /getraenkekarte
         block_id: carte-des-boissons
       - icon: /blue-angel-specials.svg
         blockTitle: Offres Spéciales
@@ -87,7 +87,7 @@ components:
           Intéressé par la réservation d'offres spéciales telles que des spectacles privés, des événements ou autres pour vous et/ou d'autres personnes ? N'hésitez pas à nous contacter.
         link:
           linkText: Réserver des Offres Spéciales
-          link: /contact
+          link: /kontakt
       - icon: /blue-angel-pin.svg
         blockTitle: Emplacement
         body: |-
@@ -97,7 +97,7 @@ components:
         block_id: heures-d-ouverture
         link:
           linkText: Contact
-          link: /contact
+          link: /kontakt
   - type: contentblock
     mainHeadline: Club de Strip-tease Blue Angel
     contentText: >-
