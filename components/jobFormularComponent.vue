@@ -31,7 +31,7 @@
     <div class="formular-container">
       <form>
         <div class="formular-row">
-          <input type="hidden" name="image_form" value="1">
+          <input type="hidden" name="image_form" value="1" />
           <input
             type="text"
             id="fname"
@@ -48,7 +48,13 @@
           />
         </div>
         <div class="formular-row">
-          <input type="email" id="email" name="email" placeholder="E-Mail" v-model="formFields.email"/>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="E-Mail"
+            v-model="formFields.email"
+          />
           <input
             type="text"
             id="phone"
@@ -57,7 +63,14 @@
             v-model="formFields.phoneNumber"
           />
         </div>
-        <input type="file" accept="image/*" id="files" name="files" multiple  @change="handleFileChange" />
+        <input
+          type="file"
+          accept="image/*"
+          id="files"
+          name="files"
+          multiple
+          @change="handleFileChange"
+        />
         <textarea
           id="subject"
           name="subject"
@@ -72,12 +85,16 @@
             type="checkbox"
             v-model="privacyPolicy"
           />
-          <label
+          <label style="margin: 0"
             >{{ translations[currentLocale].formFields.privacyPolicy }}
           </label>
         </div>
+        <input type="checkbox" v-model="validate" style="display: none" />
         <div class="button" @click="sendMail()">
           {{ translations[currentLocale].formFields.apply }}
+        </div>
+        <div v-if="success" class="successMessage">
+          {{ successmessage[currentLocale].message }}
         </div>
       </form>
     </div>
@@ -102,13 +119,117 @@ export default {
         { name: 'Slowakisch', code: 'sk' },
       ],
       formFields: {
-        subject: 'Bewerbung -' + this.currentLocale,
+        subject: 'Bewerbung über Blue Angel Website',
         firstName: '',
         lastName: '',
         email: '',
         phoneNumber: '',
         message: '',
         images: [],
+      },
+      errorMessages: {
+        de: {
+          firstName: 'Bitte geben Sie Ihren Vornamen ein',
+          lastName: 'Bitte geben Sie Ihren Nachnamen ein',
+          email: 'Bitte geben Sie Ihre E-Mail Adresse ein',
+          phoneNumber: 'Bitte geben Sie Ihre Telefonnummer ein',
+          message: 'Bitte geben Sie eine Nachricht ein',
+        },
+        en: {
+          firstName: 'Please enter your first name',
+          lastName: 'Please enter your last name',
+          email: 'Please enter your email address',
+          phoneNumber: 'Please enter your phone number',
+          message: 'Please enter a message',
+        },
+        fr: {
+          firstName: 'Veuillez entrer votre prénom',
+          lastName: 'Veuillez entrer votre nom de famille',
+          email: 'Veuillez entrer votre adresse e-mail',
+          phoneNumber: 'Veuillez entrer votre numéro de téléphone',
+          message: 'Veuillez entrer un message',
+        },
+        ro: {
+          firstName: 'Vă rugăm să introduceți prenumele dvs.',
+          lastName: 'Vă rugăm să introduceți numele dvs.',
+          email: 'Vă rugăm să introduceți adresa dvs. de e-mail',
+          phoneNumber: 'Vă rugăm să introduceți numărul dvs. de telefon',
+          message: 'Vă rugăm să introduceți un mesaj',
+        },
+        pl: {
+          firstName: 'Proszę podać swoje imię',
+          lastName: 'Proszę podać swoje nazwisko',
+          email: 'Proszę podać swój adres e-mail',
+          phoneNumber: 'Proszę podać swój numer telefonu',
+          message: 'Proszę podać wiadomość',
+        },
+        ru: {
+          firstName: 'Пожалуйста, введите свое имя',
+          lastName: 'Пожалуйста, введите свою фамилию',
+          email: 'Пожалуйста, введите свой адрес электронной почты',
+          phoneNumber: 'Пожалуйста, введите свой номер телефона',
+          message: 'Пожалуйста, введите сообщение',
+        },
+        hu: {
+          firstName: 'Kérjük, adja meg a keresztnevét',
+          lastName: 'Kérjük, adja meg vezetéknevét',
+          email: 'Kérjük, adja meg e-mail címét',
+          phoneNumber: 'Kérjük, adja meg telefonszámát',
+          message: 'Kérjük, adja meg az üzenetet',
+        },
+        bg: {
+          firstName: 'Моля, въведете името си',
+          lastName: 'Моля, въведете фамилията си',
+          email: 'Моля, въведете имейл адреса си',
+          phoneNumber: 'Моля, въведете телефонния си номер',
+          message: 'Моля, въведете съобщение',
+        },
+        cs: {
+          firstName: 'Prosím, zadejte své jméno',
+          lastName: 'Prosím, zadejte své příjmení',
+          email: 'Prosím, zadejte svou e-mailovou adresu',
+          phoneNumber: 'Prosím, zadejte své telefonní číslo',
+          message: 'Prosím, zadejte zprávu',
+        },
+        sk: {
+          firstName: 'Prosím, zadajte svoje krstné meno',
+          lastName: 'Prosím, zadajte svoje priezvisko',
+          email: 'Prosím, zadajte svoju e-mailovú adresu',
+          phoneNumber: 'Prosím, zadajte svoje telefónne číslo',
+          message: 'Prosím, zadajte správu',
+        },
+      },
+      successmessage: {
+        de: {
+          message: 'Vielen Dank für Ihre Nachricht!',
+        },
+        en: {
+          message: 'Thank you for your message!',
+        },
+        fr: {
+          message: 'Merci pour votre message!',
+        },
+        ro: {
+          message: 'Vă mulțumim pentru mesaj!',
+        },
+        pl: {
+          message: 'Dziękujemy za wiadomość!',
+        },
+        ru: {
+          message: 'Спасибо за ваше сообщение!',
+        },
+        hu: {
+          message: 'Köszönjük az üzenetét!',
+        },
+        bg: {
+          message: 'Благодаря ви за съобщението!',
+        },
+        cs: {
+          message: 'Děkujeme za vaši zprávu!',
+        },
+        sk: {
+          message: 'Ďakujeme za vašu správu!',
+        },
       },
       translations: {
         de: {
@@ -304,6 +425,7 @@ export default {
         },
       },
       privacyPolicy: false,
+      validate: false,
     }
   },
   watch: {
@@ -314,25 +436,56 @@ export default {
   },
   methods: {
     handleFileChange(event) {
-      this.formFields.images = event.target.files;
+      this.formFields.images = event.target.files
+    },
+    formVaidation() {
+      if (!this.formFields.firstName) {
+        alert(this.errorMessages[this.currentLocale].firstName)
+        return false
+      }
+      if (!this.formFields.lastName) {
+        alert(this.errorMessages[this.currentLocale].lastName)
+        return false
+      }
+      if (!this.formFields.email) {
+        alert(this.errorMessages[this.currentLocale].email)
+        return false
+      }
+      if (!this.formFields.message) {
+        alert(this.errorMessages[this.currentLocale].message)
+        return false
+      }
+      return true
     },
     sendMail() {
+      if (!this.formVaidation()) {
+        return
+      }
+
       if (!this.privacyPolicy) {
         alert('Please accept the privacy policy')
         return
       }
 
+      if (this.validate) {
+        this.success = true
+        setTimeout(() => {
+          this.success = false
+        }, 5000)
+        return
+      }
+
       const fromData = new FormData()
       fromData.append('subject', this.formFields.subject)
-      let message = '';
-      message += 'Vorname: ' + this.formFields.firstName + '\n';
-      message += 'Nachname: ' + this.formFields.lastName + '\n';
-      message += 'Email: ' + this.formFields.email + '\n';
-      message += 'Telefonnummer: ' + this.formFields.phoneNumber + '\n';
-      message += 'Nachricht: ' + this.formFields.message + '\n';
+      let message = ''
+      message += 'Vorname: ' + this.formFields.firstName + '\n'
+      message += 'Nachname: ' + this.formFields.lastName + '\n'
+      message += 'Email: ' + this.formFields.email + '\n'
+      message += 'Telefonnummer: ' + this.formFields.phoneNumber + '\n'
+      message += 'Nachricht: ' + this.formFields.message + '\n'
       fromData.append('message', message)
 
-      for(const file of this.formFields.images) {
+      for (const file of this.formFields.images) {
         fromData.append('images[]', file)
       }
 
@@ -393,6 +546,26 @@ export default {
 .language-switcher-item.active img {
   outline: 2px solid var(--red);
   outline-offset: 2px;
+}
+
+.successMessage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  margin: 3px 0;
+  border-radius: 20px;
+  border: 1px solid var(--red);
+  color: var(--red);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  background-color: var(--background-red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 995px) {
