@@ -37,28 +37,32 @@
             id="fname"
             name="firstname"
             :placeholder="translations[currentLocale].formFields.firstName"
+            v-model="formFields.firstName"
           />
           <input
             type="text"
             id="lname"
             name="lastname"
             :placeholder="translations[currentLocale].formFields.lastName"
+            v-model="formFields.lastName"
           />
         </div>
         <div class="formular-row">
-          <input type="email" id="email" name="email" placeholder="E-Mail" />
+          <input type="email" id="email" name="email" placeholder="E-Mail" v-model="formFields.email"/>
           <input
             type="text"
             id="phone"
             name="phone"
             :placeholder="translations[currentLocale].formFields.phoneNumber"
+            v-model="formFields.phoneNumber"
           />
         </div>
-        <input type="file" accept="image/*" id="file" name="file" multiple/>
+        <input type="file" accept="image/*" id="file" name="files" multiple v-model="formFields.images" />
         <textarea
           id="subject"
           name="subject"
           :placeholder="translations[currentLocale].formFields.message"
+          v-model="formFields.message"
           style="height: 200px"
         ></textarea>
 
@@ -97,6 +101,15 @@ export default {
         { name: 'Tschechisch', code: 'cs' },
         { name: 'Slowakisch', code: 'sk' },
       ],
+      formFields: {
+        subject: 'Bewerbung -' + this.currentLocale,
+        firstName: '',
+        lastName: '',
+        email: '',
+        phoneNumber: '',
+        message: '',
+        images: [],
+      },
       translations: {
         de: {
           text: {
@@ -306,12 +319,24 @@ export default {
         return
       }
 
-      const form = document.querySelector('form')
-      const formData = new FormData(form)
+      const fromData = new FormData()
+      fromData.append('subject', this.formFields.subject)
+      let message = '';
+      message += 'Vorname: ' + this.formFields.firstName + '\n';
+      message += 'Nachname: ' + this.formFields.lastName + '\n';
+      message += 'Email: ' + this.formFields.email + '\n';
+      message += 'Telefonnummer: ' + this.formFields.phoneNumber + '\n';
+      message += 'Nachricht: ' + this.formFields.message + '\n';
+      fromData.append('message', message)
+
+      //get images and attach them
+      for (let i = 0; i < this.formFields.images.length; i++) {
+        fromData.append('images[]', this.formFields.images[i])
+      }
 
       fetch('http://blue-angel-breisach.de/mail.php', {
         method: 'POST',
-        body: formData,
+        body: fromData,
       })
         .then((response) => {
           console.log(response)
