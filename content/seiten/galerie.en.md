@@ -1,8 +1,8 @@
 ---
 siteTitle: Gallery
 slug: gallery
-metaTitle: ""
-metaDescription: "Discover private areas for special occasions, air-conditioned rooms, smoking and non-smoking areas - all in an impressive ambiance."
+metaTitle: "Blue Angel - Gallery"
+metaDescription: "Explore private areas for special occasions, air-conditioned rooms, smoking and non-smoking zones - all within an impressive ambiance."
 components:
   - type: contentblock
     mainHeadline: Image Gallery

@@ -1,6 +1,8 @@
 ---
 siteTitle: Jobs
 slug: jobs
+metaTitle: Blue Angel - Jobs
+metaDescription: "Join Our Team at Blue Angel – Where Passion and Entertainment Converge. Explore Exciting Opportunities in a Thriving Environment. Your Dream Job Awaits!"
 components:
   - type: contentblock
     imageblock:

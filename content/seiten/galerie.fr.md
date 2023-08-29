@@ -1,8 +1,8 @@
 ---
 siteTitle: Galerie
 slug: galerie
-metaTitle: ""
-metaDescription: "Découvrez des espaces privés pour des occasions spéciales, des salles climatisées, des zones fumeurs et non-fumeurs - le tout dans une ambiance impressionnante."
+metaTitle: "Blue Angel - Galerie"
+metaDescription: "Découvrez nos espaces privés pour des occasions spéciales, des salles climatisées, des zones fumeurs et non-fumeurs - le tout dans un cadre impressionnant."
 components:
   - type: contentblock
     mainHeadline: Galerie d'Images

@@ -35,6 +35,12 @@ export default {
             this.pageData.metaDescription ?? 'Hier finden Sie unsere Jobs',
         },
       ],
+      link: [
+        {
+          rel: 'canonical',
+          href: this.$route.path,
+        },
+      ],
     }
   },
 }

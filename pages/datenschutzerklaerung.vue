@@ -16,6 +16,12 @@ export default {
   head() {
     return {
       title: "Datenschutzerklärung",
+      link: [
+        {
+          rel: 'canonical',
+          href: window.location.href,
+        },
+      ],
     }
   },
 }

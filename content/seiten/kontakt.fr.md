@@ -1,6 +1,8 @@
 ---
 siteTitle: Contact
 slug: contact
+metaTitle: Blue Angel - Contact
+metaDescription: "Au Blue Angel, votre club de strip de choix à Breisach am Rhein, nous proposons des réservations et des enterrements de vie de garçon. Contactez-nous dès maintenant !"
 components:
   - type: contentblock
     map:

@@ -1,6 +1,8 @@
 ---
 siteTitle: Kontakt
 slug: kontakt
+metaTitle: Blue Angel - Kontakt
+metaDescription: "Im Blue Angel, deinem Top-Stripclub in Breisach am Rhein, bieten wir Buchungen und Junggesellenabschiede an. Kontaktiere uns jetzt!"
 components:
   - type: contentblock
     map:

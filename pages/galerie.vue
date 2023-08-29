@@ -29,6 +29,12 @@ export default {
           content: this.pageData.metaDescription ?? "Hier finden Sie unsere Galerie",
         },
       ],
+      link: [
+        {
+          rel: 'canonical',
+          href: window.location.href,
+        },
+      ],
     }
   },
 

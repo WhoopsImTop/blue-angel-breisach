@@ -30,6 +30,12 @@ export default {
           content: this.pageData.metaDescription,
         },
       ],
+      link: [
+        {
+          rel: 'canonical',
+          href: window.location.href,
+        },
+      ],
     }
   },
 

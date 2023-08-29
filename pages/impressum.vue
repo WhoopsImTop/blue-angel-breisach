@@ -16,6 +16,12 @@ export default {
   head() {
     return {
       title: "Impressum",
+      link: [
+        {
+          rel: 'canonical',
+          href: window.location.href,
+        },
+      ],
     }
   },
 }
