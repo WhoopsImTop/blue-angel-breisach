@@ -235,7 +235,7 @@ export default {
         de: {
           text: {
             welcome:
-              'Der Blue Angel Stripclub sucht immer nach aufgeschlossenen, charmanten und talentierten Tänzerinnen (+18 Jahre). Werde Teil unserer verführerischen Welt und entfache deine Leidenschaft auf der Bühne.',
+              'Der Blue Angel Stripclub sucht immer nach aufgeschlossenen, charmanten und talentierten Tänzerinnen & Tischdamen (+18 Jahre). Werde Teil unserer verführerischen Welt und entfache deine Leidenschaft auf der Bühne.',
             atmosphere:
               'Wir bieten eine angenehme Atmosphäre in unserem exklusiven Cabaret. Zusätzlich bieten wir Wohnmöglichkeiten inklusive Internetzugang direkt im Haus. Gegenüber befindet ein professionelles Fitness Studio mit Sauna, Pool und Solarium.',
             contact:
@@ -255,68 +255,68 @@ export default {
         ro: {
           text: {
             welcome:
-              'Suntem în căutarea constantă a doamnelor/fetițelor (+18 ani) deschise și fermecătoare pentru cabaretul/clubul nostru de noapte.',
+              'Clubul de striptease Blue Angel este mereu în căutarea de dansatoare și ospătarițe deschise, fermecătoare și talentate (+18 ani). Fă parte din lumea noastră seducătoare și aprinde-ți pasiunea pe scenă.',
             atmosphere:
-              'Oferim o atmosferă plăcută într-un cabaret exclusiv. Opțiunile de cazare cu acces la internet sunt disponibile pe proprietate. Peste drum se află un studio de fitness cu saună, piscină și solar.',
+              'Oferim o atmosferă plăcută în cabaretul nostru exclusivist. În plus, oferim cazare cu acces la internet direct în clădire. În față se află un studio profesional de fitness cu saună, piscină și solar.',
             contact:
-              'Ne puteți contacta la Mobil 0049/172-6320404 (de asemenea, prin SMS sau WhatsApp) sau prin secțiunea de Contact.',
+              'Ne poți contacta la numărul +49 172 63 20 40 4 (și prin SMS sau WhatsApp) sau poți folosi acest formular simplu. Trimite-ne câteva fotografii cu tine. Îți garantăm confidențialitate absolută în privința informațiilor tale. <br> <br> Aplică astăzi încă.',
           },
           formFields: {
             firstName: 'Prenume',
-            lastName: 'Nume de familie',
-            email: 'E-mail',
+            lastName: 'Nume',
+            email: 'Email',
             phoneNumber: 'Număr de telefon',
             message: 'Mesaj',
             privacyPolicy: 'Sunt de acord cu prelucrarea datelor mele.',
-            apply: 'Aplica',
+            apply: 'Aplică',
           },
         },
         pl: {
           text: {
             welcome:
-              'Cały czas szukamy otwartych i uroczych pań/dziewcząt (+18 lat) do naszego kabaretu/klubu nocnego.',
+              'Klub Blue Angel Stripclub zawsze poszukuje otwartych, uroczych i utalentowanych tancerek i kelnerkach (+18 lat). Dołącz do naszego uwodzicielskiego świata i rozpal swoją pasję na scenie.',
             atmosphere:
-              'Oferujemy przyjemną atmosferę w ekskluzywnym kabarecie. Opcje zakwaterowania z dostępem do Internetu są dostępne na miejscu. Po drugiej stronie ulicy znajduje się studio fitness z sauną, basenem i solarium.',
+              'Oferujemy przyjemną atmosferę w naszym ekskluzywnym kabarecie. Dodatkowo zapewniamy zakwaterowanie z dostępem do internetu bezpośrednio w budynku. Naprzeciwko znajduje się profesjonalne studio fitness z sauną, basenem i solarium.',
             contact:
-              'Możesz się z nami skontaktować pod numerem komórkowym 0049/172-6320404 (również za pomocą SMS lub WhatsApp) lub za pośrednictwem sekcji Kontakt.',
+              'Możesz się z nami skontaktować pod numerem +49 172 63 20 40 4 (również przez SMS lub WhatsApp) lub po prostu skorzystać z tego formularza. Śmiało prześlij nam kilka zdjęć. Gwarantujemy dyskrecję wobec Twoich informacji. <br> <br> Aplikuj jeszcze dziś.',
           },
           formFields: {
             firstName: 'Imię',
             lastName: 'Nazwisko',
-            email: 'E-mail',
+            email: 'Email',
             phoneNumber: 'Numer telefonu',
             message: 'Wiadomość',
             privacyPolicy: 'Zgadzam się na przetwarzanie moich danych.',
-            apply: 'Zastosować',
+            apply: 'Zastosuj',
           },
         },
         ru: {
           text: {
             welcome:
-              'Мы постоянно ищем открытых и очаровательных дам/девушек (+18 лет) для нашего кабаре/ночного клуба.',
+              'Стрип-клуб Blue Angel всегда ищет открытых, очаровательных и талантливых танцовщиц и официанток (+18 лет). Присоединяйтесь к нашему соблазнительному миру и разожгите свою страсть на сцене.',
             atmosphere:
-              'Мы предлагаем приятную атмосферу в эксклюзивном кабаре. Варианты размещения с доступом в интернете доступны на территории. Через дорогу находится фитнес-студия с сауной, бассейном и солярием.',
+              'Мы предлагаем приятную атмосферу в нашем эксклюзивном кабаре. Кроме того, мы предоставляем жилье с доступом в Интернет прямо в здании. Напротив находится профессиональный фитнес-клуб с сауной, бассейном и солярием.',
             contact:
-              'Вы можете связаться с нами по мобильному номеру 0049/172-6320404 (также через SMS или WhatsApp) или через раздел Контакты.',
+              'Вы можете связаться с нами по номеру +49 172 63 20 40 4 (также через SMS или WhatsApp) или просто воспользоваться этой формой. Пожалуйста, пришлите нам несколько фотографий. Мы гарантируем конфиденциальность в отношении всех ваших данных. <br> <br> Подайте заявку уже сегодня.',
           },
           formFields: {
             firstName: 'Имя',
             lastName: 'Фамилия',
-            email: 'Электронная почта',
+            email: 'Email',
             phoneNumber: 'Номер телефона',
             message: 'Сообщение',
-            privacyPolicy: 'Я согласен на обработку моих данных.',
-            apply: 'Применять',
+            privacyPolicy: 'Я согласен(сна) на обработку моих данных.',
+            apply: 'Подать заявку',
           },
         },
         hu: {
           text: {
             welcome:
-              'Folyamatosan keresünk nyitott gondolkodású és bájos hölgyeket/lányokat (+18 év) kabarénk/éjszakai klubunk számára.',
+              'A Blue Angel Stripclub mindig keres nyitott, bájos és tehetséges táncos lányokat és asztalos hölgyeket (+18 éves). Legyél része a kísértő világunknak, és szólaltasd meg a szenvedélyed a színpadon.',
             atmosphere:
-              'Kellemes hangulatot kínálunk egy exkluzív kabaréban. Szálláslehetőségek internet-hozzáféréssel rendelkeznek a helyszínen. Az utcán túl található egy fitnesz stúdió szaunával, medencével és szoláriummel.',
+              'Kellemes hangulatot kínálunk exkluzív kabaréinkban. Emellett szállást is biztosítunk internet-hozzáféréssel közvetlenül a házban. Szemben található egy profi fitness stúdió szaunával, medencével és szoláriummal.',
             contact:
-              'Elérhet minket a 0049/172-6320404 mobiltelefonszámon (szintén SMS vagy WhatsApp útján), vagy a Kapcsolatok részen keresztül.',
+              'Elérhet minket a +49 172 63 20 40 4 számon (SMS vagy WhatsApp is elérhető) vagy egyszerűen használhatod ezt az űrlapot. Küldj el nekünk néhány képet magadról. Garantáljuk, hogy diszkréten kezeljük az összes információt. <br> <br> Jelentkezz még ma.',
           },
           formFields: {
             firstName: 'Keresztnév',
@@ -324,18 +324,18 @@ export default {
             email: 'E-mail',
             phoneNumber: 'Telefonszám',
             message: 'Üzenet',
-            privacyPolicy: 'Elfogadom az adatkezelési szabályzatot.',
-            apply: 'Alkalmaz',
+            privacyPolicy: 'Elfogadom az adataim kezelését.',
+            apply: 'Jelentkezés',
           },
         },
         bg: {
           text: {
             welcome:
-              'Непрекъснато търсим отворени и очарователни дами/момичета (+18 години) за нашия кабаре/нощен клуб.',
+              'Стриптийз клубът Blue Angel винаги търси отворени, очарователни и талантливи танцьорки и сервитьорки (+18 години). Станете част от нашия съблазнителен свят и разпалете страстта си на сцената.',
             atmosphere:
-              'Предлагаме приятна атмосфера в един ексклузивен кабаре. Възможностите за настаняване с интернет достъп са налични на място. Напротив има фитнес студио със сауна, басейн и солариум.',
+              'Предлагаме приятна атмосфера в нашия ексклузивен кабаре. Освен това осигуряваме настаняване с интернет достъп директно в сградата. Насреща се професионален фитнес студио със сауна, басейн и солариум.',
             contact:
-              'Можете да ни намерите на мобилния номер 0049/172-6320404 (също и чрез SMS или WhatsApp) или чрез раздела за контакти.',
+              'Можете да се свържете с нас на номер +49 172 63 20 40 4 (също и чрез SMS или WhatsApp) или просто да използвате тази форма. Изпратете ни няколко снимки с вас. Гарантираме дискретност при обработката на вашата информация. <br> <br> Кандидатствайте още днес.',
           },
           formFields: {
             firstName: 'Име',
@@ -343,56 +343,56 @@ export default {
             email: 'Имейл',
             phoneNumber: 'Телефонен номер',
             message: 'Съобщение',
-            privacyPolicy: 'Съгласен съм с обработката на данните ми.',
-            apply: 'Приложи',
+            privacyPolicy: 'Съгласен(сна) съм с обработката на данните ми.',
+            apply: 'Кандидатствай',
           },
         },
         cs: {
           text: {
             welcome:
-              'Nepřetržitě hledáme otevřené a okouzlující dámy/dívky (+18 let) do našeho kabaretu/nočního klubu.',
+              'Blue Angel Stripclub stále hledá otevřené, okouzlující a talentované tanečnice a servírky (+18 let). Staňte se součástí našeho svůdného světa a rozhořte svou vášeň na jevišti.',
             atmosphere:
-              'Nabízíme příjemnou atmosféru v exkluzivním kabaretu. Možnosti ubytování s přístupem k internetu jsou k dispozici na místě. Naproti je fitness studio se saunou, bazénem a soláriem.',
+              'Nabízíme příjemnou atmosféru v našem exkluzivním kabaretu. Navíc poskytujeme ubytování s přístupem na internet přímo v budově. Naproti je profesionální fitness studio se saunou, bazénem a soláriem.',
             contact:
-              'Můžete nás kontaktovat na mobilním čísle 0049/172-6320404 (také prostřednictvím SMS nebo WhatsApp) nebo prostřednictvím sekce Kontakt.',
+              'Můžete nás kontaktovat na čísle +49 172 63 20 40 4 (také prostřednictvím SMS nebo WhatsApp) nebo jednoduše použijte tento formulář. Klidně nám pošlete několik fotografií. Zaručujeme diskrétní zacházení se všemi vašimi informacemi. <br> <br> Přihlaste se ještě dnes.',
           },
           formFields: {
-            firstName: 'Křestní jméno',
+            firstName: 'Jméno',
             lastName: 'Příjmení',
             email: 'E-mail',
             phoneNumber: 'Telefonní číslo',
             message: 'Zpráva',
-            privacyPolicy: 'Souhlasím se zpracováním mých údajů.',
-            apply: 'Použít',
+            privacyPolicy: 'Souhlasím s zpracováním svých údajů.',
+            apply: 'Přihlásit se',
           },
         },
         sk: {
           text: {
             welcome:
-              'Neustále hľadáme otvorené a okúzľujúce dámy/ dievčatá (+18 rokov) pre náš kabarét/ nočný klub.',
+              'Blue Angel Stripclub stále hľadá otvorené, očarujúce a talentované tanečnice a servírky (+18 rokov). Staňte sa súčasťou nášho svádzneho sveta a rozhojníte svoju vášeň na pódiu.',
             atmosphere:
-              'Ponúkame príjemnú atmosféru v exkluzívnom kabarete. Možnosti ubytovania s prístupom na internet sú k dispozícii na mieste. Naproti je fitness štúdio so saunou, bazénom a soláriom.',
+              'Ponúkame príjemnú atmosféru v našom exkluzívnom kabarete. Okrem toho poskytujeme ubytovanie s prístupom na internet priamo v budove. Naproti sa nachádza profesionálne fitness štúdio so saunou, bazénom a soláriom.',
             contact:
-              'Môžete nás kontaktovať na mobilnom čísle 0049/172-6320404 (aj cez SMS alebo WhatsApp) alebo cez sekciu Kontakt.',
+              'Môžete nás kontaktovať na čísle +49 172 63 20 40 4 (tiež cez SMS alebo WhatsApp) alebo jednoducho použite tento formulár. S odvahou nám pošlite niekoľko fotografií. Zaručujeme diskrétny prístup ku všetkým vašim informáciám. <br> <br> Prihláste sa ešte dnes.',
           },
           formFields: {
-            firstName: 'Krstné meno',
+            firstName: 'Meno',
             lastName: 'Priezvisko',
             email: 'E-mail',
             phoneNumber: 'Telefónne číslo',
             message: 'Správa',
             privacyPolicy: 'Súhlasím s spracovaním mojich údajov.',
-            apply: 'Použiť',
+            apply: 'Prihlásiť sa',
           },
         },
         en: {
           text: {
             welcome:
-              'We are constantly looking for open-minded and charming ladies/girls (+18 years) for our Cabaret/Nightclub.',
+              'The Blue Angel Stripclub is always looking for open-minded, charming, and talented dancers & hostesses (+18 years old). Become a part of our seductive world and ignite your passion on stage.',
             atmosphere:
-              'We offer a pleasant atmosphere in an exclusive Cabaret. Accommodation options with internet access are available on-site. Across the street, there is a fitness studio with sauna, pool, and solarium.',
+              'We offer a pleasant atmosphere in our exclusive cabaret. Additionally, we provide accommodation with internet access directly in the building. Across the street, there is a professional fitness studio with a sauna, pool, and solarium.',
             contact:
-              'You can reach us at Mobile 0049/172-6320404 (also via SMS or WhatsApp) or through the Contact section.',
+              'You can reach us at +49 172 63 20 40 4 (Also via SMS or WhatsApp) or simply use this form. Feel free to send us a few photos of yourself. We guarantee discreet handling of all your information. <br> <br> Apply today.',
           },
           formFields: {
             firstName: 'First Name',
@@ -407,20 +407,20 @@ export default {
         fr: {
           text: {
             welcome:
-              "Nous recherchons en permanence des dames/filles (+18 ans) ouvertes d'esprit et charmantes pour notre Cabaret/Nightclub.",
+              "Le Blue Angel Stripclub est toujours à la recherche de danseuses et hôtesses ouvertes d'esprit, charmantes et talentueuses (+18 ans). Rejoignez notre monde séduisant et enflammez votre passion sur scène.",
             atmosphere:
-              "Nous offrons une ambiance agréable dans un Cabaret exclusif. Des options d'hébergement avec accès à Internet sont disponibles sur place. De l'autre côté de la rue, il y a un studio de fitness avec sauna, piscine et solarium.",
+              'Nous offrons une atmosphère agréable dans notre cabaret exclusif. De plus, nous proposons un hébergement avec accès à Internet directement dans le bâtiment. En face, se trouve un studio de fitness professionnel avec sauna, piscine et solarium.',
             contact:
-              'Vous pouvez nous joindre au Mobile 0049/172-6320404 (également par SMS ou WhatsApp) ou via la section Contact.',
+              "Vous pouvez nous joindre au +49 172 63 20 40 4 (également par SMS ou WhatsApp) ou simplement utiliser ce formulaire. N'hésitez pas à nous envoyer quelques photos de vous. Nous garantissons un traitement discret de toutes vos informations. <br> <br> Postulez dès aujourd'hui.",
           },
           formFields: {
             firstName: 'Prénom',
             lastName: 'Nom',
-            email: 'E-mail',
+            email: 'Email',
             phoneNumber: 'Numéro de téléphone',
             message: 'Message',
-            privacyPolicy: 'J’accepte le traitement de mes données.',
-            apply: 'Appliquer',
+            privacyPolicy: "J'accepte le traitement de mes données.",
+            apply: 'Postuler',
           },
         },
       },

@@ -1,31 +1,29 @@
 <template>
   <div>
-    <div
-      v-if="!sessionCookie"
-      class="content-container text-container text-block permission"
-    >
-      <img
-        src="/blue-angel-stripclub-wortbildmarke.svg"
-        alt="blue-angle-logo"
-        title="blue-angle-logo"
-        height="60"
-      />
-      <p>{{ translations[$i18n.locale].message }}</p>
-      <div class="button-row">
-        <a class="button" @click="goToSite">{{
-          translations[$i18n.locale].enter
-        }}</a>
-        <a class="button" @click="goBackInHistory">{{
-          translations[$i18n.locale].leave
-        }}</a>
+    <div v-if="!sessionCookie" class="permission-popup">
+      <div class="content-container text-container text-block permission">
+        <img
+          src="/blue-angel-stripclub-wortbildmarke.svg"
+          alt="blue-angle-logo"
+          title="blue-angle-logo"
+          height="60"
+        />
+        <p>{{ translations[$i18n.locale].message }}</p>
+        <div class="button-row">
+          <a class="button" @click="goToSite">{{
+            translations[$i18n.locale].enter
+          }}</a>
+          <a class="button" @click="goBackInHistory">{{
+            translations[$i18n.locale].leave
+          }}</a>
+        </div>
+        <language-switch-component style="margin-top: 30px" />
       </div>
     </div>
-    <div v-else>
-      <headerComponent />
-      <nuxt></nuxt>
-      <back-to-top-component />
-      <footerComponent />
-    </div>
+    <headerComponent />
+    <nuxt></nuxt>
+    <back-to-top-component />
+    <footerComponent />
   </div>
 </template>
 
@@ -90,8 +88,22 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   max-width: 500px;
+}
+
+.permission-popup {
+  background: var(--background-dark);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: 999;
 }
 
 .button-row {

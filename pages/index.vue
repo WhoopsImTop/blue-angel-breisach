@@ -39,10 +39,6 @@ export default {
     }
   },
 
-  mounted() {
-    console.log(this.pageData)
-  },
-
   data() {
     return {}
   },

@@ -7,7 +7,9 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Blue Angle | Nightclub, Striptease, Cabaret in Breisach',
+    title: 'Blue Angel | Nightclub, Striptease, Cabaret in Breisach',
+    description:
+      'Tauche ein in die faszinierende Atmosphäre des Blue Angel – dem verführerischsten Stripclub in Breisach am Rhein und Umgebung.',
     htmlAttrs: {
       lang: 'de',
     },
