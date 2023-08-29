@@ -490,7 +490,7 @@ export default {
         fromData.append('images[]', file)
       }
 
-      fetch('http://blue-angel-breisach.de/mail.php', {
+      fetch('https://blue-angel-breisach.de/mail.php', {
         method: 'POST',
         body: fromData,
       })
