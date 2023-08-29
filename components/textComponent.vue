@@ -6,7 +6,12 @@
       :class="returnRowClass"
       :id="component.containerId"
     >
-      <nuxt-link v-if="component.jobs" :to="LocalizePath('/jobs')" class="jobnoctice">JOBS</nuxt-link>
+      <nuxt-link
+        v-if="component.jobs"
+        :to="LocalizePath('/jobs')"
+        class="jobnoctice"
+        >JOBS</nuxt-link
+      >
       <div
         v-if="
           component.mainHeadline ||
@@ -16,7 +21,11 @@
           (component.map && component.map.showMap)
         "
         class="colum-content text-container"
-        :style="index === 0 && (component.map && component.map.showMap) ? 'width: 100%;' : ''"
+        :style="
+          index === 0 && component.map && component.map.showMap
+            ? 'width: 100%;'
+            : ''
+        "
       >
         <h1
           v-if="component.mainHeadline && index == 0"
@@ -46,17 +55,36 @@
           >{{ component.button.buttonText }}</NuxtLink
         >
         <div v-if="component.map && component.map.showMap">
-          <iframe
-            width="100%"
-            height="450"
-            style="border: 0"
-            loading="lazy"
-            allowfullscreen
-            referrerpolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB1J_aUNrJLoK4EXiuiZgAKl1pJuuJMojQ
-    &q=Blue+Angel,Breisach+am+Rhein"
-          >
-          </iframe>
+          <client-only>
+            <G-Map
+              ref="gMap"
+              language="de"
+              :center="{
+                lat: 48.0429024,
+                lng: 7.5781656,
+              }"
+              :zoom="14"
+              :options="{
+                fullscreenControl: true,
+                mapTypeControl: true,
+                streetViewControl: false,
+                styles: [
+                  {
+                    featureType: 'poi',
+                    stylers: [{ visibility: 'on' }], // Turn off points of interest.
+                  },
+                ],
+              }"
+            >
+              <GMapMarker
+                :clickable="true"
+                :position="{
+                  lat: 48.0429024,
+                  lng: 7.5781656,
+                }"
+                @click="openMaps"
+              ></GMapMarker> </G-Map
+          ></client-only>
         </div>
       </div>
       <div class="colum-content" v-if="checkVisibility">
@@ -105,7 +133,16 @@ import Macy from 'macy'
 export default {
   props: ['component', 'index'],
   data() {
-    return {}
+    return {
+      infoWindowPos: true,
+      infoWinOpen: true,
+      infoOptions: {
+        pixelOffset: {
+          width: 0,
+          height: -35,
+        },
+      },
+    }
   },
   computed: {
     checkVisibility() {
@@ -177,6 +214,12 @@ export default {
     }
   },
   methods: {
+    openMaps() {
+      window.open(
+        'https://www.google.com/maps/place/Blue+Angel+-+Nightclub,+Stripclub+%26+Cabaret,+Gerberstra%C3%9Fe+6,+79206+Breisach+am+Rhein/@48.0429024,7.5781656,15z/data=!4m6!3m5!1s0x4791133a411494fb:0x75ceb57135140efd!8m2!3d48.0429024!4d7.5781656!16s%2Fg%2F1w0qzv77',
+        '_blank'
+      )
+    },
     LocalizePath(path) {
       const locale = this.$i18n.locale
       return `/${locale}${path}`
@@ -324,23 +367,22 @@ export default {
     height: 70vh;
   }
 
-  
-.jobnoctice {
-  position: absolute;
-  top: 100px;
-  right: 100px;
-  background-color: var(--red);
-  color: var(--background-dark);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: var(--primary-font);
-  font-size: 25px;
-  font-weight: bolder;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  transform: rotate(25deg);
-}
+  .jobnoctice {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    background-color: var(--red);
+    color: var(--background-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: bolder;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transform: rotate(25deg);
+  }
 }
 </style>

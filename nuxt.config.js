@@ -77,6 +77,12 @@ export default {
     '@nuxt/content',
     '@nuxtjs/markdownit',
     '@nuxtjs/i18n',
+    [
+      'nuxt-gmaps',
+      {
+        key: 'AIzaSyBw_QNEvvoRbs-czfH2GbPPkupqDdJTxhg',
+      },
+    ],
   ],
 
   plugins: ['~/plugins/jsonld'],

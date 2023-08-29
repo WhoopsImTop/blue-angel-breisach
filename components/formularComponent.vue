@@ -1,6 +1,6 @@
 <template>
   <div class="formular-container">
-    <form>
+    <form style="position: relative">
       <div class="formular-row">
         <input
           type="text"
