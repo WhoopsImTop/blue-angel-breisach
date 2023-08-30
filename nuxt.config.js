@@ -80,7 +80,7 @@ export default {
     [
       'nuxt-gmaps',
       {
-        key: 'AIzaSyB1J_aUNrJLoK4EXiuiZgAKl1pJuuJMojQ',
+        key: 'AIzaSyBw_QNEvvoRbs-czfH2GbPPkupqDdJTxhg',
       },
     ],
   ],

@@ -54,38 +54,9 @@
           class="button"
           >{{ component.button.buttonText }}</NuxtLink
         >
-        <div v-if="component.map && component.map.showMap">
-          <client-only>
-            <G-Map
-              ref="gMap"
-              language="de"
-              :center="{
-                lat: 48.0429024,
-                lng: 7.5781656,
-              }"
-              :zoom="14"
-              :options="{
-                fullscreenControl: true,
-                mapTypeControl: true,
-                streetViewControl: false,
-                styles: [
-                  {
-                    featureType: 'poi',
-                    stylers: [{ visibility: 'on' }], // Turn off points of interest.
-                  },
-                ],
-              }"
-            >
-              <GMapMarker
-                :clickable="true"
-                :position="{
-                  lat: 48.0429024,
-                  lng: 7.5781656,
-                }"
-                @click="openMaps"
-              ></GMapMarker> </G-Map
-          ></client-only>
-        </div>
+        <!-- <div v-if="component.map && component.map.showMap">
+            <map-component ref="map" key="map"></map-component>
+        </div> -->
       </div>
       <div class="colum-content" v-if="checkVisibility">
         <img
@@ -134,14 +105,6 @@ export default {
   props: ['component', 'index'],
   data() {
     return {
-      infoWindowPos: true,
-      infoWinOpen: true,
-      infoOptions: {
-        pixelOffset: {
-          width: 0,
-          height: -35,
-        },
-      },
     }
   },
   computed: {
@@ -214,12 +177,6 @@ export default {
     }
   },
   methods: {
-    openMaps() {
-      window.open(
-        'https://www.google.com/maps/place/Blue+Angel+-+Nightclub,+Stripclub+%26+Cabaret,+Gerberstra%C3%9Fe+6,+79206+Breisach+am+Rhein/@48.0429024,7.5781656,15z/data=!4m6!3m5!1s0x4791133a411494fb:0x75ceb57135140efd!8m2!3d48.0429024!4d7.5781656!16s%2Fg%2F1w0qzv77',
-        '_blank'
-      )
-    },
     LocalizePath(path) {
       const locale = this.$i18n.locale
       return `/${locale}${path}`

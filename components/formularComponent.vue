@@ -116,7 +116,7 @@ export default {
           email: 'E-Mail',
           phoneNumber: 'Telefonnummer',
           message: 'Nachricht',
-          privacyPolicy: 'Datenschutzerklärung',
+          privacyPolicy: 'Ich stimmer der Verarbeitung meiner Daten gemäß der Datenschutzerklärung zu.',
           send: 'Senden',
         },
         en: {
@@ -126,7 +126,7 @@ export default {
           email: 'E-Mail',
           phoneNumber: 'Phone number',
           message: 'Message',
-          privacyPolicy: 'Privacy policy',
+          privacyPolicy: 'I consent to the processing of my data in accordance with the privacy policy.',
           send: 'Send',
         },
         fr: {
@@ -136,7 +136,7 @@ export default {
           email: 'E-Mail',
           phoneNumber: 'Numéro de téléphone',
           message: 'Message',
-          privacyPolicy: 'Politique de confidentialité',
+          privacyPolicy: 'J`accepte le traitement de mes données conformément à la politique de confidentialité.',
           send: 'Envoyer',
         },
       },

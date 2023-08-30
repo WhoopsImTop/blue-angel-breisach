@@ -20,7 +20,7 @@
         <a href="https://www.facebook.com/blue.angel.breisach" target="_blank">
           <img src="/images/facebook.svg" alt="facebook" width="30" height="30"
         /></a>
-        <a href="https://www.instagram.com/blue.angel.breisach/" target="_blank"
+        <a href="https://www.instagram.com/blue.angel.nightclub/" target="_blank"
           ><img
             src="/images/instagram.svg"
             alt="instagram"

@@ -5,6 +5,7 @@
       :component="component"
       :index="index"
     ></text-component>
+    <map-component v-if="component.map && component.map.showMap && hasLoaded"></map-component>
     <faq-component
       v-if="component.type === 'faq'"
       :component="component"
@@ -27,6 +28,16 @@
 <script>
 export default {
   props: ['component', 'index'],
+  data() {
+    return {
+      hasLoaded: false,
+    }
+  },
+  mounted() {
+    setTimeout(() => {
+      this.hasLoaded = true
+    }, 1000)
+  },
 }
 </script>
 
