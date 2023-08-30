@@ -116,7 +116,7 @@ export default {
           email: 'E-Mail',
           phoneNumber: 'Telefonnummer',
           message: 'Nachricht',
-          privacyPolicy: 'Ich stimmer der Verarbeitung meiner Daten gemäß der Datenschutzerklärung zu.',
+          privacyPolicy: 'Ich stimme der Verarbeitung meiner Daten gemäß der Datenschutzerklärung zu.',
           send: 'Senden',
         },
         en: {
