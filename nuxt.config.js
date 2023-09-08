@@ -27,7 +27,7 @@ export default {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/blue-angel-stripclub-bildmarke.svg',
+        href: '/favicon.png',
       },
     ],
   },
