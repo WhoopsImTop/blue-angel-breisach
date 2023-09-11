@@ -15,11 +15,27 @@ export default {
 
   head() {
     return {
-      title: "Datenschutzerklärung",
+      title: 'Datenschutzerklärung',
+      lang: this.$i18n.locale || 'de',
       link: [
         {
           rel: 'canonical',
           href: window.location.href,
+        },
+        {
+          property: 'og:site_name',
+          content:
+            this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+        },
+        {
+          property: 'og:title',
+          content:
+            this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+        },
+        {
+          property: 'og:description',
+          content:
+            this.pageData.metaDescription ?? 'Hier finden Sie unsere Getränke',
         },
       ],
     }

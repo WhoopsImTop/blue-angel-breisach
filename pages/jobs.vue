@@ -17,7 +17,7 @@ export default {
     const pageData = await $content('seiten/jobs.' + app.i18n.locale).fetch()
     return { pageData }
   },
-  
+
   data() {
     return {
       translations: {},
@@ -27,12 +27,28 @@ export default {
   head() {
     return {
       title: this.pageData.metaTitle ?? 'Jobs | Blue Angel Breisach',
+      lang: this.$i18n.locale || 'de',
       meta: [
         {
           hid: 'description',
           name: 'description',
           content:
             this.pageData.metaDescription ?? 'Hier finden Sie unsere Jobs',
+        },
+        {
+          property: 'og:site_name',
+          content:
+            this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+        },
+        {
+          property: 'og:title',
+          content:
+            this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+        },
+        {
+          property: 'og:description',
+          content:
+            this.pageData.metaDescription ?? 'Hier finden Sie unsere Getränke',
         },
       ],
       link: [

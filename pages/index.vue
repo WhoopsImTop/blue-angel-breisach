@@ -23,11 +23,27 @@ export default {
   head() {
     return {
       title: this.pageData.metaTitle,
+      lang: this.$i18n.locale || 'de',
       meta: [
         {
           hid: 'description',
           name: 'description',
           content: this.pageData.metaDescription,
+        },
+        {
+          property: 'og:site_name',
+          content:
+            this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+        },
+        {
+          property: 'og:title',
+          content:
+            this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+        },
+        {
+          property: 'og:description',
+          content:
+            this.pageData.metaDescription ?? 'Hier finden Sie unsere Getränke',
         },
       ],
       link: [

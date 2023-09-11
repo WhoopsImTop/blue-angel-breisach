@@ -11,22 +11,37 @@
 
 <script>
 export default {
-  layout: "main",
+  layout: 'main',
   async asyncData({ $content, app }) {
-    const pageData = await $content(
-      'seiten/galerie.' + app.i18n.locale
-    ).fetch()
+    const pageData = await $content('seiten/galerie.' + app.i18n.locale).fetch()
     return { pageData }
   },
 
   head() {
     return {
-      title: this.pageData.metaTitle ?? "Galerie | Blue Angel Breisach",
+      title: this.pageData.metaTitle ?? 'Galerie | Blue Angel Breisach',
+      lang: this.$i18n.locale || 'de',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: this.pageData.metaDescription ?? "Hier finden Sie unsere Galerie",
+          content:
+            this.pageData.metaDescription ?? 'Hier finden Sie unsere Galerie',
+        },
+        {
+          property: 'og:site_name',
+          content:
+            this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+        },
+        {
+          property: 'og:title',
+          content:
+            this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+        },
+        {
+          property: 'og:description',
+          content:
+            this.pageData.metaDescription ?? 'Hier finden Sie unsere Getränke',
         },
       ],
       link: [
@@ -39,10 +54,9 @@ export default {
   },
 
   data() {
-    return {
-    };
+    return {}
   },
-};
+}
 </script>
 
 <style>
