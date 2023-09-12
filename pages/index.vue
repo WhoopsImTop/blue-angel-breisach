@@ -33,17 +33,16 @@ export default {
         {
           property: 'og:site_name',
           content:
-            this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+            this.pageData.metaTitle ?? 'Blue Angel Breisach',
         },
         {
           property: 'og:title',
           content:
-            this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+            this.pageData.metaTitle ?? 'Blue Angel Breisach',
         },
         {
           property: 'og:description',
-          content:
-            this.pageData.metaDescription ?? 'Hier finden Sie unsere Getränke',
+          content: this.pageData.metaDescription ?? 'Tauche ein in die faszinierende Atmosphäre des Blue Angel – dem verführerischsten Stripclub in Breisach am Rhein und Umgebung.',
         },
       ],
       link: [

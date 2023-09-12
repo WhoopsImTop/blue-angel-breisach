@@ -38,17 +38,17 @@ export default {
         {
           property: 'og:site_name',
           content:
-            this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+            this.pageData.metaTitle ?? 'Jobs | Blue Angel Breisach',
         },
         {
           property: 'og:title',
           content:
-            this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+            this.pageData.metaTitle ?? 'Jobs | Blue Angel Breisach',
         },
         {
           property: 'og:description',
           content:
-            this.pageData.metaDescription ?? 'Hier finden Sie unsere Getränke',
+            this.pageData.metaDescription ?? 'Wir sind immer auf der Suche nach neuen Tänzerinnen.',
         },
       ],
       link: [

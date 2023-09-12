@@ -31,17 +31,17 @@ export default {
         {
           property: 'og:site_name',
           content:
-            this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+            this.pageData.metaTitle ?? 'Kontakt | Blue Angel Breisach',
         },
         {
           property: 'og:title',
           content:
-            this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+            this.pageData.metaTitle ?? 'Kontakt | Blue Angel Breisach',
         },
         {
           property: 'og:description',
           content:
-            this.pageData.metaDescription ?? 'Hier finden Sie unsere Getränke',
+            this.pageData.metaDescription ?? 'Kontaktieren Sie uns',
         },
       ],
       link: [

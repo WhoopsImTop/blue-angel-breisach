@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Blue Angel - Nightclub, Striptease, Cabaret in Breisach',
+    title: 'Blue Angel - Nightclub, Cabaret in Breisach',
     htmlAttrs: {
       lang: 'de',
     },
@@ -23,11 +23,11 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
       {
         property: 'og:site_name',
-        content: 'Blue Angel - Nightclub, Striptease, Cabaret in Breisach',
+        content: 'Blue Angel',
       },
       {
         property: 'og:title',
-        content: 'Blue Angel - Nightclub, Striptease, Cabaret in Breisach',
+        content: 'Blue Angel - Nightclub, Cabaret in Breisach',
       },
       {
         property: 'og:description',
