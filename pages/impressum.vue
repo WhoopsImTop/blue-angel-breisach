@@ -13,11 +13,11 @@ export default {
     return { pageData }
   },
 
-  head({ app }) {
+  head() {
     return {
       title: 'Impressum',
       htmlAttrs: {
-        lang: app.i18n.locale,
+        lang: this.$i18n.locale,
       },
     }
   },

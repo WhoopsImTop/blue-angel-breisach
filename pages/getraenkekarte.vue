@@ -20,34 +20,31 @@ export default {
     return { pageData }
   },
 
-  async head({ $content, app }) {
-    const pageData = await $content(
-      'seiten/getraenkekarte.' + app.i18n.locale
-    ).fetch()
+  head() {
     return {
-      title: pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+      title: this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
       htmlAttrs: {
-        lang: app.i18n.locale,
+        lang: this.$i18n.locale,
       },
       meta: [
         {
           hid: 'description',
           name: 'description',
           content:
-            pageData.metaDescription ?? 'Hier finden Sie unsere Getränke',
+          this.pageData.metaDescription ?? 'Hier finden Sie unsere Getränke',
         },
         {
           property: 'og:site_name',
-          content: pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+          content: this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
         },
         {
           property: 'og:title',
-          content: pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+          content: this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
         },
         {
           property: 'og:description',
           content:
-            pageData.metaDescription ?? 'Hier finden Sie unsere Getränke',
+          this.pageData.metaDescription ?? 'Hier finden Sie unsere Getränke',
         },
       ],
     }

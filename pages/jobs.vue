@@ -24,31 +24,30 @@ export default {
     }
   },
 
-  async head({ $content, app }) {
-    const pageData = await $content('seiten/jobs.' + app.i18n.locale).fetch()
+  head() {
     return {
-      title: pageData.metaTitle ?? 'Jobs | Blue Angel Breisach',
+      title: this.pageData.metaTitle ?? 'Jobs | Blue Angel Breisach',
       htmlAttrs: {
-        lang: app.i18n.locale,
+        lang: this.$i18n.locale,
       },
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: pageData.metaDescription ?? 'Hier finden Sie unsere Jobs',
+          content: this.pageData.metaDescription ?? 'Hier finden Sie unsere Jobs',
         },
         {
           property: 'og:site_name',
-          content: pageData.metaTitle ?? 'Jobs | Blue Angel Breisach',
+          content: this.pageData.metaTitle ?? 'Jobs | Blue Angel Breisach',
         },
         {
           property: 'og:title',
-          content: pageData.metaTitle ?? 'Jobs | Blue Angel Breisach',
+          content: this.pageData.metaTitle ?? 'Jobs | Blue Angel Breisach',
         },
         {
           property: 'og:description',
           content:
-            pageData.metaDescription ??
+            this.pageData.metaDescription ??
             'Wir sind immer auf der Suche nach neuen Tänzerinnen.',
         },
       ],
