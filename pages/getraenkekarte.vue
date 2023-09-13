@@ -31,20 +31,22 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-          this.pageData.metaDescription ?? 'Hier finden Sie unsere Getränke',
+            this.pageData.metaDescription ?? 'Hier finden Sie unsere Getränke',
         },
         {
           property: 'og:site_name',
-          content: this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+          content:
+            this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
         },
         {
           property: 'og:title',
-          content: this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
+          content:
+            this.pageData.metaTitle ?? 'Getränkekarte | Blue Angel Breisach',
         },
         {
           property: 'og:description',
           content:
-          this.pageData.metaDescription ?? 'Hier finden Sie unsere Getränke',
+            this.pageData.metaDescription ?? 'Hier finden Sie unsere Getränke',
         },
       ],
     }
