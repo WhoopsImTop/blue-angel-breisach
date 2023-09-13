@@ -17,37 +17,32 @@ export default {
     return { pageData }
   },
 
-  head() {
+  async head({ $content, app }) {
+    const pageData = await $content('seiten/galerie.' + app.i18n.locale).fetch()
     return {
-      title: this.pageData.metaTitle ?? 'Galerie | Blue Angel Breisach',
-      lang: this.$i18n.locale || 'de',
+      title: pageData.metaTitle ?? 'Galerie | Blue Angel Breisach',
+      htmlAttrs: {
+        lang: app.i18n.locale,
+      },
       meta: [
         {
           hid: 'description',
           name: 'description',
           content:
-            this.pageData.metaDescription ?? 'Hier finden Sie unsere Galerie',
+            pageData.metaDescription ?? 'Hier finden Sie unsere Galerie',
         },
         {
           property: 'og:site_name',
-          content:
-            this.pageData.metaTitle ?? 'Galerie | Blue Angel Breisach',
+          content: pageData.metaTitle ?? 'Galerie | Blue Angel Breisach',
         },
         {
           property: 'og:title',
-          content:
-            this.pageData.metaTitle ?? 'Galerie | Blue Angel Breisach',
+          content: pageData.metaTitle ?? 'Galerie | Blue Angel Breisach',
         },
         {
           property: 'og:description',
           content:
-            this.pageData.metaDescription ?? 'Hier finden Sie unsere Galerie',
-        },
-      ],
-      link: [
-        {
-          rel: 'canonical',
-          href: window.location.href,
+            pageData.metaDescription ?? 'Hier finden Sie unsere Galerie',
         },
       ],
     }

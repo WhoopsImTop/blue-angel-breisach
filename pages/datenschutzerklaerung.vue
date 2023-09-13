@@ -13,15 +13,13 @@ export default {
     return { pageData }
   },
 
-  head() {
+  head({ app }) {
     return {
       title: 'Datenschutzerklärung',
-      lang: this.$i18n.locale || 'de',
-      link: [
-        {
-          rel: 'canonical',
-          href: window.location.href,
-        },
+      htmlAttrs: {
+        lang: app.i18n.locale,
+      },
+      meta: [
         {
           property: 'og:site_name',
           content:

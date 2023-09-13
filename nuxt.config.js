@@ -9,7 +9,7 @@ export default {
   head: {
     title: 'Blue Angel - Nightclub, Cabaret in Breisach',
     htmlAttrs: {
-      lang: 'de',
+      lang: 'de'
     },
     meta: [
       { charset: 'utf-8' },

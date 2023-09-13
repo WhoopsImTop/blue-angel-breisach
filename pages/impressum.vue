@@ -13,15 +13,12 @@ export default {
     return { pageData }
   },
 
-  head() {
+  head({ app }) {
     return {
-      title: "Impressum",
-      link: [
-        {
-          rel: 'canonical',
-          href: window.location.href,
-        },
-      ],
+      title: 'Impressum',
+      htmlAttrs: {
+        lang: app.i18n.locale,
+      },
     }
   },
 }

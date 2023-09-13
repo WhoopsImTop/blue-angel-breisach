@@ -20,35 +20,32 @@ export default {
     return { pageData }
   },
 
-  head() {
+  async head({ $content, app }) {
+    const pageData = await $content('seiten/startseite.' + app.i18n.locale).fetch()
     return {
-      title: this.pageData.metaTitle,
-      lang: this.$i18n.locale || 'de',
+      title: pageData.metaTitle,
+      htmlAttrs: {
+        lang: app.i18n.locale,
+      },
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: this.pageData.metaDescription,
+          content: pageData.metaDescription,
         },
         {
           property: 'og:site_name',
-          content:
-            this.pageData.metaTitle ?? 'Blue Angel Breisach',
+          content: pageData.metaTitle ?? 'Blue Angel Breisach',
         },
         {
           property: 'og:title',
-          content:
-            this.pageData.metaTitle ?? 'Blue Angel Breisach',
+          content: pageData.metaTitle ?? 'Blue Angel Breisach',
         },
         {
           property: 'og:description',
-          content: this.pageData.metaDescription ?? 'Tauche ein in die faszinierende Atmosphäre des Blue Angel – dem verführerischsten Stripclub in Breisach am Rhein und Umgebung.',
-        },
-      ],
-      link: [
-        {
-          rel: 'canonical',
-          href: window.location.href,
+          content:
+            pageData.metaDescription ??
+            'Tauche ein in die faszinierende Atmosphäre des Blue Angel – dem verführerischsten Stripclub in Breisach am Rhein und Umgebung.',
         },
       ],
     }
