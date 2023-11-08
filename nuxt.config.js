@@ -38,7 +38,7 @@ export default {
       { rel: 'stylesheet', href: 'https://use.typekit.net/wik8vol.css' },
       {
         rel: 'icon',
-        type: 'image/x-icon',
+        type: 'image/png',
         href: './favicon.png',
       },
       {

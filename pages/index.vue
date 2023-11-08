@@ -47,26 +47,6 @@ export default {
             'Tauche ein in die faszinierende Atmosphäre des Blue Angel – dem verführerischsten Stripclub in Breisach am Rhein und Umgebung.',
         },
       ],
-      link: [
-        {
-          rel: 'icon',
-          type: 'image/x-icon',
-          href: './favicon.png',
-        },
-        {
-          rel: 'icon',
-          href: './favicon.png',
-        },
-        {
-          rel: 'icon',
-          type: 'image/vnd.microsoft.icon',
-          href: './favicon.png',
-        },
-        {
-          rel: 'shortcut icon',
-          href: './favicon.png',
-        },
-      ],
     }
   },
 
