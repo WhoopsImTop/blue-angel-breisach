@@ -1,7 +1,7 @@
 ---
 siteTitle: Home
 slug: homepage
-metaTitle: Blue Angel - nightclub, cabaret in Breisach
+metaTitle: Blue Angel - nightclub, stripclub & cabaret in Breisach
 metaDescription: Immerse yourself in the captivating atmosphere of Blue Angel -
   the most seductive nightclub in Breisach am Rhein and its surroundings.
 components:

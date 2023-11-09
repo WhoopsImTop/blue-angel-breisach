@@ -1,7 +1,7 @@
 ---
 siteTitle: Accueil
 slug: accueil
-metaTitle: Blue Angel - discothèque, cabaret à Breisach
+metaTitle: Blue Angel - discothèque, strip-tease & cabaret à Breisach
 metaDescription: Plongez dans l'atmosphère captivante du Blue Angel - le club de
   discothèque le plus séduisant de Breisach am Rhein et de ses environs.
 components:

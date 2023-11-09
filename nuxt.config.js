@@ -7,13 +7,17 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Blue Angel - Nightclub, Cabaret in Breisach',
+    title: 'Blue Angel - Nightclub, Stripclub & Cabaret in Breisach',
     htmlAttrs: {
       lang: 'de'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        name: 'keywords',
+        content: 'nightclub, cabaret, striptease, junggesellenabschied, erotik, girls, nachtleben, unterhaltung, weihnachtsfeier, sexy girls, sexy, sexy frauen, nightlife, geburtstagsfeier',
+      },
       {
         hid: 'description',
         name: 'description',
@@ -32,6 +36,14 @@ export default {
       {
         property: 'og:description',
         content: 'Tauche ein in die faszinierende Atmosphäre des Blue Angel – dem verführerischsten Nightclub in Breisach am Rhein und Umgebung.',
+      },
+      {
+        name: 'msapplication-TileColor',  
+        content: '#da532c'
+      },
+      {
+        name: 'theme-color',
+        content: '#ffffff'
       }
     ],
     link: [
@@ -39,21 +51,20 @@ export default {
       {
         rel: 'icon',
         type: 'image/png',
-        href: './favicon.png',
+        sizes: '32x32',
+        href: './favicon-32x32.png',
       },
       {
         rel: 'icon',
-        href: './favicon.png',
+        type: 'image/png',
+        sizes: '16x16',
+        href: './favicon-16x16.png',
       },
       {
-        rel: 'icon',
-        type: 'image/vnd.microsoft.icon',
-        href: './favicon.png',
-      },
-      {
-        rel: 'shortcut icon',
-        href: './favicon.png',
-      },
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/apple-touch-icon.png'
+      }
     ],
   },
 
