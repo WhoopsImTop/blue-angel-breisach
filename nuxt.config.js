@@ -16,7 +16,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         name: 'keywords',
-        content: 'nightclub, cabaret, striptease, junggesellenabschied, erotik, girls, nachtleben, unterhaltung, weihnachtsfeier, sexy girls, sexy, sexy frauen, nightlife, geburtstagsfeier',
+        content: 'nightclub, cabaret, striptease, junggesellenabschied, erotik, girls, nachtleben, unterhaltung, weihnachtsfeier, sexy girls, sexy, sexy frauen, nightlife, geburtstagsfeier, blue night club, blueangel night club, blue angel night club, blue angel, Breisach am Rhein, Breisach, stripclub Freiburg, stripclub Breisach, jungesellenabschied Breisach',
       },
       {
         hid: 'description',
