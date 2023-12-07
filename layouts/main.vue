@@ -10,12 +10,12 @@
         />
         <p>{{ translations[$i18n.locale].message }}</p>
         <div class="button-row">
-          <a class="button" @click="goToSite">{{
+          <div class="button" @click="goToSite">{{
             translations[$i18n.locale].enter
-          }}</a>
-          <a class="button" @click="goBackInHistory">{{
+          }}</div>
+          <div class="button" @click="goBackInHistory">{{
             translations[$i18n.locale].leave
-          }}</a>
+          }}</div>
         </div>
         <language-switch-component style="margin-top: 30px" />
       </div>
@@ -104,10 +104,13 @@ export default {
   justify-content: center;
   align-items: center;
   max-width: 500px;
+  background-color: #000000;
+  border-radius: 5px;
+  padding:40px;
 }
 
 .permission-popup {
-  background: var(--background-dark);
+  background: #00000099;
   position: fixed;
   top: 0px;
   left: 0px;
