@@ -1,6 +1,6 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+  ssr: true,
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -52,13 +52,13 @@ export default {
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: './favicon-32x32.png',
+        href: '/favicon-32x32.png',
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
-        href: './favicon-16x16.png',
+        href: '/favicon-16x16.png',
       },
       {
         rel: 'apple-touch-icon',
