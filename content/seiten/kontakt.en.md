@@ -1,7 +1,7 @@
 ---
 siteTitle: Contact
 slug: contact
-metaTitle: Blue Angel - Contact
+metaTitle: Contact
 metaDescription: At Blue Angel, your premier strip club in Breisach am Rhein, we
   offer bookings and bachelor parties. Contact us now!
 components:
@@ -36,7 +36,7 @@ components:
       Apply today for an exciting career at Blue Angel.
     button:
       buttonText: Apply Now
-      buttonLink: /kontakt
+      buttonLink: /jobs
     imageblock:
       backgroundImage: /blue-angel-breisach-009.jpg
     containerId: kontakt

@@ -1,7 +1,7 @@
 ---
-siteTitle: Gallery
-slug: gallery
-metaTitle: Blue Angel - Gallery
+siteTitle: Gallery discover our establishment
+slug: galerie
+metaTitle: Gallery discover our establishment
 metaDescription: Explore private areas for special occasions, air-conditioned
   rooms, smoking and non-smoking zones - all within an impressive ambiance.
 components:

@@ -2,13 +2,13 @@
   <div class="content-container block-container block-padding">
     <div
       v-for="(block, index) in component.block"
-      :key="index"
       :id="block.block_id"
+      :key="index"
       class="block"
     >
       <img v-if="block.icon" :src="block.icon" alt="Blue Angel" />
       <h2 v-if="block.blockTitle">{{ block.blockTitle }}</h2>
-      <p v-if="block.body" v-html="$md.render(block.body)"></p>
+      <div v-if="block.body" v-html="$md.render(block.body)"></div>
       <NuxtLink
         v-if="block.link && block.link.linkText && block.link.link"
         :to="LocalizePath(block.link.link)"

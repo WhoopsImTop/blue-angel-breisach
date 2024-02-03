@@ -28,7 +28,6 @@
 </template>
 
 <script>
-import Lenis from '@studio-freight/lenis'
 export default {
   data() {
     return {
@@ -73,19 +72,7 @@ export default {
     }
   },
 
-  mounted() {
-    setTimeout(() => {
-      this.sessionCookie = sessionStorage.getItem('session') ?? false
-    }, 300)
-    this.lenis = new Lenis()
-
-    requestAnimationFrame(this.raf)
-  },
   methods: {
-    raf(time) {
-      this.lenis.raf(time)
-      requestAnimationFrame(this.raf)
-    },
     goToSite() {
       sessionStorage.setItem('session', true)
       this.sessionCookie = sessionStorage.getItem('session')

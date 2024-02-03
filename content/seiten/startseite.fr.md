@@ -8,10 +8,14 @@ components:
   - type: contentblock
     mainHeadline: Club de Strip-tease Blue Angel
     subHeadline: Breisach am Rhein
-    contentText: Entrez dans un monde au-delà de l'ordinaire, un lieu où l'élégance
-      rencontre la tentation, et les nuits brillent de teintes sensuelles.
-      Plongez dans l'atmosphère captivante du Blue Angel - le club de
+    contentText: Entrez dans un monde au-delà du quotidien, un lieu où l'élégance
+      rencontre la tentation et où les nuits brillent de couleurs sensuelles.
+      Plongez dans l'atmosphère fascinante du Blue Angel – le club de
       strip-tease le plus séduisant de Breisach am Rhein et de ses environs.
+      Vivez une soirée inoubliable au Blue Angel, où la table dansante et
+      l'ambiance exclusive d'une discothèque se combinent pour créer une
+      expérience unique. Le club de strip-tease Blue Angel est plus qu'une
+      simple discothèque ; c'est un endroit où les rêves deviennent réalité.
     button:
       buttonText: Itinéraire
       buttonLink: /kontakt

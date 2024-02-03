@@ -1,6 +1,7 @@
 ---
 siteTitle: Drink Menu
 slug: drink-menu
+metaTitle: Drink Menu 
 metaDescription: We offer the perfect drink for every taste. Experience
   exquisite delights with our exquisite drink menu at Blue Angel.
 components:

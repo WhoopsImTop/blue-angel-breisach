@@ -34,7 +34,7 @@
         </table>
       </div>
     </div>
-    <p style="margin: 30px 0;">
+    <p style="margin: 30px 0">
       2) mit Farbstoffen 10) chininhaltig 11) koffeinhaltig 12) mit Taurin 14)
       Gerstenmalz 15) Weizenmalz
     </p>
@@ -43,7 +43,12 @@
 
 <script>
 export default {
-  props: ['component'],
+  props: {
+    component: {
+      type: Object,
+      default: () => {},
+    },
+  },
   data() {
     return {
       getraenkekarte: this.component.speisekarte,
@@ -63,7 +68,6 @@ export default {
   },
 }
 </script>
-
 
 <style>
 .menu-container {

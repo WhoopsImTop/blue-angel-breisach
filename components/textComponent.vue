@@ -1,10 +1,10 @@
 <template>
   <div :class="returnClasses" :style="returnStyle">
     <div
+      :id="component.containerId"
       :style="index === 0 ? 'margin-top: 100px;' : ''"
       class="content-container text-block"
       :class="returnRowClass"
-      :id="component.containerId"
     >
       <nuxt-link
         v-if="component.jobs"
@@ -30,19 +30,20 @@
         <h1
           v-if="component.mainHeadline && index == 0"
           style="margin-bottom: 0px"
-          v-html="component.mainHeadline"
-        ></h1>
-        <h2 v-else v-html="component.mainHeadline"></h2>
+        >
+          {{ component.mainHeadline }}
+        </h1>
+        <h2 v-else>{{ component.mainHeadline }}</h2>
         <h3
           v-if="component.subHeadline"
           :style="index == 0 ? 'margin-top: 5px' : ''"
         >
           {{ component.subHeadline }}
         </h3>
-        <p
+        <div
           v-if="component.contentText"
           v-html="$md.render(component.contentText)"
-        ></p>
+        ></div>
         <NuxtLink
           v-if="
             component.button &&
@@ -99,13 +100,12 @@
 </template>
 
 <script>
-import Macy from 'macy'
+/* import Macy from 'macy' */
 
 export default {
   props: ['component', 'index'],
   data() {
-    return {
-    }
+    return {}
   },
   computed: {
     checkVisibility() {
@@ -173,29 +173,13 @@ export default {
   },
   mounted() {
     if (this.component.imageblock && this.component.imageblock.galery) {
-      this.initMacy()
+      this.$initMacy()
     }
   },
   methods: {
     LocalizePath(path) {
       const locale = this.$i18n.locale
       return `/${locale}${path}`
-    },
-    initMacy() {
-      const macy = Macy({
-        container: '.image-mansonary',
-        trueOrder: false,
-        waitForImages: true,
-        margin: 24,
-        columns: 2,
-        breakAt: {
-          1200: 2,
-          940: 1,
-          520: 1,
-          400: 1,
-        },
-      })
-      console.log(macy)
     },
   },
 }

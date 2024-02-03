@@ -13,11 +13,15 @@
 export default {
   layout: 'main',
 
-  async asyncData({ $content, app }) {
-    const pageData = await $content(
-      'seiten/startseite.' + app.i18n.locale
-    ).fetch()
-    return { pageData }
+  async asyncData({ $content, app, error }) {
+    try {
+      const pageData = await $content(
+        'seiten/startseite.' + app.i18n.locale
+      ).fetch()
+      return { pageData }
+    } catch (err) {
+      error({ statusCode: 404, message: 'Es ist ein Fehler aufgetreten bitte versuche es erneut', title: 'Breisach Tabledance, Stripclub and Nightclub. Best Striptease!' })
+    }
   },
 
   data() {

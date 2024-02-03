@@ -1,50 +1,28 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+  ssr: true,
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Blue Angel - Nightclub, Stripclub & Cabaret in Breisach',
-    htmlAttrs: {
-      lang: 'de'
-    },
+    title: 'Tabledance, Stripclub and Nightclub. Best Striptease!',
+    titleTemplate: '%s - Blue Angel Breisach',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         name: 'keywords',
-        content: 'nightclub, cabaret, striptease, junggesellenabschied, erotik, girls, nachtleben, unterhaltung, weihnachtsfeier, sexy girls, sexy, sexy frauen, nightlife, geburtstagsfeier, blue night club, blueangel night club, blue angel night club, blue angel, Breisach am Rhein, Breisach, stripclub Freiburg, stripclub Breisach, jungesellenabschied Breisach',
+        content:
+          'nightclub, cabaret, striptease, junggesellenabschied, erotik, girls, nachtleben, unterhaltung, weihnachtsfeier, sexy girls, sexy, sexy frauen, nightlife, geburtstagsfeier, blue night club, blueangel night club, blue angel night club, blue angel, Breisach am Rhein, Breisach, stripclub Freiburg, stripclub Breisach, jungesellenabschied Breisach',
       },
       {
         hid: 'description',
         name: 'description',
         content:
-          'Tauche ein in die faszinierende Atmosphäre des Blue Angel – dem verführerischsten Nightclub in Breisach am Rhein und Umgebung.',
+          'Auf der Suche nach einem Stripclub, Tabledance oder Nightclub in Breisach? Dann bist du im Blue Angel genau richtig! Wir bieten dir die beste Unterhaltung in der Region.',
       },
-      { name: 'format-detection', content: 'telephone=no' },
-      {
-        property: 'og:site_name',
-        content: 'Blue Angel',
-      },
-      {
-        property: 'og:title',
-        content: 'Blue Angel - Nightclub, Cabaret in Breisach',
-      },
-      {
-        property: 'og:description',
-        content: 'Tauche ein in die faszinierende Atmosphäre des Blue Angel – dem verführerischsten Nightclub in Breisach am Rhein und Umgebung.',
-      },
-      {
-        name: 'msapplication-TileColor',  
-        content: '#da532c'
-      },
-      {
-        name: 'theme-color',
-        content: '#ffffff'
-      }
     ],
     link: [
       { rel: 'stylesheet', href: 'https://use.typekit.net/wik8vol.css' },
@@ -63,8 +41,8 @@ export default {
       {
         rel: 'apple-touch-icon',
         sizes: '180x180',
-        href: '/apple-touch-icon.png'
-      }
+        href: '/apple-touch-icon.png',
+      },
     ],
   },
 
@@ -121,7 +99,11 @@ export default {
     ],
   ],
 
-  plugins: ['~/plugins/jsonld'],
+  plugins: [
+    { src: '~/plugins/jsonld', ssr: false },
+    { src: '~/plugins/vue-pannellum.client.js', mode: 'client' }, // Nur auf der Client-Seite laden
+    { src: '~/plugins/macy.client.js', mode: 'client' }, // Oder 'ssr: false'
+  ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
@@ -137,7 +119,5 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 
-  generate: {
-    fallback: true,
-  },
+  generate: {},
 }

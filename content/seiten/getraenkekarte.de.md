@@ -1,6 +1,7 @@
 ---
-siteTitle: Getränkekarte
+siteTitle: Getränkekarte 
 slug: getraenkekarte
+metaTitle: Getränkekarte 
 metaDescription: Wir bieten für jeden Geschmack das passende Getränk. Erlebe
   erlesene Genüsse mit unserer exquisiten Getränkekarte im Blue Angel.
 components:

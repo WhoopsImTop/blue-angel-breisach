@@ -1,6 +1,7 @@
 ---
 siteTitle: Carte des Boissons
 slug: carte-des-boissons
+metaTitle: Carte des Boissons
 metaDescription: Nous offrons la boisson parfaite pour chaque goût. Découvrez
   des délices exquis avec notre carte des boissons exquise au Blue Angel.
 components:

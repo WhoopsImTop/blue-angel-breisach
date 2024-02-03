@@ -9,10 +9,10 @@
         style="margin-top: 10px"
       />
       <div class="link-container">
-        <NuxtLink :to="LocalizePath('/impressum')">{{
+        <NuxtLink key="imprint" :to="LocalizePath('/impressum')">{{
           translations[locale].impressum
         }}</NuxtLink>
-        <NuxtLink :to="LocalizePath('/datenschutzerklaerung')">{{
+        <NuxtLink key="privacyPolicy" :to="LocalizePath('/datenschutzerklaerung')">{{
           translations[locale].datenschutzerklären
         }}</NuxtLink>
       </div>
@@ -64,8 +64,12 @@ export default {
           datenschutzerklären: 'Politique de confidentialité',
         },
       },
-      locale: this.$i18n.locale,
     }
+  },
+  computed: {
+    locale() {
+      return this.$i18n.locale
+    },
   },
   methods: {
     LocalizePath(path) {

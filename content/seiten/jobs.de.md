@@ -1,7 +1,7 @@
 ---
 siteTitle: Jobs
 slug: jobs
-metaTitle: Blue Angel - Jobs
+metaTitle: Unsere Jobs, wir sind immer auf der Suche nach neuen Personal.
 metaDescription: Werde Teil unseres Teams im Blue Angel – Wo Leidenschaft und
   Unterhaltung aufeinandertreffen. Entdecke spannende Karrieremöglichkeiten in
   einer blühenden Atmosphäre. Dein Traumjob erwartet dich!

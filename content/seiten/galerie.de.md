@@ -1,7 +1,7 @@
 ---
-siteTitle: Galerie
+siteTitle: Galerie entdecke unser Etablissement
 slug: galerie
-metaTitle: Blue Angel - Galerie
+metaTitle: Galerie entdecke unser Etablissement
 metaDescription: Entdecke private Bereiche für besondere Anlässe, klimatisierte
   Räume, Raucher- und Nichtraucherbereiche – alles in beeindruckendem Ambiente.
 components:

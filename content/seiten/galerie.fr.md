@@ -1,7 +1,7 @@
 ---
-siteTitle: Galerie
+siteTitle: Galerie découvrez notre établissement
 slug: galerie
-metaTitle: Blue Angel - Galerie
+metaTitle: Galerie découvrez notre établissement
 metaDescription: Découvrez nos espaces privés pour des occasions spéciales, des
   salles climatisées, des zones fumeurs et non-fumeurs - le tout dans un cadre
   impressionnant.

@@ -1,17 +1,21 @@
 ---
 siteTitle: Home
 slug: homepage
-metaTitle: Blue Angel - nightclub, stripclub & cabaret in Breisach
+metaTitle: Tabledance, Stripclub and Nightclub. Best Striptease!
 metaDescription: Immerse yourself in the captivating atmosphere of Blue Angel -
   the most seductive nightclub in Breisach am Rhein and its surroundings.
 components:
   - type: contentblock
     mainHeadline: Blue Angel Stripclub
     subHeadline: Breisach am Rhein
-    contentText: Step into a world beyond the ordinary, a place where elegance meets
-      temptation, and nights glow in sensual hues. Immerse yourself in the
-      captivating atmosphere of Blue Angel - the most seductive strip club in
-      Breisach am Rhein and its surroundings.
+    contentText: Enter a world beyond the everyday, a place where elegance meets
+      temptation and the nights shine in sensual colors. Immerse yourself in the
+      fascinating atmosphere of the Blue Angel – the most seductive strip club
+      in Breisach am Rhein and the surrounding area. Experience an unforgettable
+      night at Blue Angel, where table dancing and exclusive nightclub vibes
+      combine to create a unique experience. The Blue Angel strip club is more
+      than just a nightclub; it is a place where dreams are turned into living
+      reality.
     button:
       buttonText: Directions
       buttonLink: /kontakt
@@ -126,7 +130,7 @@ components:
       Curious for more?
     button:
       buttonText: More Pictures
-      buttonLink: /gallery
+      buttonLink: /galerie
     imageblock:
       sphereViewer: true
     highlight: true

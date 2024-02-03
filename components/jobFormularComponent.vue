@@ -4,9 +4,9 @@
       <div
         v-for="(language, index) in languages"
         :key="index"
-        @click="currentLocale = language.code"
         :class="currentLocale === language.code ? 'active' : ''"
         class="language-switcher-item"
+        @click="currentLocale = language.code"
       >
         <img
           :src="`/languages/${language.code}.svg`"
@@ -24,7 +24,7 @@
         <p>{{ translations[currentLocale].text.atmosphere }}</p>
       </div>
       <div class="informational-text">
-        <p v-html="translations[currentLocale].text.contact"></p>
+        <div v-html="translations[currentLocale].text.contact"></div>
       </div>
     </div>
 
@@ -33,63 +33,63 @@
         <div class="formular-row">
           <input type="hidden" name="image_form" value="1" />
           <input
-            type="text"
             id="fname"
+            v-model="formFields.firstName"
+            type="text"
             name="firstname"
             :placeholder="translations[currentLocale].formFields.firstName"
-            v-model="formFields.firstName"
           />
           <input
-            type="text"
             id="lname"
+            v-model="formFields.lastName"
+            type="text"
             name="lastname"
             :placeholder="translations[currentLocale].formFields.lastName"
-            v-model="formFields.lastName"
           />
         </div>
         <div class="formular-row">
           <input
-            type="email"
             id="email"
+            v-model="formFields.email"
+            type="email"
             name="email"
             placeholder="E-Mail"
-            v-model="formFields.email"
           />
           <input
-            type="text"
             id="phone"
+            v-model="formFields.phoneNumber"
+            type="text"
             name="phone"
             :placeholder="translations[currentLocale].formFields.phoneNumber"
-            v-model="formFields.phoneNumber"
           />
         </div>
         <input
+          id="files"
           type="file"
           accept="image/*"
-          id="files"
           name="files"
           multiple
           @change="handleFileChange"
         />
         <textarea
           id="subject"
+          v-model="formFields.message"
           name="subject"
           :placeholder="translations[currentLocale].formFields.message"
-          v-model="formFields.message"
           style="height: 200px"
         ></textarea>
 
         <div style="display: flex; flex-direction: row; align-items: center">
           <input
+            v-model="privacyPolicy"
             style="width: max-content; margin: 0 20px 0 0"
             type="checkbox"
-            v-model="privacyPolicy"
           />
           <label style="margin: 0"
             >{{ translations[currentLocale].formFields.privacyPolicy }}
           </label>
         </div>
-        <input type="checkbox" v-model="validate" style="display: none" />
+        <input v-model="validate" type="checkbox" style="display: none" />
         <div class="button" @click="sendMail()">
           {{ translations[currentLocale].formFields.apply }}
         </div>

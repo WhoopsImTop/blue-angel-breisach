@@ -5,7 +5,9 @@
       :component="component"
       :index="index"
     ></text-component>
-    <map-component v-if="component.map && component.map.showMap && hasLoaded"></map-component>
+    <map-component
+      v-if="component.map && component.map.showMap && hasLoaded"
+    ></map-component>
     <faq-component
       v-if="component.type === 'faq'"
       :component="component"
@@ -27,7 +29,17 @@
 
 <script>
 export default {
-  props: ['component', 'index'],
+  props: {
+    component: {
+      type: Object,
+      required: true,
+    },
+    index: {
+      type: Number,
+      required: false,
+      default: 0,
+    },
+  },
   data() {
     return {
       hasLoaded: false,
@@ -41,5 +53,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>

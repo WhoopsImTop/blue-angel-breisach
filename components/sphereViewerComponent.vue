@@ -1,24 +1,22 @@
 <template>
-  <v-pannellum
-    :src="srcTour"
-    :orientation="true"
-    :auto-load="false"
-    :auto-rotate="true"  
-    :preview="'/panoramas/preview.jpg'"
-    :show-fullscreen="true"
-    :mouse-zoom="false"
-    :double-click-zoom="true"
-    :hfov="100"
-    style="height: 500px"
-  ></v-pannellum>
+  <client-only>
+    <v-pannellum
+      :src="srcTour"
+      :orientation="true"
+      :auto-load="false"
+      :auto-rotate="true"
+      :preview="'/panoramas/preview.jpg'"
+      :show-fullscreen="true"
+      :mouse-zoom="false"
+      :double-click-zoom="true"
+      :hfov="100"
+      style="height: 500px"
+    ></v-pannellum>
+  </client-only>
 </template>
 
 <script>
-import VuePannellum from 'vue-pannellum'
 export default {
-  components: {
-    'v-pannellum': VuePannellum,
-  },
   data() {
     return {
       viewer: null,
@@ -259,5 +257,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>

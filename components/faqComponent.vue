@@ -7,10 +7,10 @@
     >
       {{ pageComponent.subHeadline }}
     </h3>
-    <p
+    <div
       v-if="pageComponent.contentText"
       v-html="$md.render(pageComponent.contentText)"
-    ></p>
+    ></div>
     <NuxtLink
       v-if="
         pageComponent.button &&
@@ -23,9 +23,9 @@
       >{{ pageComponent.button.buttonText }}</NuxtLink
     >
     <div
-      class="faq-container"
       v-for="(faq, index) in pageComponent.faq"
       :key="index"
+      class="faq-container"
       :class="faq.open ? 'active' : ''"
       @click="toggleFaq(index)"
     >
@@ -34,7 +34,7 @@
         <img src="/plus.svg" width="20" height="20" alt="open" />
       </div>
       <div class="faq__body">
-        <p v-html="$md.render(faq.answer)"></p>
+        <div v-html="$md.render(faq.answer)"></div>
       </div>
     </div>
   </div>
@@ -52,9 +52,6 @@ export default {
     return {
       pageComponent: this.component,
     }
-  },
-  mounted() {
-    console.log(this.pageComponent)
   },
   methods: {
     toggleFaq(index) {

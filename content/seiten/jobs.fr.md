@@ -1,7 +1,7 @@
 ---
 siteTitle: Emplois
 slug: emplois
-metaTitle: Blue Angel - Emplois
+metaTitle: Nos emplois, nous sommes toujours à la recherche de nouveaux collaborateurs.
 metaDescription: Rejoignez notre équipe au Blue Angel - là où passion et
   divertissement se rencontrent. Explorez des opportunités passionnantes dans un
   environnement florissant. Votre emploi de rêve vous attend !

@@ -1,4 +1,4 @@
-aSite Notice
+Site Notice
 ===========
 
 Information pursuant to Sect. 5 German Telemedia Act (TMG)
