@@ -97,6 +97,7 @@ export default {
         key: 'AIzaSyBw_QNEvvoRbs-czfH2GbPPkupqDdJTxhg',
       },
     ],
+    '@nuxtjs/sitemap',
   ],
 
   plugins: [
@@ -120,4 +121,11 @@ export default {
   build: {},
 
   generate: {},
+
+  sitemap: {
+    hostname: 'https://blue-angel.de',
+    gzip: true,
+    exclude: ['/admin/**'],
+    routes: ['/de', '/en', '/fr'],
+  },
 }
