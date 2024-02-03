@@ -30,9 +30,8 @@
         <h1
           v-if="component.mainHeadline && index == 0"
           style="margin-bottom: 0px"
-        >
-          {{ component.mainHeadline }}
-        </h1>
+          v-html="component.mainHeadline"
+        ></h1>
         <h2 v-else>{{ component.mainHeadline }}</h2>
         <h3
           v-if="component.subHeadline"
