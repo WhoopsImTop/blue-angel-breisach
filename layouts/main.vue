@@ -1,25 +1,27 @@
 <template>
   <div>
-    <div v-if="!sessionCookie" class="permission-popup">
-      <div class="content-container text-container text-block permission">
-        <img
-          src="/blue-angel-stripclub-wortbildmarke.svg"
-          alt="blue-angle-logo"
-          title="blue-angle-logo"
-          height="60"
-        />
-        <p>{{ translations[$i18n.locale].message }}</p>
-        <div class="button-row">
-          <div class="button" @click="goToSite">{{
-            translations[$i18n.locale].enter
-          }}</div>
-          <div class="button" @click="goBackInHistory">{{
-            translations[$i18n.locale].leave
-          }}</div>
+    <client-only>
+      <div v-if="!sessionCookie" class="permission-popup">
+        <div class="content-container text-container text-block permission">
+          <img
+            src="/blue-angel-stripclub-wortbildmarke.svg"
+            alt="blue-angle-logo"
+            title="blue-angle-logo"
+            height="60"
+          />
+          <p>{{ translations[$i18n.locale].message }}</p>
+          <div class="button-row">
+            <div class="button" @click="goToSite">
+              {{ translations[$i18n.locale].enter }}
+            </div>
+            <div class="button" @click="goBackInHistory">
+              {{ translations[$i18n.locale].leave }}
+            </div>
+          </div>
+          <language-switch-component style="margin-top: 30px" />
         </div>
-        <language-switch-component style="margin-top: 30px" />
       </div>
-    </div>
+    </client-only>
     <headerComponent />
     <nuxt></nuxt>
     <back-to-top-component />
@@ -72,13 +74,17 @@ export default {
     }
   },
 
+  mounted() {
+    this.sessionCookie = sessionStorage.getItem('session')
+  },
+
   methods: {
     goToSite() {
       sessionStorage.setItem('session', true)
       this.sessionCookie = sessionStorage.getItem('session')
     },
     goBackInHistory() {
-      this.$router.go(-1)
+      window.location.href = 'https://www.google.com'
     },
   },
 }
@@ -93,7 +99,7 @@ export default {
   max-width: 500px;
   background-color: #000000;
   border-radius: 5px;
-  padding:40px;
+  padding: 40px;
 }
 
 .permission-popup {
