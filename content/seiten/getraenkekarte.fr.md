@@ -13,12 +13,12 @@ components:
     contentText: Nous offrons la boisson parfaite pour chaque goût. Découvrez des
       délices exquis avec notre carte des boissons exquise au Blue Angel.
     imageblock:
-      backgroundImage: /blue-angel-breisach-solo-strip-dance.jpg
+      backgroundImage: /blue-angel-breisach-solo-strip-tanz.jpg
       image: ""
   - type: getraenkekarte
     speisekarte:
       - category: Bières en Bouteille 0,33 l
-        boissons:
+        getraenke:
           - name: Rothaus Pils Tannenzäpfle <sup>14</sup>
             first_price: "12"
             second_price: "8"
@@ -29,7 +29,7 @@ components:
             first_price: "12"
             second_price: "8"
       - category: Boissons Sans Alcool 0,25 l
-        boissons:
+        getraenke:
           - name: Eau Minérale
             first_price: "12"
             second_price: "8"
@@ -55,7 +55,7 @@ components:
             first_price: "13"
             second_price: "9"
       - category: Boissons Chaudes
-        boissons:
+        getraenke:
           - name: Espresso <sup>11</sup>
             first_price: "12"
             second_price: "7"
@@ -66,7 +66,7 @@ components:
             first_price: "12"
             second_price: "7"
       - category: Long Drinks 4 cl
-        boissons:
+        getraenke:
           - name: Asbach Cola <sup>2,11</sup>
             first_price: "15"
             second_price: "11"
@@ -110,7 +110,7 @@ components:
             first_price: "15"
             second_price: "11"
       - category: Spiritueux 4 cl
-        boissons:
+        getraenke:
           - name: Barcadi
             first_price: "14"
             second_price: "10"
@@ -139,12 +139,12 @@ components:
             first_price: "14"
             second_price: "10"
       - category: Brandy 4 cl
-        boissons:
+        getraenke:
           - name: Asbach Uralt
             first_price: "14"
             second_price: "10"
       - category: Cognac 4 cl
-        boissons:
+        getraenke:
           - name: Remy Martin VSOP
             first_price: "21"
             second_price: "17"
@@ -152,7 +152,7 @@ components:
             first_price: "21"
             second_price: "17"
       - category: Scotch Whisky 4 cl
-        boissons:
+        getraenke:
           - name: Johnnie Walker Red Label<sup>2</sup>
             first_price: "14"
             second_price: "10"
@@ -169,7 +169,7 @@ components:
             first_price: "17"
             second_price: "13"
       - category: Bourbon Whiskey 4 cl
-        boissons:
+        getraenke:
           - name: Jim Beam
             first_price: "14"
             second_price: "10"
@@ -180,12 +180,12 @@ components:
             first_price: "17"
             second_price: "13"
       - category: Whisky Canadien 4 cl
-        boissons:
+        getraenke:
           - name: Crown Royal<sup>2</sup>
             first_price: "19"
             second_price: "15"
       - category: Bouteilles
-        boissons:
+        getraenke:
           - name: Asbach Uralt 350 ml
             second_price: "90"
           - name: Barcadi 350 ml
@@ -212,10 +212,12 @@ components:
               Bull<sup>2,11,12</sup>, Schweppes Bitter Lemon<sup>10</sup>,
               Schweppes Tonic Water<sup>10</sup>, Jus d'Orange ou Jus de Pomme
               pour les bouteilles de 0,35 l / 0,5 l, et 3x 0,5 l pour les
-              bouteilles de 0,7 l, gratuitement. Des bouteilles supplémentaires
-              de 0,5 l coûtent 15,00 € chacune.
+              bouteilles de 0,7 l, gratuitement. 
+              
+              Les bouteilles supplémentaires de 0,5 litre de Coca-Cola, etc., coûtent 15,00 € chacune.
+              Les bouteilles supplémentaires de Red Bull de 0,5 litre coûtent 18,00 € chacune.
       - category: Vins en Bouteille 250 ml
-        boissons:
+        getraenke:
           - name: Heinrich Hansjakob - Bourgogne Blanc Sec (Vin de Qualité)
             second_price: "12"
             first_price: "16"

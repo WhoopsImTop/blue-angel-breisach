@@ -39,7 +39,7 @@
           style="margin: 10px 0"
         />
         <p style="text-transform: uppercase; margin: 0">
-          © 2023 Blue Angel Breisach
+          © 2026 Blue Angel Breisach
         </p>
       </div>
     </div>
