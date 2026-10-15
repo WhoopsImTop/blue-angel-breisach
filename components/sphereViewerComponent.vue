@@ -36,9 +36,17 @@ export default {
                 pitch: 0,
                 yaw: -90,
                 type: 'info',
-                text: 'Bar <br> <a href="/getraenkekarte" target="_blank">Getränkekarte</a>',
+                text: `Bar <br> <a href="/${
+                  this.$i18n.locale
+                }/getraenkekarte" target="_blank">${
+                  {
+                    de: 'Getränkekarte',
+                    en: 'Drink Menu',
+                    fr: 'Carte des boissons',
+                  }[this.$i18n.locale] || 'Getränkekarte'
+                }</a>`,
                 sceneId: 'bar',
-                URL: '/getraenkekarte',
+                URL: `/${this.$i18n.locale}/getraenkekarte`,
               },
               {
                 pitch: 0,

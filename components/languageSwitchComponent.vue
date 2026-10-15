@@ -9,7 +9,6 @@
         :to="switchLocale(language.language_code)"
         class="language-switch__current"
         :class="language.language_code === currentLanguage ? 'active' : ''"
-        @click="changeLocale(language.language_code)"
       >
         <img
           :src="language.language_image"

@@ -70,7 +70,7 @@
         </div>
         <div v-if="component.speisekarte">
           <getraenkekarte-component
-            :getraenkekarteProp="component.speisekarte"
+            :component="{ speisekarte: component.speisekarte }"
           ></getraenkekarte-component>
         </div>
         <div v-if="component.contactForm">

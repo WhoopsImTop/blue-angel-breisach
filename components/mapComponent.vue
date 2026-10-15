@@ -1,41 +1,45 @@
 <template>
   <client-only>
-    <G-Map
-      ref="gMap"
-      language="de"
-      :center="mapCenter"
-      :zoom="14"
-      :options="{
-        fullscreenControl: true,
-        mapTypeControl: true,
-        streetViewControl: false,
-        styles: [
-          {
-            featureType: 'poi',
-            stylers: [{ visibility: 'on' }], // Turn off points of interest.
-          },
-        ],
-      }"
-    >
-      <GMapMarker :position="mapMarker" @click="openMaps"></GMapMarker>
-    </G-Map>
+    <div ref="mapContainer" class="map-container"></div>
   </client-only>
 </template>
 
 <script>
+import 'maplibre-gl/dist/maplibre-gl.css'
+
 export default {
   name: 'MapComponent',
   data() {
     return {
-      mapCenter: {
-        lat: 48.04290245,
-        lng: 7.57816565,
-      },
-      mapMarker: {
-        lat: 48.04290245,
-        lng: 7.57816565,
-      },
+      mapCenter: [7.57816565, 48.04290245],
+      mapMarker: [7.57816565, 48.04290245],
+      map: null,
     }
+  },
+  async mounted() {
+    const { default: maplibregl } = await import('maplibre-gl')
+    await this.$nextTick()
+    if (!this.$refs.mapContainer) return
+
+    this.map = new maplibregl.Map({
+      container: this.$refs.mapContainer,
+      style: 'https://tiles.openfreemap.org/styles/liberty',
+      center: this.mapCenter,
+      zoom: 14,
+      cooperativeGestures: true,
+    })
+    this.map.addControl(new maplibregl.NavigationControl(), 'top-right')
+    this.map.addControl(new maplibregl.FullscreenControl(), 'top-right')
+
+    const marker = new maplibregl.Marker({ color: '#db2a5a' })
+      .setLngLat(this.mapMarker)
+      .addTo(this.map)
+    const markerEl = marker.getElement()
+    markerEl.style.cursor = 'pointer'
+    markerEl.addEventListener('click', this.openMaps)
+  },
+  beforeDestroy() {
+    if (this.map) this.map.remove()
   },
   methods: {
     openMaps() {
@@ -45,11 +49,12 @@ export default {
       )
     },
   },
-  mounted() {
-    console.log('INIT MAP')
-  },
 }
 </script>
 
 <style>
+.map-container {
+  width: 100%;
+  height: 400px;
+}
 </style>
